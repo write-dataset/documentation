@@ -3,13 +3,13 @@
 // INDEX get static content 
 
 $(function(){
-    $("#intro").load("public/intro.html"); 
+    $("#intro").load("static/intro.html"); 
   });
   $(function(){
-    $("#documentationContent").load("public/documentation.html"); 
+    $("#documentationContent").load("static/documentation.html"); 
   });
   $(function(){
-    $("#csContent").load("public/casestudies.html"); 
+    $("#csContent").load("static/casestudies.html"); 
   });
 
 // INDEX build navbar
@@ -70,7 +70,7 @@ function fetchJSONFile(path, callback) {
 
 
 // creates the content off the page
-fetchJSONFile('public/data/query-list.json', function(data) {
+fetchJSONFile('static/data/query-list.json', function(data) {
 for (var i = 0; i < data.length; i++){
 var obj = data[i];
   var title = document.createElement("h3");
