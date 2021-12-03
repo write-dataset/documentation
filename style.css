@@ -25,7 +25,7 @@ body {
   font:Circular;
 }
 
-.intro-container, .endpoint-container, .documentation_container, .cs-container, .query-contanier {  
+.intro-container, .endpoint-container, .documentation_container, .cs-container, .query-contanier, .data-container {  
   animation: 0.5s ease-out 0s 1 slideInFromBottom; 
 }
 
@@ -131,7 +131,7 @@ div.card-header a {text-align:right}
 .card {border-radius: 10px !important;}
 
 a {color:black}
-a:hover {color:black; font-weight: bold;}
+a:hover {color:black; text-decoration: underline;}
 
 hr {
   margin: 1rem 0;

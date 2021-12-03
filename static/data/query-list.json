@@ -1,0 +1,75 @@
+[
+    {
+      "section_title": "Descriptive metadata over the four collections",
+      "values": [
+    {
+        "NL_query" : "Titles of all artworks in the collections",
+        "SPARQL_query" : "prefix wd: <http:\/\/www.wikidata.org\/entity\/> \r\nprefix wdt: <http:\/\/www.wikidata.org\/prop\/> \r\nprefix : <http:\/\/w3id.org\/write\/ontology> \r\n\r\nSELECT ?title \r\nWHERE {\r\n  ?art <http:\/\/www.wikidata.org\/prop\/P1476> ?title\r\n  {?art a wd:Q17514} UNION {?art a wd:Q213156} UNION \r\n  {?art a wd:Q108923606} UNION {?art a :DecorativeAndAppliedArts}\r\n  FILTER (lang(?title) = \"en\")\r\n}"
+    }, 
+    {
+        "NL_query" : "Network of collaborations between people",
+        "info": "This query returns all kind of relations between agents (direct relation between agents) or co-involvement with an artwork (the relation is which is estrablished between agents passes through an artwork)", 
+        "SPARQL_query" : "PREFIX wdt: <http:\/\/www.wikidata.org\/prop\/direct\/>\r\nPREFIX wd: <http:\/\/www.wikidata.org\/entity\/>\r\nPREFIX rdf: <http:\/\/www.w3.org\/1999\/02\/22-rdf-syntax-ns#>\r\nPREFIX rdfs: <http:\/\/www.w3.org\/2000\/01\/rdf-schema#>\r\nPREFIX : <http:\/\/w3id.org\/write\/>\r\n\r\nSELECT DISTINCT ?agent1 ?agent2 ?rel\r\nWHERE {\r\n  ?agent1 a wd:Q215627.\r\n  ?agent2 a wd:Q215627.\r\n  ?art a wd:Q213156, wd:Q17514, :DecorativeAndAppliedArts, wd:Q108923606.\r\n  {?artist1 ?rel ?artist2} UNION\r\n  {?agent1 ?rel ?art. ?obj ?rel2 ?agent2} UNION\r\n  {?agent1 ?rel ?art. ?agent2 ?rel2 ?art}\r\n  FILTER (?agent1 != ?agent2)\r\n \r\n} "
+    }, 
+
+    {
+        "NL_query" : "All the items which are based on some literary work",
+        "SPARQL_query" : "prefix wd: <https:\/\/www.wikidata.org\/entity\/> \r\nprefix wdt: <http:\/\/www.wikidata.org\/prop\/> \r\n\r\nSELECT DISTINCT ?art ?artTitle ?literaryWork ?lwTitle\r\n\r\n WHERE  {?art <http:\/\/w3id.org\/write\/has-unit> ?unit.\r\n        ?art wdt:P1476 ?artTitle.\r\n        ?unit wdt:P144 ?literaryWork.   \t\t\r\n        ?literaryWork wdt:P1476 ?lwTitle.\r\n  \r\n        FILTER (lang(?artTitle) = \"en\")\r\n        FILTER (lang(?lwTitle) = \"en\")\r\n}"
+    }
+] 
+      
+    },
+        {
+        "section_title": "Introduction to Calligraphic components in Artworks",
+        "values": [
+      {
+        "NL_query" : "The artworks calligraphic components",
+        "info" : "Calligraphic components - belonging to <code>write:CalliWritingUnits</code> - are connected to the artwork (or artworks). Via such entities is therefore possible to perform Artistic and Linguistic Analysis",
+        "SPARQL_query" : "prefix wd: <http:\/\/www.wikidata.org\/entity\/> \r\nprefix wdt: <http:\/\/www.wikidata.org\/prop\/> \r\n\r\nSELECT DISTINCT ?art ?artTitle ?unit ?unitName\r\n\r\n WHERE {\r\n  ?art <http:\/\/w3id.org\/write\/has-unit> ?unit;\r\n  \t<http:\/\/www.wikidata.org\/prop\/P1476> ?artTitle.\r\n  ?unit <http:\/\/w3id.org\/write\/attributed-name> ?unitName\r\n  FILTER (lang(?artTitle) = \"en\")\r\n}"
+      },
+      {
+        "NL_query" : "Calliwriting units which are in common with more than one artwork",
+        "info" : "Artworks can share <code>write:CalliWritingUnits</code> instances. For example, this is quite common in performances which imply the use of background painted panels",
+        "SPARQL_query" : "PREFIX rdfs: <http:\/\/www.w3.org\/2000\/01\/rdf-schema#>\r\nprefix wd: <https:\/\/www.wikidata.org\/entity\/> \r\nprefix wdt: <http:\/\/www.wikidata.org\/prop\/> \r\n\r\nSELECT DISTINCT ?unit \r\n\r\n WHERE  {\r\n  ?unit ^<http:\/\/w3id.org\/write\/has-unit> ?art1, ?art2 .\r\n  filter ( ?art1 != ?art2 )\r\n}"
+      }
+    ]
+    },
+      
+    {
+        "section_title": "Linguistic and Artistic Analysis over calligraphic contents",
+        "values": [
+      {
+          "NL_query" : "Linguistic Analysis over artworks",
+          "info" : "Linguistic analysis is performed via Writing-cally units metadata and specifically refers to character form, writing style, presence or absence of calligraphic line, significance and transcription or translation of the Writing-Cally Unit",
+          "SPARQL_query" : "prefix wd: <https:\/\/www.wikidata.org\/entity\/> \r\nprefix wdt: <http:\/\/www.wikidata.org\/prop\/> \r\n\r\nSELECT *\r\n\r\nWHERE  {\r\n  ?art <http:\/\/w3id.org\/write\/has-unit> ?unit.\r\n  ?unit wdt:P9302 ?scriptStyle; \r\n    <http:\/\/w3id.org\/write\/character-form> ?form; \r\n    <http:\/\/w3id.org\/write\/writing-system> ?wrSystem; \r\n    <http:\/\/w3id.org\/write\/calligraphic-line> ?line ; \r\n    <http:\/\/w3id.org\/write\/significance> ?significance;\r\n    OPTIONAL {?unit <http:\/\/w3id.org\/write\/transcription-or-translation> ?text\r\n    }}"
+      }, 
+      {
+          "NL_query" : "Artistic Analysis over artworks",
+          "info" : "Artistic analysis is performed via Writing-cally units metadata and specifically refers to materials, tools and colors implied in the making of the unit",
+          "SPARQL_query" : "prefix wd: <http:\/\/www.wikidata.org\/entity\/> \r\nprefix wdt: <http:\/\/www.wikidata.org\/prop\/> \r\n\r\nSELECT ?art ?unit\r\n\r\n WHERE  {\r\n  ?art <http:\/\/w3id.org\/write\/has-unit> ?unit.\r\n  ?unit wdt:P186 ?material;\r\n    wdt:P2079 ?tool ;\r\n    wdt:P462 ?lineColor; \r\n    <http:\/\/w3id.org\/write\/background-color> ?backColor     \r\n}"
+      }, 
+      {
+          "NL_query" : "Binding Liguistic analysis to traditional calligraphy characteristics",
+          "info": "The pivotal element of WRITE project is set around the study of contemporary calligraphy characteristics. New linguistic and artistic features are adopted with respect to traditional calligraphy. In this query, based over the 'Linguistic Analysis' query, some specific charcteristics are binded over traditional calligraphy linguistic rules. Namely, the unit presents some character form, the writing system corresponds to chinese characters, there is the presence of at least a calligraphic line, the unit is composed by meaningful writing and therefore it can present a trascription or translation. The query returns all the artwork of the four collections which met these requirements.", 
+          "SPARQL_query" : "prefix wd: <https:\/\/www.wikidata.org\/entity\/> \r\nprefix wdt: <http:\/\/www.wikidata.org\/prop\/> \r\n\r\nSELECT DISTINCT *\r\n\r\n WHERE  {?art <http:\/\/w3id.org\/write\/has-unit> ?unit.\r\n        ?unit \r\n        wdt:P9302 ?scriptStyle; \r\n          <http:\/\/w3id.org\/write\/character-form> ?form; \r\n          <http:\/\/w3id.org\/write\/writing-system> wd:Q8201 ; \r\n            <http:\/\/w3id.org\/write\/calligraphic-line> \"Present\" ; \r\n            <http:\/\/w3id.org\/write\/significance> \"Meaningful writing\"; \r\n            OPTIONAL {?unit <http:\/\/w3id.org\/write\/trascription-or-translation> ?text}\r\n}  "
+      }, 
+      {
+          "NL_query" : "Binding Artistic Analysis to traditional calligraphy characteristics",
+          "info": "The pivotal element of WRITE project is set around the study of contemporary calligraphy characteristics. New linguistic and artistic features are adopted with respect to traditional calligraphy. In this query, based over the 'Artistic Analysis' query, some specific charcteristics are binded over traditional calligraphy linguistic rules. Namely, the unit has been made using ink and paper materials, a brush has been used as a tool, the script color is black and the background color is white. The query returns all the artwork of the four collections which met these requirements.",
+          "SPARQL_query" : "prefix wd: <http:\/\/www.wikidata.org\/entity\/> \r\nprefix wdt: <http:\/\/www.wikidata.org\/prop\/> \r\nSELECT ?art ?unit \r\nWHERE  {\r\n  ?art <http:\/\/w3id.org\/write\/has-unit> ?unit.       \r\n  ?unit wdt:P186 wd:Q127418, wd:Q11472; \r\n        wdt:P2079 wd:Q614467;   \r\n        wdt:P462 wd:Q23445;  \r\n        <http:\/\/w3id.org\/write\/background-color> wd:Q23444 .              \r\n}"
+      }, 
+      {
+          "NL_query" : "Mixing Artistic and Linguistic Anlysis binding features to traditional calligraphy",
+          "info": "Finally, the two previous queries can be mixed together in order to get all the writing-cally units (and therefore the corresponding artworks) which met both artistic and linguistic requirements of traditional calligraphy. In this way it is possible to count and understand how much actually contemporary calligraphy differs from traditional calligraphy.",
+          "SPARQL_query" : "prefix wd: <http:\/\/www.wikidata.org\/entity\/> \r\nprefix wdt: <http:\/\/www.wikidata.org\/prop\/> \r\n\r\nSELECT *\r\nWHERE  {\r\n  ?art <http:\/\/w3id.org\/write\/has-unit> ?unit.\r\n  ?unit wdt:P186 wd:Q127418, wd:Q11472;\r\n        wdt:P2079 wd:Q614467; \r\n        wdt:P462 wd:Q23445; \r\n        <http:\/\/w3id.org\/write\/background-color> wd:Q23444 ;   \r\n        wdt:P9302 ?scriptStyle; \r\n        <http:\/\/w3id.org\/write\/character-form> ?form; \r\n        <http:\/\/w3id.org\/write\/writing-system> wd:Q8201 ; \r\n        <http:\/\/w3id.org\/write\/calligraphic-line>\r\n        <http:\/\/w3id.org\/write\/significance>; \r\n   OPTIONAL {?unit <http:\/\/w3id.org\/write\/trascription-or-translation> ?text}\r\n\t}"
+      }, 
+      {
+          "NL_query" : "All artworks which has some calligraphic unit with just one chinese character",
+          "SPARQL_query" : "SELECT DISTINCT *\r\nwhere {\r\n  ?art <http:\/\/w3id.org\/write\/has-unit> ?unit.\r\n  ?unit <http:\/\/w3id.org\/write\/translation-or-transcription> ?translation.\r\n  BIND (strlen(?translation) AS ?len)\r\n  FILTER (?len = 1)\r\n  FILTER (lang(?translation) = \"zh\")\r\n} "
+      }
+  ] 
+        
+      }
+  ]
+
+  
