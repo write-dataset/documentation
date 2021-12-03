@@ -1,0 +1,102 @@
+
+<div id="cs" class="cs-container p-5">
+
+  <div class="cs-intro pb-5">
+    <h1>Four case studies</h1>
+    <p>This section presents how four case studies has been modelled in WRITE Knowledge Base. In particular, each case study represents an example artwork belonging to one of the WRITE collections (respectively Contemporary Visual Art, Decorative and Applied Art, Graffiti Art and Performance Art).</p>
+  </div>
+
+
+  <div class="accordion accordion-flush" id="accordion-cs">
+
+    <!-- GRAFFITI CS -->
+
+    <div class="accordion-item">
+      <h2 class="accordion-header" id="flush-h-cs-graffiti">
+        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-cs-graffiti" aria-expanded="false" aria-controls="flush-h-cs-graffiti">
+          <h5>Graffiti Art</h5>
+          <p>&#160;//&#160;</p>
+          <p>Ars Divina by ERICTIN</p>
+        </button>
+      </h2>
+      <div id="flush-cs-graffiti" class="accordion-collapse collapse" aria-labelledby="flush-cs-graffiti" data-bs-parent="#accordion-cs">
+        <div class="accordion-body">      
+          <p class="text-justify">
+            This case study illustrates "Ars Divina" Grattifo by ERICTIN from Kwayin Clan. The artwork presents some descriptive metadata (e.g. title, description, subjects, graffiti style, location, date of creation). Additionally, the artwork creator (EricTin) is instance of the class <code>wd:1215627</code> (Person). Even if WRITE KB stores metadata about artists and involved agents, they are not described in this case study for the sake of simplicity. For this reason, the case study presents only the connection between EricTin and the crew to which he belongs to - the Kwayin Clan marked as an Organisation (<code>wd:Q43229</code>). Moreover, two Calli-writing units belongs to the artwork ("CWU 1 Shengong Yijiang (神工意匠)" and CWU 2 Shengong Yijiang (天际征鸿)") and both of them are stored as inviduals of the class <code>write:CalliWritingUnit</code> along with their respective metadata (e.g. metadata for artistic analysis - colors, tools, materials; metadata for linguistic analysis - character form, script style, calligraphic line, transcription...). Both unit contents has been based over two already existing literary works (individuals of the class <code>wd:7725634</code>). Literary works are stored in WRITE KB along with some basic descriptive metadata, but again for the sake of simplicity they are not recorded in this case study. 
+          </p>
+        <img src="public/img/cs_graffiti.svg" class="img_home p-3">
+        </div>
+      </div>
+    </div>
+
+    <!-- PERFORMANCE CS -->
+
+    <div class="accordion-item">
+      <h2 class="accordion-header" id="flush-h-cs-perf">
+        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-cs-perf" aria-expanded="false" aria-controls="flush-h-cs-perf">
+          <h5>Performance Art</h5>
+          <p>&#160;//&#160;</p>
+          <p>Musicalligraphy performance by Luo Qi and Collegium Musicum Almae Matris</p>
+        </button>
+      </h2>
+      <div id="flush-cs-perf" class="accordion-collapse collapse" aria-labelledby="flush-cs-perf" data-bs-parent="#accordion-cs">
+        <div class="accordion-body">      
+          <p class="text-justify">
+          This case study illustrate the Musicalligraphy performance by Luo Qi and Collegium Musicum Almae Matris. The performance has been modelled as an event with the involved actors, date, location, implied musical instruments etc. Additionally, during the performance event, the calligrapher and performer Lou Qui paints some calligraphic contents with ink and brush in a panel made of paper. The panel, considered in this project a pieces of art itself, is represented as a Contemporary Visual Artworks (instance of the class <code>wd:108923606</code>) along with its respective descriptive metadata (e.g. title, dimensions, creator etc). The performance, and therefore the produced panel, has in common the same Calli-writing unit (instance of the class <code>write:CalliWritingUnit</code>). As in the previous case study, the unit is recorded with its respective metadata (e.g. metadata for artistic analysis - colors, tools, materials; metadata for linguistic analysis - character form, script style, calligraphic line, transcription...)) </br></br>
+          The case study shows how the produced Contemporary Visual Artwork is strictly connected with the performance in which it has been created by the object property <code>write:creates-artwork</code>.</br></br>
+          In WRITE KB this musicalligraphy performance is connected with two panels (and therefore two corresponding units). For the sake of simplicity, this case study omits the second panel, but it can still be found in the Knowledge Base.
+          </p>
+        <img src="public/img/cs_performance.svg" class="img_home p-3">
+        </div>
+      </div> 
+    </div>
+
+    <!-- CONT VIS ARTWORK CS -->
+
+    <div class="accordion-item">
+      <h2 class="accordion-header" id="flush-h-cs-art">
+        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-cs-art" aria-expanded="false" aria-controls="flush-h-cs-art" disabled>
+          <h5>Contemporary Visual Art</h5>
+          <p>&#160;//&#160;</p>
+          <p>COMING SOON</p>
+        </button>
+      </h2>
+      <div id="flush-cs-art" class="accordion-collapse collapse" aria-labelledby="flush-cs-art" data-bs-parent="#accordion-cs">
+        <div class="accordion-body">      
+          <p class="text-justify">
+            [...]
+          </p>
+        <img src="public/img/cs_art.svg" class="img_home p-3">
+        <p class="text-justify"> [.....]
+        </p>  
+      </div>
+    </div>
+
+    <!-- DEC ART -->
+
+    <div class="accordion-item">
+      <h2 class="accordion-header" id="flush-h-cs-deaa">
+        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-cs-deaa" aria-expanded="false" aria-controls="flush-h-cs-deaa" disabled>
+          <h5>Decorative & Applied Art</h5>
+          <p>&#160;//&#160;</p>
+          <p>COMING SOON</p>
+        </button>
+      </h2>
+      <div id="flush-cs-art" class="accordion-collapse collapse" aria-labelledby="flush-cs-deaa" data-bs-parent="#accordion-cs">
+        <div class="accordion-body">      
+          <p class="text-justify">
+            [...]
+          </p>
+        <img src="public/img/cs_deaa.svg" class="img_home p-3">
+        <p class="text-justify"> [.....]
+        </p>  
+      </div>
+    </div>
+    
+
+
+  </div>
+</div>
+    
+
+

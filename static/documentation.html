@@ -1,0 +1,227 @@
+<div class="documentation_container p-5">
+  <div class="documentation_intro pb-5">
+
+  <h1>The model documentation</h1>
+      <p class="text-justify">
+        WRITE Knowledge Base stores WRITE data is a triple-fashion. The KB is populated with elements from 11 reused or created on purpose Classes (<code>owl:Class</code>). The documentation below illustrates the 11 classes along with their respective properties (<code>owl:ObjectProperty</code> and <code>owl:DataTypeProperty</code>).  
+
+        <div class="m-3">
+          <hr class="bg-danger border-2 border-top border-danger">
+          <h6>List of prefixes</h6>
+          <p>
+            <pre>
+prefix write: &lt;https://w3id.org/write/ontology/&gt; .
+prefix owl: &lt;http://www.w3.org/2002/07/owl#&gt; .
+prefix rdf: &lt;http://www.w3.org/1999/02/22-rdf-syntax-ns#&gt; .
+prefix wd: &lt;http://www.wikidata.org/entity/&gt; .
+prefix wdt: &lt;http://www.wikidata.org/prop/&gt; .</code></pre>
+          </p>
+          <hr class="bg-danger border-2 border-top border-danger">
+        </div>
+
+        The four Collections (Contemporary Visual Arts, Graffiti, Decorative & Applied Arts, Performing Arts) has been represented with four different Classes aiming to preserve the diversity between the described elements. For example, when describing Graffiti is important to record the graffiti style of the item; Performances are considered as to be at the same time events and artworks. For this reason, they can imply other artworks in the making of the performance as well as different actors is several roles; when describing Decorative & Applied the commercial aspect of these products needs to be stored etc. 
+      </p>
+
+      <p>The term "Resource Template" is always referred as a synonym of <code>owl:Class</code>. Such term has been used during the data entry acrivity in OmekaS. OmekaS is constituted of customizable forms to fill with metadata. Each resource template can be associated with an <code>owl:Class</code>. This means that each filled resource template becomes an item of the dataset, as an individual belonging to a class. Visit OmekaS website for more <a href="https://omeka.org/s/">information</a>.</p> 
+
+      <p>Each Class is presented with a brief introduction and a corresponding image graphically summarising all the properties associated with the class (on the right) and the possible connections (via <code>owl:ObjectProperty</code>) with the other Resource Templates (<code>owl:Class</code>).
+
+
+
+      </div>
+    
+
+
+
+
+<div class="accordion accordion-flush" id="accordionFlush">
+
+    <!-- CONTEMPORARY VISUAL ART -->
+
+    <div class="accordion-item">
+      <h2 class="accordion-header" id="flush-h-cva">
+        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-cva" aria-expanded="false" aria-controls="flush-h-cva">
+          Contemporary Visual Art
+        </button>
+      </h2>
+      <div id="flush-cva" class="accordion-collapse collapse" aria-labelledby="flush-cva" data-bs-parent="#accordionFlush">
+        <div class="accordion-body"><b>Contemporary Visual Art</b> resource template (<code>owl:Class</code>) represents <b>contemporary fine arts items</b>. The individuals of this class constitute one of the four collections of WRITE KB.
+          <img class="pl-md-5 pr-md-5" src="public/img/rt_contemporary_visual_artwork.svg">
+        </div>
+      </div>
+    </div>
+  
+    <!-- DECORATIVE AND APPLIED ARTS -->
+  
+    <div class="accordion-item">
+      <h2 class="accordion-header" id="flush-h-deaa">
+        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-deaa" aria-expanded="false" aria-controls="flush-h-deaa">
+          Decorative and Applied Art
+        </button>
+      </h2>
+      <div id="flush-deaa" class="accordion-collapse collapse" aria-labelledby="flush-deaa" data-bs-parent="#accordionFlush">
+        <div class="accordion-body"><b>Decorative and Applied Artwork</b> resource template (<code>owl:Class</code>) represents contemporary fine arts items.  The individuals of this class constitute one of the four collections of WRITE KB.
+          <img class="pl-md-5 pr-md-5" src="public/img/rt_deaa.svg">
+        </div>
+      </div>
+    </div>
+  
+    <!-- GRAFFITI -->
+  
+    <div class="accordion-item">
+      <h2 class="accordion-header" id="flush-h-ga">
+        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-ga" aria-expanded="false" aria-controls="flush-h-ga">
+          Graffiti Art
+        </button>
+      </h2>
+      <div id="flush-ga" class="accordion-collapse collapse" aria-labelledby="flush-ga" data-bs-parent="#accordionFlush">
+        <div class="accordion-body"> <b>Graffiti</b> resource template (<code>owl:Class</code>) represents contemporary graffiti art items. The individuals of this class constitute one of the four collections of WRITE KB.
+          <img class="pl-md-5 pr-md-5" src="public/img/rt_graffiti.svg">
+        </div>
+      </div>
+    </div>
+  
+    <!-- PERFORMANCE -->
+  
+    <div class="accordion-item">
+      <h2 class="accordion-header" id="flush-h-performance">
+        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-performance" aria-expanded="false" aria-controls="flush-h-performance">
+          Performance Art
+        </button>
+      </h2>
+      <div id="flush-performance" class="accordion-collapse collapse" aria-labelledby="flush-performance" data-bs-parent="#accordionFlush">
+        <div class="accordion-body">
+          <b>Performance</b> resource template (<code>owl:Class</code>) represents contemporary performance art items. The individuals of this class constitute one of the four collections of WRITE KB.
+          <img class="pl-md-5 pr-md-5" src="public/img/rt_performance.svg">
+        </div>
+      </div>
+    </div>
+
+
+  <!-- SERIE -->
+
+  <div class="accordion-item">
+    <h2 class="accordion-header" id="flush-h-serie">
+      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-serie" aria-expanded="false" aria-controls="flush-h-serie">
+        Serie of Artwork
+      </button>
+    </h2>
+    <div id="flush-serie" class="accordion-collapse collapse" aria-labelledby="flush-serie" data-bs-parent="#accordionFlush">
+      <div class="accordion-body"><b>Series of Creative Works</b> resource template (<code>owl:Class</code>) has been added in order to establish an explicit connection between items of the four collections with the work serie they may belong to and to record some descriptive metadata about the group of artworks</li>
+        </ul>
+        <img class="pl-md-5 pr-md-5" src="public/img/rt_serie.svg">
+      </div>
+    </div>
+  </div>
+
+  <!-- PERSON -->
+
+  <div class="accordion-item">
+    <h2 class="accordion-header" id="flush-headingOne">
+      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+        Person
+      </button>
+    </h2>
+    <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlush">
+      <div class="accordion-body"><b>Person</b> resource template (<code>owl:Class</code>) represents the complex network of agents intended as singles that operates in the context of this project: authors, artists, performers, calligraphers, dancers, musicians, calligraphers, curators, organisers and so on. Each template represents: 
+        <ul>
+          <li>The relations between a person and the resources of the KB</li>
+          <li>Basic metadata to describe the persion biographical information (e.g. name, date of birth, occupation..)</li>
+        </ul>
+        <img class="pl-md-5 pr-md-5" src="public/img/rt_person.svg">
+      </div>
+    </div>
+  </div>
+
+  <!-- ORGANISATION -->
+
+  <div class="accordion-item">
+    <h2 class="accordion-header" id="flush-headingTwo2">
+      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo2" aria-expanded="false" aria-controls="flush-collapseTwo">
+        Organisation
+      </button>
+    </h2>
+    <div id="flush-collapseTwo2" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlush">
+      <div class="accordion-body"><b>Organisation</b> resource template (<code>owl:Class</code>) represents the network of agents intented as groups that operates in the context of this project: collectives, crews, dance companies, event organisers, insitutions and so on. Each template represents: </div>
+      <ul>
+        <li>The relations between an organisation and the resources of the KB</li>
+        <li>Basic metadata to describe the organisation descriptive metadata (e.g. name, period of acitivity, members etc)</li>
+      </ul>
+      <img class="pl-md-5 pr-md-5" src="public/img/rt_organisation.svg">
+    </div>
+  </div>
+
+  <!-- EXHIBITION -->
+
+  <div class="accordion-item">
+    <h2 class="accordion-header" id="flush-h-exhib">
+      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-exhib" aria-expanded="false" aria-controls="flush-exhib">
+        Exhibition
+      </button>
+    </h2>
+    <div id="flush-exhib" class="accordion-collapse collapse" aria-labelledby="flush-h-exhib" data-bs-parent="#accordionFlush">
+      <div class="accordion-body"><b>Exhibition</b> resource template (<code>owl:Class</code>) represents the exhibitions to which at least one of the described artworks took part of</div>
+      <img class="pl-md-5 pr-md-5" src="public/img/rt_exhibition.svg">
+    </div>
+  </div>
+
+  <!-- CALLY UNIT -->
+
+  <div class="accordion-item">
+    <h2 class="accordion-header" id="flush-h-cu">
+      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-cu" aria-expanded="false" aria-controls="flush-cu">
+        Calli-writing Unit
+      </button>
+    </h2>
+    <div id="flush-cu" class="accordion-collapse collapse" aria-labelledby="flush-h-cu" data-bs-parent="#accordionFlush">
+      <div class="accordion-body">
+        Categorising Contemporary Calligraphy seemed a hard task. This means that no explicit definition of Calligraphic Unit has been performed. Instead we defined general Calli-writing units (<code>owl:Class</code>, which corresponds with some artwork particular content unit) with few metadata fields which define traditional calligraphy characteristics aiming to dispose the Knowledge Base for an analysis aiming to lead to the definition of how much Traditional Calligraphy can be seen in Contemporary Calligraphy.
+      </div>
+      <img class="pl-md-5 pr-md-5" src="public/img/rt_cu.svg">
+    </div>
+  </div>
+
+  <!-- LITERARY WORK -->
+
+  <div class="accordion-item">
+    <h2 class="accordion-header" id="flush-h-lw">
+      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-lw" aria-expanded="false" aria-controls="flush-lw">
+        Literary Work
+      </button>
+    </h2>
+    <div id="flush-lw" class="accordion-collapse collapse" aria-labelledby="flush-h-lw" data-bs-parent="#accordionFlush">
+      <div class="accordion-body">
+        <b>Literary Work</b> resource template (<code>owl:Class</code>) has been added to store information between Calli-writing units and literary production they may refer to. This part does need some additional work for example by adding metadata about period of creation, type of production etc. 
+      <img class="pl-md-5 pr-md-5" src="public/img/rt_literary_work.svg">
+    </div>
+  </div>
+
+  <!-- LIFE EVENT -->
+
+  <div class="accordion-item">
+    <h2 class="accordion-header" id="flush-h-le">
+      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-le" aria-expanded="false" aria-controls="flush-le">
+        Life Event
+      </button>
+    </h2>
+    <div id="flush-le" class="accordion-collapse collapse" aria-labelledby="flush-h-le" data-bs-parent="#accordionFlush">
+      <div class="accordion-body"><b>Life Event</b> resource template (<code>owl:Class</code>) has been added to store information about artist and their academic, personal, working life (it belongs mainly to the Socio-Political Aspect). NB. An interesting aspect for the future can be to look at European Influences over artists (where did they were born, did they work, studied, can they talk in English or other languages etc). 
+      <img class="pl-md-5 pr-md-5" src="public/img/rt_life_event.svg">
+    </div>
+  </div>
+
+  <!-- DOCUMENT -->
+
+  <div class="accordion-item">
+    <h2 class="accordion-header" id="flush-h-doc">
+      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-doc" aria-expanded="false" aria-controls="flush-doc">
+        Document
+      </button>
+    </h2>
+    <div id="flush-doc" class="accordion-collapse collapse" aria-labelledby="flush-h-doc" data-bs-parent="#accordionFlush">
+      <div class="accordion-body"><b>Document</b> is a resource template (<code>owl:Class</code>) reprenting basic metadata about publications and archival docuements which are somehow related to the artist and their production
+      <img class="pl-md-5 pr-md-5" src="public/img/rt_document.svg">
+    </div>
+  </div>
+
+</div>
