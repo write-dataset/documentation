@@ -1,0 +1,185 @@
+@font-face {
+  font-family: Circular;
+  src: url(public/webfonts/Circular/CircularStd-Book.otf);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+@keyframes slideInFromBottom {
+  0% {
+    transform: translateY(100%);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
+
+body {
+  min-height: 100vh;
+  background-color: #fff;
+  background: #ededed;
+  font:Circular;
+}
+
+.intro-container, .endpoint-container, .documentation_container, .cs-container, .query-contanier {  
+  animation: 0.5s ease-out 0s 1 slideInFromBottom; 
+}
+
+.side-navbar {
+  width: 180px;
+  height: 100%;
+  position: fixed;
+  margin-left: -300px;
+  background-color: #75151e;
+  color:white;
+  transition: 0.5s;
+}
+
+
+.nav-link:active,
+.nav-link:focus,
+.nav-link:hover {
+  background-color: #ffffff26;
+  
+}
+
+#loading {
+  position: fixed;
+  display: block;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  opacity: 1;
+  background-color: #ededed;
+  z-index: 99;
+  
+}
+
+#loading-image {
+  position: absolute;
+  top: 100px;
+  left: 240px;
+  z-index: 100;
+  top:49%;
+  left:49%;
+}
+
+.top-navbar {height:4em; width:100%; margin-top:1em}
+
+.top-navbar img {max-height:4em; padding-bottom:1em; float:left}
+
+
+footer  {width:100%; margin-top:1em; background-color: #fff;}
+
+footer img {max-height:7em; padding-bottom:1em; float:left}
+
+
+
+.my-container {
+  transition: 0.4s;
+}
+
+.side-navbar li a  {color:white}
+
+
+.active-nav {
+  margin-left: 0;
+}
+
+/* for main section */
+.active-cont {
+  margin-left: 180px;
+}
+
+#menu-btn {
+  background-color: #75151e;
+  color: #fff;
+  margin-left: -62px;
+  position: fixed;
+}
+
+.my-container input {
+  border-radius: 2rem;
+  padding: 2px 20px;
+}
+
+.yasgui .autocompleteWrapper {
+  display: none !important;
+}
+
+div.card-header a {text-align:right}
+
+.img_home {
+  max-width: 100%;
+  max-height: 100%;
+  bottom: 0;
+  left: 0;
+  margin: auto;
+  overflow: auto;
+  right: 0;
+  top: 0;
+  -o-object-fit: contain;
+  object-fit: contain;
+}
+
+.card-text {font-size:0.9em}
+
+.card {border-radius: 10px !important;}
+
+a {color:black}
+a:hover {color:black; font-weight: bold;}
+
+hr {
+  margin: 1rem 0;
+  color: inherit;
+  background-color: currentColor;
+  border: 0;
+  opacity: 0.25;
+}
+
+p {text-align:justify}
+
+pre {color:grey}
+
+.accordion-collapse  {border-right: solid 0px white}
+
+i.fa, i.fas, i.fab {color:#75151e}
+
+.accordion-button:not(.collapsed) {background-color: inherit !important; color:black !important}
+
+.accordion-button:focus {border-color:inherit !important; box-shadow:None !important}
+
+.button:focus  {border-color:inherit !important; box-shadow:None !important}
+
+.query-card-body .accordion-body {color:grey}
+
+div.accordion-body img {padding-top:1rem}
+
+/* The alert message box */
+.alert {
+  padding: 20px;
+  background-color: #f44336; /* Red */
+  color: white;
+  margin-bottom: 15px;
+}
+
+/* The close button */
+.closebtn {
+  margin-left: 15px;
+  color: white;
+  font-weight: bold;
+  float: right;
+  font-size: 22px;
+  line-height: 20px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+/* When moving the mouse over the close button */
+.closebtn:hover {
+  color: black;
+}
