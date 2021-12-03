@@ -11,6 +11,9 @@ $(function(){
   $(function(){
     $("#csContent").load("static/casestudies.html"); 
   });
+$(function(){
+    $("#csData").load("static/rdfdata.html"); 
+  });
 
 // INDEX build navbar
 
