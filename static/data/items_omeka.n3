@@ -1,0 +1,2213 @@
+@prefix ns1: <http://www.wikidata.org/prop/> .
+@prefix ns2: <http://omeka.org/s/vocabs/o#> .
+@prefix ns3: <http://w3id.org/write/> .
+@prefix ns4: <http://purl.org/dc/terms/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://137.204.168.11/write/api/items/101> a ns2:Item,
+        <http://www.wikidata.org/entity/Q215627> ;
+    ns2:created "2021-10-09T13:55:38+00:00"^^xsd:dateTime ;
+    ns2:id 101 ;
+    ns2:is_public true ;
+    ns2:modified "2021-10-27T12:56:09+00:00"^^xsd:dateTime ;
+    ns2:owner <https://137.204.168.11/write/api/users/5> ;
+    ns2:resource_class <https://137.204.168.11/write/api/resource_classes/125> ;
+    ns2:resource_template <https://137.204.168.11/write/api/resource_templates/5> ;
+    ns2:title "Song Dong" ;
+    ns3:wikidata-resource <https://www.wikidata.org/entity/Q7560982> ;
+    ns1:P130 <https://www.wikidata.org/entity/Q7850> ;
+    ns1:P20 <https://www.wikidata.org/entity/Q956> ;
+    ns1:P21 <https://www.wikidata.org/entity/Q6581097> ;
+    ns1:P2561 "Song Dong"@en,
+        "宋冬"@zh ;
+    ns1:P27 <https://www.wikidata.org/entity/Q148> ;
+    ns1:P569 "1966-01-01"^^xsd:gYear .
+
+<https://137.204.168.11/write/api/items/102> a ns2:Item,
+        <http://www.wikidata.org/entity/Q7725310> ;
+    ns2:created "2021-10-09T14:09:00+00:00"^^xsd:dateTime ;
+    ns2:id 102 ;
+    ns2:is_public true ;
+    ns2:modified "2021-10-09T14:15:53+00:00"^^xsd:dateTime ;
+    ns2:owner <https://137.204.168.11/write/api/users/5> ;
+    ns2:resource_class <https://137.204.168.11/write/api/resource_classes/133> ;
+    ns2:resource_template <https://137.204.168.11/write/api/resource_templates/15> ;
+    ns2:title "Zongji xue" ;
+    ns3:performance-art-type <https://www.wikidata.org/wiki/Q213156> ;
+    ns1:P1476 "Traceology"@en,
+        "Zongji xue"@pny,
+        "踪迹学"@zh ;
+    ns1:P170 <https://137.204.168.11/write/api/items/100> ;
+    ns1:P571 "1996-01-01"^^xsd:gYear ;
+    ns1:P580 "2006-01-01"^^xsd:gYear ;
+    ns1:P582 "1996-01-01"^^xsd:gYear ;
+    ns1:P585 "1996-01-01"^^xsd:gYear ;
+    ns1:P921 <https://www.wikidata.org/entity/Q170494>,
+        <https://www.wikidata.org/entity/Q193291>,
+        <https://www.wikidata.org/entity/Q205555>,
+        <https://www.wikidata.org/entity/Q5> .
+
+<https://137.204.168.11/write/api/items/111> a ns2:Item,
+        <http://www.wikidata.org/entity/Q17514> ;
+    ns2:created "2021-10-12T09:13:28+00:00"^^xsd:dateTime ;
+    ns2:id 111 ;
+    ns2:is_public true ;
+    ns2:modified "2021-10-27T12:35:41+00:00"^^xsd:dateTime ;
+    ns2:owner <https://137.204.168.11/write/api/users/5> ;
+    ns2:resource_class <https://137.204.168.11/write/api/resource_classes/137> ;
+    ns2:resource_template <https://137.204.168.11/write/api/resource_templates/10> ;
+    ns2:title "FuLuShouXi" ;
+    ns1:P136 "Public free art"@en ;
+    ns1:P1476 "Wish, bliss and longevity"@en,
+        "FuLuShouXi"@pny,
+        "福禄壽禧 "@zh ;
+    ns1:P170 <https://137.204.168.11/write/api/items/108> ;
+    ns1:P180 <https://www.wikidata.org/entity/Q1066907>,
+        <https://www.wikidata.org/entity/Q1760011>,
+        <https://www.wikidata.org/entity/Q200535>,
+        <https://www.wikidata.org/entity/Q241625> ;
+    ns1:P186 <https://www.wikidata.org/entity/Q106857709>,
+        <https://www.wikidata.org/entity/Q207849> ;
+    ns1:P276 <https://www.wikidata.org/entity/Q30002> ;
+    ns1:P462 <https://www.wikidata.org/entity/Q183127> ;
+    ns1:P571 "2019-01-01"^^xsd:gYear .
+
+<https://137.204.168.11/write/api/items/117> a ns2:Item,
+        <http://www.wikidata.org/entity/Q17514> ;
+    ns2:created "2021-10-28T08:56:12+00:00"^^xsd:dateTime ;
+    ns2:id 117 ;
+    ns2:is_public true ;
+    ns2:item_set <https://137.204.168.11/write/api/item_sets/59> ;
+    ns2:media <https://137.204.168.11/write/api/media/118> ;
+    ns2:modified "2021-11-02T14:27:26+00:00"^^xsd:dateTime ;
+    ns2:owner <https://137.204.168.11/write/api/users/4> ;
+    ns2:resource_class <https://137.204.168.11/write/api/resource_classes/137> ;
+    ns2:resource_template <https://137.204.168.11/write/api/resource_templates/10> ;
+    ns2:title "New Style" ;
+    ns3:chinese-visual-element "Ancient chinese bronze ware",
+        "Bamboo",
+        "Green",
+        "Mist" ;
+    ns3:description """- The work was made by EricTin and NaTuo, and it took three days to complete it (EricTin 2008). 
+- ‘bamboo painting’ (zhuhua 竹画) 
+- the lettering piece is written in a very complex wild style, with lots of 3D effects, that seems to reproduce the knottiness of the bamboos. 
+- at the center of the piece, EricTin inserted a yellow sphere with the traditional character Guan (the first character of Guanyin), a recurring element in his pieces.
+- The sphere has the same colors as the ones of thin pinnacles sprouting from the green letters: they seem to replicate the stylized ‘foliage’ of the bamboos. 
+- the use of green recalls another artistic tradition, not Chinese but Western, the tradition of Western realism, based on a steadfast devotion to color truth. At the same time, the various shades of green also remind the greenish patina of ancient ‘Chinese bronze vessels’ (qingtongqi 青铜器). 
+- “the source of inspiration of New Style is ancient Chinese bronze ware” (EricTin 2008).
+- The presence of the mist is another element that simultaneously recalls Chinese traditions 
+- work format: large album leaf
+- the calligraphic inscription on the right edge is written in xingcao 行草 style"""@en ;
+    ns3:graffiti-style "3D style",
+        "tag",
+        "wildstyle" ;
+    ns3:has-unit <https://137.204.168.11/write/api/items/119>,
+        <https://137.204.168.11/write/api/items/120> ;
+    ns1:P136 "Public free art"@en ;
+    ns1:P1476 "New Style"@en ;
+    ns1:P170 <https://137.204.168.11/write/api/items/112>,
+        <https://137.204.168.11/write/api/items/121> ;
+    ns1:P180 <https://www.wikidata.org/entity/Q27891820>,
+        <https://www.wikidata.org/entity/Q5185279>,
+        <https://www.wikidata.org/entity/Q6498317>,
+        <https://www.wikidata.org/entity/Q7561196> ;
+    ns1:P186 <https://www.wikidata.org/entity/Q2066608>,
+        <https://www.wikidata.org/entity/Q42948> ;
+    ns1:P276 <https://www.wikidata.org/entity/Q956> ;
+    ns1:P462 <https://www.wikidata.org/entity/Q23444>,
+        <https://www.wikidata.org/entity/Q23445>,
+        <https://www.wikidata.org/entity/Q3133>,
+        <https://www.wikidata.org/entity/Q372973>,
+        <https://www.wikidata.org/entity/Q47071>,
+        <https://www.wikidata.org/entity/Q843607>,
+        <https://www.wikidata.org/entity/Q943> ;
+    ns1:P571 "2008-07-01"^^xsd:gYearMonth .
+
+<https://137.204.168.11/write/api/items/124> a ns2:Item,
+        ns3:DecorativeAndAppliedArt ;
+    ns2:created "2021-11-25T15:07:51+00:00"^^xsd:dateTime ;
+    ns2:id 124 ;
+    ns2:is_public true ;
+    ns2:media <https://137.204.168.11/write/api/media/126> ;
+    ns2:modified "2021-11-25T17:28:41+00:00"^^xsd:dateTime ;
+    ns2:owner <https://137.204.168.11/write/api/users/3> ;
+    ns2:resource_class <https://137.204.168.11/write/api/resource_classes/139> ;
+    ns2:resource_template <https://137.204.168.11/write/api/resource_templates/9> ;
+    ns2:title "Yuanyuan Armchair - Ease" ;
+    ns3:description "This piece is part of a set of 5 armchairs by Minaxdo called \"Yuanyuan chairs\" (缘圆椅). This collection is inspired by the techniques of Chinese Calligraphy — the moves, turns, crochets, inclination and direction of the strokes of Chinese Characters are reflected in the modeling of every piece of furniture. Based on the essence of traditional calligraphy, these armchairs  features a smooth and elegant shape that resembles the flow of the running/cursive script.  'Yuanyuan’ (缘圆), which means 'round-perfect edge', indicates the fluency of calligraphy and it is reflected in the ergonomically designed armrests made from teak, rosewood. The handcrafted piece uses a mortise and tenon joint and each of the nodes represent the ‘pause’ of the calligraphy movements, giving a solid and dynamic appearance. Based on the Ming-style backed armchair, Yuanyuan Armchair – Ease features a dignified and fair form, as well as applying ergonomics to maximize the comfort level."@en,
+        "中国古代文人尤重“风骨”，传统书法亦注重行云流水之中蕴涵铮铮笔意，外呈灵动，内收锋芒。“缘圆椅”取书法笔意之精髓，造型流畅典雅，宛若一挥而就的行草篇章，然设计制作严谨遵循受力原理，每一处节点都切合书法行笔中的“略停”而显得坚实有力。"@zh ;
+    ns3:has-unit <https://137.204.168.11/write/api/items/125> ;
+    ns3:product-type <https://www.wikidata.org/entity/Q11285759> ;
+    ns1:P1071 <https://www.wikidata.org/entity/Q8686> ;
+    ns1:P1476 "Yuanyuan Armchair - Ease"@en,
+        " Yuanyuan yi . Yi"@pny,
+        """缘圆椅.逸
+"""@zh ;
+    ns1:P176 "Minaxdo",
+        "米丈堂木作" ;
+    ns1:P186 <https://www.wikidata.org/entity/Q122421> ;
+    ns1:P2048 "80" ;
+    ns1:P2049 "60" ;
+    ns1:P2284 "45,000" ;
+    ns1:P2610 "70" ;
+    ns1:P38 <https://www.wikidata.org/entity/Q39099> ;
+    ns1:P856 <http://en.minaxdo.com/index.shtml> .
+
+<https://137.204.168.11/write/api/items/127> a ns2:Item,
+        <http://www.wikidata.org/entity/Q108923606> ;
+    ns2:created "2021-11-25T17:32:53+00:00"^^xsd:dateTime ;
+    ns2:id 127 ;
+    ns2:is_public true ;
+    ns2:media <https://137.204.168.11/write/api/media/129> ;
+    ns2:modified "2021-12-16T15:02:12+00:00"^^xsd:dateTime ;
+    ns2:owner <https://137.204.168.11/write/api/users/3> ;
+    ns2:resource_class <https://137.204.168.11/write/api/resource_classes/141> ;
+    ns2:resource_template <https://137.204.168.11/write/api/resource_templates/8> ;
+    ns2:title "The Mountains Are Breaking Up" ;
+    ns3:artwork-type <https://www.wikidata.org/entity/Q22669850> ;
+    ns3:description "This work was exhibited for the firt time during the \"First Exhibition of Modern Calligraphy\" that was held in 1985 at the National Art Museum of China. It became the icon of this exhibition. It expresses the idea that the time had come for China to set aside old ideas and press ahead with reform. This approach marked a major break with tradition, representing a move towards the idea that the form of a calligraphic composition and the arrrangement of the characters within it should reinforce the meaning of the piece. The artist has used the form of the two characters of the title to reinforce the message of a verse by Li Bai that from a great upheaval new and good things would emerge. He achieves this through the strength and composition of the two main characters in the piece: in the upper left-hand corner a large character for 'mountain' (shan 山) looked as if being overturned by the force of the other main character, 'cui' 摧 ('destruction' or 'overturning')." ;
+    ns3:has-unit <https://137.204.168.11/write/api/items/131> ;
+    ns1:P1071 <https://www.wikidata.org/entity/Q956> ;
+    ns1:P1476 "The Mountains Are Breaking Up"@en,
+        "Shan cui"@pny,
+        "山摧"@zh ;
+    ns1:P170 <https://137.204.168.11/write/api/items/130> ;
+    ns1:P180 <https://www.wikidata.org/entity/Q1370468>,
+        <https://www.wikidata.org/entity/Q17781833>,
+        "calligraphic deflagration",
+        "mountains deflagration",
+        "new calligraphic directions",
+        "new roads" ;
+    ns1:P186 <https://www.wikidata.org/entity/Q11472>,
+        <https://www.wikidata.org/entity/Q127418> ;
+    ns1:P195 <https://www.wikidata.org/entity/Q6373> ;
+    ns1:P2048 "93,5" ;
+    ns1:P2049 "87,5" ;
+    ns1:P2079 <https://www.wikidata.org/entity/Q614467> ;
+    ns1:P462 <https://www.wikidata.org/entity/Q23444>,
+        <https://www.wikidata.org/entity/Q23445>,
+        <https://www.wikidata.org/entity/Q3142> ;
+    ns1:P571 "1985-01-01"^^xsd:gYear .
+
+<https://137.204.168.11/write/api/items/133> a ns2:Item,
+        <http://www.wikidata.org/entity/Q108923606> ;
+    ns2:created "2021-12-07T17:24:48+00:00"^^xsd:dateTime ;
+    ns2:id 133 ;
+    ns2:is_public true ;
+    ns2:media <https://137.204.168.11/write/api/media/137> ;
+    ns2:modified "2021-12-09T08:39:12+00:00"^^xsd:dateTime ;
+    ns2:owner <https://137.204.168.11/write/api/users/3> ;
+    ns2:resource_class <https://137.204.168.11/write/api/resource_classes/141> ;
+    ns2:resource_template <https://137.204.168.11/write/api/resource_templates/8> ;
+    ns2:title "A Poem by Li Bai (Through the Yangze Gorge)" ;
+    ns3:artwork-type <https://www.wikidata.org/entity/Q12681> ;
+    ns3:description "This work was exhibited during the \"First Exhibition of Chinese Modern Calligraphy\" that was held in 1985 at the National Art Museum of China. Su Yuanzhang uses calligraphic forms to mimic the forms of landscape paintings. The name of the work comes from the final two lines of a famous poem by Li Bai entitled Zaofa baidi cheng 早发白帝城 (Through the Yangze River), whose characters make up the landscape. " ;
+    ns3:has-unit <https://137.204.168.11/write/api/items/134> ;
+    ns1:P1071 <https://www.wikidata.org/entity/Q956> ;
+    ns1:P1476 "A Poem by Li Bai (Through the Yangze Gorge)"@en,
+        "Libai shi (Zaofa baidi cheng)"@pny,
+        "李白诗 （早发白帝城）"@zh ;
+    ns1:P170 <https://137.204.168.11/write/api/items/136> ;
+    ns1:P180 <https://www.wikidata.org/entity/Q107425>,
+        <https://www.wikidata.org/entity/Q12681>,
+        <https://www.wikidata.org/entity/Q3305213>,
+        <https://www.wikidata.org/entity/Q482>,
+        <https://www.wikidata.org/entity/Q8201> ;
+    ns1:P186 <https://www.wikidata.org/entity/Q11472>,
+        <https://www.wikidata.org/entity/Q127418> ;
+    ns1:P2079 <https://www.wikidata.org/entity/Q614467> ;
+    ns1:P462 <https://www.wikidata.org/entity/Q23444>,
+        <https://www.wikidata.org/entity/Q23445> ;
+    ns1:P571 "1985-01-01"^^xsd:gYear .
+
+<https://137.204.168.11/write/api/items/138> a ns2:Item,
+        ns3:DecorativeAndAppliedArt ;
+    ns2:created "2021-12-09T09:01:49+00:00"^^xsd:dateTime ;
+    ns2:id 138 ;
+    ns2:is_public true ;
+    ns2:media <https://137.204.168.11/write/api/media/141> ;
+    ns2:modified "2021-12-09T12:06:53+00:00"^^xsd:dateTime ;
+    ns2:owner <https://137.204.168.11/write/api/users/3> ;
+    ns2:resource_class <https://137.204.168.11/write/api/resource_classes/139> ;
+    ns2:resource_template <https://137.204.168.11/write/api/resource_templates/9> ;
+    ns2:title "Beijing 2008 Paralympic Games Logo" ;
+    ns3:description "Dubbed \"Sky, Earth and Human Beings,\" the logo of the Beijing Paralympics is a stylized figure of an athlete in motion, implying the tremendous efforts a disabled person has to make in sports as well as in real life. This stylized figure is the result of the transformation of the Chinese character “之” (\"go\") into a modern element. The character is written using Chinese calligraphic font. With the unity and the harmony of \"sky, earth and human beings,\" the logo incorporates Chinese characters, calligraphy and the Paralympic spirit. It embodies the Paralympic motto of \"Spirit in Motion\" and reflects the integration of heart, body and spirit in human beings -- the core of the philosophy of Chinese culture. The three colours in the logo represent the sun (red), the sky (blue) and the earth (green). The words “Beijing 2008” aro also written in calligraphic font. The designer enhances the aesthetic taste and gets a better visual effect through skillful combination and arrangement of dots and lines.  The shape of the athlete in motion accords with the seal of the Beijing Olympic Games." ;
+    ns3:has-unit <https://137.204.168.11/write/api/items/140> ;
+    ns3:product-type <https://www.wikidata.org/entity/Q1886349> ;
+    ns1:P1071 <https://www.wikidata.org/entity/Q956> ;
+    ns1:P1476 "Beijing 2008 Paralympic Games Logo" ;
+    ns1:P180 <https://www.wikidata.org/entity/Q1156970>,
+        <https://www.wikidata.org/entity/Q2>,
+        <https://www.wikidata.org/entity/Q216864>,
+        <https://www.wikidata.org/entity/Q527>,
+        <https://www.wikidata.org/entity/Q6666023>,
+        "unity of sky, earth, and human beings" ;
+    ns1:P186 <https://www.wikidata.org/entity/Q7600677> ;
+    ns1:P287 <https://137.204.168.11/write/api/items/139> ;
+    ns1:P462 <https://www.wikidata.org/entity/Q1088>,
+        <https://www.wikidata.org/entity/Q23444>,
+        <https://www.wikidata.org/entity/Q23445>,
+        <https://www.wikidata.org/entity/Q3133>,
+        <https://www.wikidata.org/entity/Q3142> ;
+    ns1:P571 "2008-01-01"^^xsd:gYear .
+
+<https://137.204.168.11/write/api/items/142> a ns2:Item,
+        ns3:DecorativeAndAppliedArt ;
+    ns2:created "2021-12-09T14:22:57+00:00"^^xsd:dateTime ;
+    ns2:id 142 ;
+    ns2:is_public true ;
+    ns2:media <https://137.204.168.11/write/api/media/144> ;
+    ns2:modified "2021-12-09T14:51:54+00:00"^^xsd:dateTime ;
+    ns2:owner <https://137.204.168.11/write/api/users/3> ;
+    ns2:resource_class <https://137.204.168.11/write/api/resource_classes/139> ;
+    ns2:resource_template <https://137.204.168.11/write/api/resource_templates/9> ;
+    ns2:title "Xiangshan Campus of the China Academy of Art" ;
+    ns3:product-type <https://www.wikidata.org/entity/Q12271> ;
+    ns1:P1071 <https://www.wikidata.org/entity/Q4970> ;
+    ns1:P1476 "Xiangshan Campus of the China Academy of Art" ;
+    ns1:P571 "2004-01-01"^^xsd:gYear,
+        "2007-01-01"^^xsd:gYear ;
+    ns1:P84 <https://137.204.168.11/write/api/items/143> .
+
+<https://137.204.168.11/write/api/items/145> a ns2:Item,
+        <http://www.wikidata.org/entity/Q43229> ;
+    ns2:created "2021-12-09T15:04:24+00:00"^^xsd:dateTime ;
+    ns2:id 145 ;
+    ns2:is_public true ;
+    ns2:modified "2021-12-09T18:23:43+00:00"^^xsd:dateTime ;
+    ns2:owner <https://137.204.168.11/write/api/users/3> ;
+    ns2:resource_class <https://137.204.168.11/write/api/resource_classes/126> ;
+    ns2:resource_template <https://137.204.168.11/write/api/resource_templates/6> ;
+    ns2:title "Amateur Architecture Studio" ;
+    ns3:description "Amateur Architecture Studio (founded in 1997 by Wang Shu and Lu Wenyu), based in Hangzhou, works with local traditions of craftsmanship, set against modern architectural grandeur in Chinese megacities. Their projects are shown at international exhibitions such as the Venice Biennale of Architecture (“Tiles Garden”, 2006, “Decay of a Dome”, 2010). Wang Shu has been granted many international awards such as the Pritzker Prize, and, together with Lu Wenyu, the Schelling Architektur Preis. They teach at the China Academy of Art in Hangzhou." ;
+    ns3:organisation-type <https://www.wikidata.org/wiki/Q1443933> ;
+    ns1:P2561 "Amateur Architecture Studio"@en,
+        "Yeyu jianzhu gongzuoshi"@pny,
+        "业余建筑工作室"@zh ;
+    ns1:P276 <https://www.wikidata.org/entity/Q4970> ;
+    ns1:P527 <https://137.204.168.11/write/api/items/143>,
+        <https://137.204.168.11/write/api/items/146> ;
+    ns1:P571 "1997-01-01"^^xsd:gYear .
+
+<https://137.204.168.11/write/api/items/57> a ns2:Item,
+        <http://www.wikidata.org/entity/Q213156> ;
+    ns2:created "2021-09-21T09:57:56+00:00"^^xsd:dateTime ;
+    ns2:id 57 ;
+    ns2:is_public true ;
+    ns2:item_set <https://137.204.168.11/write/api/item_sets/59> ;
+    ns2:media <https://137.204.168.11/write/api/media/63> ;
+    ns2:modified "2021-11-05T15:26:53+00:00"^^xsd:dateTime ;
+    ns2:owner <https://137.204.168.11/write/api/users/5> ;
+    ns2:resource_class <https://137.204.168.11/write/api/resource_classes/130> ;
+    ns2:resource_template <https://137.204.168.11/write/api/resource_templates/11> ;
+    ns2:site <https://137.204.168.11/write/api/sites/4> ;
+    ns2:title "Cursive" ;
+    ns3:dance-company <https://137.204.168.11/write/api/items/58> ;
+    ns3:description "Contemporary dance inspired by calligraphy (cursive script)"@en ;
+    ns3:has-unit <https://137.204.168.11/write/api/items/105>,
+        <https://137.204.168.11/write/api/items/64> ;
+    ns3:musician <https://137.204.168.11/write/api/items/104> ;
+    ns3:performance-art-type <https://www.wikidata.org/wiki/Q186035> ;
+    ns3:projected_work <https://137.204.168.11/write/api/items/110> ;
+    ns1:P1303 <https://www.wikidata.org/entity/Q1661583>,
+        <https://www.wikidata.org/entity/Q326426> ;
+    ns1:P1476 "Cursive"@en,
+        "xingcao"@pny,
+        "行草"@zh ;
+    ns1:P2047 "86 min" ;
+    ns1:P361 <https://137.204.168.11/write/api/items/75> ;
+    ns1:P585 "2001" ;
+    ns1:P921 <https://www.wikidata.org/entity/Q204368>,
+        <https://www.wikidata.org/entity/Q5195323>,
+        <https://www.wikidata.org/entity/Q53685>,
+        <https://www.wikidata.org/entity/Q6498317> .
+
+<https://137.204.168.11/write/api/items/65> a ns2:Item,
+        <http://www.wikidata.org/entity/Q17514> ;
+    ns2:created "2021-09-27T09:37:17+00:00"^^xsd:dateTime ;
+    ns2:id 65 ;
+    ns2:is_public true ;
+    ns2:item_set <https://137.204.168.11/write/api/item_sets/59> ;
+    ns2:media <https://137.204.168.11/write/api/media/82> ;
+    ns2:modified "2021-10-28T17:32:29+00:00"^^xsd:dateTime ;
+    ns2:owner <https://137.204.168.11/write/api/users/4> ;
+    ns2:resource_class <https://137.204.168.11/write/api/resource_classes/137> ;
+    ns2:resource_template <https://137.204.168.11/write/api/resource_templates/10> ;
+    ns2:site <https://137.204.168.11/write/api/sites/4> ;
+    ns2:title "Shanghai be strong" ;
+    ns3:chinese-visual-element "Chrysanthemum",
+        "Incense" ;
+    ns3:description """It was painted in memory of the victims of the fire that destroyed a building in 2010 in Jiaozhou Road (Shanghai). Memorial artwork ?
+上海 (Shanghai): was painted by Huri in a semicursive calligraphic style, running script (xingshu). (with?)
+Jianqiang 坚强 (fortify, be strong): was painted by Storm, a French writer in a regular script (kaishu) (with a fat cap? o roller?)
+Chinese artistic-cultural tradition elements: a vase for
+incense and four yellow chrysanthemums.
+"""@en ;
+    ns3:has-calligraphic-unit <https://137.204.168.11/write/api/items/81> ;
+    ns3:visual-element <https://www.wikidata.org/entity/Q87758078> ;
+    ns1:P1476 "Shanghai be strong"@en,
+        "Shanghai Jianqiang"@pny,
+        "上海坚强"@zh ;
+    ns1:P170 <https://137.204.168.11/write/api/items/80> ;
+    ns1:P180 <https://www.wikidata.org/entity/Q168983>,
+        <https://www.wikidata.org/entity/Q17516>,
+        <https://www.wikidata.org/entity/Q186075>,
+        <https://www.wikidata.org/entity/Q5003624>,
+        <https://www.wikidata.org/entity/Q6498317>,
+        <https://www.wikidata.org/entity/Q750652> ;
+    ns1:P186 <https://www.wikidata.org/entity/Q2066608>,
+        <https://www.wikidata.org/entity/Q42948> ;
+    ns1:P276 <https://www.wikidata.org/entity/Q8686> ;
+    ns1:P462 <https://www.wikidata.org/entity/Q23444>,
+        <https://www.wikidata.org/entity/Q23445>,
+        <https://www.wikidata.org/entity/Q39338>,
+        <https://www.wikidata.org/entity/Q42519>,
+        <https://www.wikidata.org/entity/Q943> ;
+    ns1:P571 "2010-11-01"^^xsd:gYearMonth ;
+    ns1:P6375 "Moganshan Road"@en,
+        "Moganshan Lu"@pny,
+        "莫干山路"@zh .
+
+<https://137.204.168.11/write/api/items/77> a ns2:Item,
+        <http://www.wikidata.org/entity/Q17514> ;
+    ns2:created "2021-09-29T15:47:46+00:00"^^xsd:dateTime ;
+    ns2:id 77 ;
+    ns2:is_public true ;
+    ns2:item_set <https://137.204.168.11/write/api/item_sets/59> ;
+    ns2:media <https://137.204.168.11/write/api/media/79> ;
+    ns2:modified "2021-11-05T15:34:11+00:00"^^xsd:dateTime ;
+    ns2:owner <https://137.204.168.11/write/api/users/5> ;
+    ns2:resource_class <https://137.204.168.11/write/api/resource_classes/137> ;
+    ns2:resource_template <https://137.204.168.11/write/api/resource_templates/10> ;
+    ns2:site <https://137.204.168.11/write/api/sites/4> ;
+    ns2:title "Qi" ;
+    ns3:description "3D tag"@en ;
+    ns3:has-unit <https://137.204.168.11/write/api/items/78> ;
+    ns1:P1476 "Gas"@en,
+        "Qi"@pny,
+        "氣"@zh ;
+    ns1:P170 <https://137.204.168.11/write/api/items/76> ;
+    ns1:P180 <https://www.wikidata.org/entity/Q193291>,
+        <https://www.wikidata.org/entity/Q204368> ;
+    ns1:P186 <https://www.wikidata.org/entity/Q2066608>,
+        <https://www.wikidata.org/entity/Q42948> ;
+    ns1:P276 <https://www.wikidata.org/entity/Q1360011> ;
+    ns1:P462 <https://www.wikidata.org/entity/Q1088>,
+        <https://www.wikidata.org/entity/Q23445>,
+        <https://www.wikidata.org/entity/Q3257809>,
+        <https://www.wikidata.org/entity/Q39338>,
+        <https://www.wikidata.org/entity/Q42519> ;
+    ns1:P571 "2019-01-01"^^xsd:gYear ;
+    ns1:P6375 "Lin Xiang Zi, Jinniu District, Chengdu (China)"@en .
+
+<https://137.204.168.11/write/api/items/85> a ns2:Item,
+        <http://www.wikidata.org/entity/Q213156> ;
+    ns2:created "2021-10-05T13:22:38+00:00"^^xsd:dateTime ;
+    ns2:id 85 ;
+    ns2:is_public true ;
+    ns2:modified "2021-11-03T12:14:52+00:00"^^xsd:dateTime ;
+    ns2:owner <https://137.204.168.11/write/api/users/5> ;
+    ns2:resource_class <https://137.204.168.11/write/api/resource_classes/130> ;
+    ns2:resource_template <https://137.204.168.11/write/api/resource_templates/11> ;
+    ns2:site <https://137.204.168.11/write/api/sites/4> ;
+    ns2:title "Musicalligraphy performance by Luo Qi and Collegium Musicum Almae Matris" ;
+    ns3:calligrapher <https://137.204.168.11/write/api/items/84> ;
+    ns3:creates-artwork <https://137.204.168.11/write/api/items/88> ;
+    ns3:description "The performance was held during the opening ceremony of the exhibition entiled \"Luo Qi: Calligrafie musicali\" (Luo Qi: Writing Music) at the University Library of Bologna. During the musicalligraphy performance, the calligrapher Luo Qi was inspired by some famous Italian opera arias played by the Collegium Musicum Almae Matris." ;
+    ns3:has-unit <https://137.204.168.11/write/api/items/116>,
+        <https://137.204.168.11/write/api/items/89> ;
+    ns3:music-style <https://www.wikidata.org/entity/Q1344> ;
+    ns3:musician "Collegium Musicum Almae Matris" ;
+    ns3:performance-art-type <file:///C:/Users/Valentina/write/Musicalligraphy> ;
+    ns3:song-title <https://www.wikidata.org/entity/Q1352178>,
+        <https://www.wikidata.org/entity/Q1469717>,
+        <https://www.wikidata.org/entity/Q172324>,
+        <https://www.wikidata.org/entity/Q3706452>,
+        <https://www.wikidata.org/entity/Q3824843>,
+        <https://www.wikidata.org/entity/Q54988673>,
+        <https://www.wikidata.org/entity/Q78648316>,
+        <https://www.wikidata.org/entity/Q78928276> ;
+    ns1:P1132 "5"^^<o-module-numeric-xsd:integer> ;
+    ns1:P1303 <https://www.wikidata.org/entity/Q5994>,
+        <https://www.wikidata.org/entity/Q8355>,
+        <https://www.wikidata.org/entity/Q8371> ;
+    ns1:P1476 "Musicalligraphy performance by Luo Qi and Collegium Musicum Almae Matris" ;
+    ns1:P175 <https://137.204.168.11/write/api/items/84> ;
+    ns1:P2047 "50 min"@en ;
+    ns1:P276 <https://www.wikidata.org/entity/Q1891> ;
+    ns1:P585 "2019-03-25"^^xsd:date ;
+    ns1:P664 <https://www.wikidata.org/entity/Q131262> ;
+    ns1:P921 <https://www.wikidata.org/entity/Q1344>,
+        <https://www.wikidata.org/entity/Q1420392>,
+        <https://www.wikidata.org/entity/Q51446080>,
+        <https://www.wikidata.org/entity/Q65050532> .
+
+<https://137.204.168.11/write/api/items/87> a ns2:Item,
+        <http://www.wikidata.org/entity/Q213156> ;
+    ns2:created "2021-10-05T16:17:32+00:00"^^xsd:dateTime ;
+    ns2:id 87 ;
+    ns2:is_public true ;
+    ns2:media <https://137.204.168.11/write/api/media/99> ;
+    ns2:modified "2021-11-05T15:53:39+00:00"^^xsd:dateTime ;
+    ns2:owner <https://137.204.168.11/write/api/users/5> ;
+    ns2:resource_class <https://137.204.168.11/write/api/resource_classes/130> ;
+    ns2:resource_template <https://137.204.168.11/write/api/resource_templates/11> ;
+    ns2:site <https://137.204.168.11/write/api/sites/4> ;
+    ns2:title "Family Tree" ;
+    ns3:creates-artwork <https://137.204.168.11/write/api/items/97> ;
+    ns3:description """ Zhang Huan invited 3 calligraphers to write texts on his face . He told them what they should write and to always keep a serious attitude when writing the texts even when his face turns to dark. His face followed the daylight till it slowly darkened. At the end, his identity disappeared.
+This work speaks about a family story, a spirit of family. In the middle of his forehead, the text means "The Foolish Old Man Removes the Mountain (Yu Kong Yi Shan 愚公移山)". This traditional Chinese story is known by all common people, it is about determination and challenge. If you really want to do something, then it could really happen. Other texts are about human fate, like a kind of divination. Your eyes, nose, mouth, ears, cheekbone, and moles indicate your future, wealth, sex, disease, etc. Most words derive from the ancient Chinese art of physiognomy, which seeks to map personality traits and divine the future based on one’s facial features. But rather than elucidating Zhang’s character and fate, these traditional divinatory marks ultimately obscure his identity beneath a dense layer of culturally conditioned references.""" ;
+    ns3:has-unit <https://137.204.168.11/write/api/items/98> ;
+    ns3:performance-art-type <https://www.wikidata.org/wiki/Q213156> ;
+    ns1:P1132 "4"^^<o-module-numeric-xsd:integer> ;
+    ns1:P1476 "Family Tree"@en,
+        "Jiapu"@pny,
+        "家谱"@zh ;
+    ns1:P175 <https://137.204.168.11/write/api/items/86> ;
+    ns1:P186 <http://www.wikidata.org/entity/Q127418>,
+        <http://www.wikidata.org/entity/Q37017> ;
+    ns1:P2047 " from early morning until night" ;
+    ns1:P2079 <http://www.wikidata.org/entity/Q614467> ;
+    ns1:P276 <https://www.wikidata.org/entity/Q60> ;
+    ns1:P585 "2000-01-01"^^xsd:gYear ;
+    ns1:P856 "http://www.zhanghuan.com"@en ;
+    ns1:P921 <https://www.wikidata.org/entity/Q11073609>,
+        <https://www.wikidata.org/entity/Q16511806>,
+        <https://www.wikidata.org/entity/Q21168708>,
+        <https://www.wikidata.org/entity/Q216774>,
+        <https://www.wikidata.org/entity/Q37017>,
+        <https://www.wikidata.org/entity/Q5348168>,
+        <https://www.wikidata.org/entity/Q841933>,
+        <https://www.wikidata.org/entity/Q8436> .
+
+<https://137.204.168.11/write/api/items/90> a ns2:Item,
+        <http://www.wikidata.org/entity/Q17514> ;
+    ns2:created "2021-10-07T08:45:27+00:00"^^xsd:dateTime ;
+    ns2:id 90 ;
+    ns2:is_public true ;
+    ns2:item_set <https://137.204.168.11/write/api/item_sets/59> ;
+    ns2:media <https://137.204.168.11/write/api/media/91> ;
+    ns2:modified "2021-11-02T14:29:56+00:00"^^xsd:dateTime ;
+    ns2:owner <https://137.204.168.11/write/api/users/4> ;
+    ns2:resource_class <https://137.204.168.11/write/api/resource_classes/137> ;
+    ns2:resource_template <https://137.204.168.11/write/api/resource_templates/10> ;
+    ns2:site <https://137.204.168.11/write/api/sites/4> ;
+    ns2:title "Ars divina" ;
+    ns3:description """Made by EricTin in 2010.
+Graffiti piece in Chinese characters on public wall in calligraphic form.
+Chinese characters "shengongyijian" were shaped on ancient Chinese horizontal scroll with colophons and traditional decorative patterns (yunwen).
+The graffiti piece is a chengyu (inspired by a poem of Zhao Puchu) in wildstyle and 3d style, influences by European style (German school colors).
+On the top right-corner there is a calligraphic inscription (colophon) in runnning script (xingshu).
+The piece has regular-running script (kai-xing).
+Descrivere Tags?
+Calligrafia colofone? """@en ;
+    ns3:graffiti-style "3D style",
+        "tag",
+        "wildstyle" ;
+    ns3:has-unit <https://137.204.168.11/write/api/items/92>,
+        <https://137.204.168.11/write/api/items/94> ;
+    ns1:P136 "Public free art"@en ;
+    ns1:P1476 "Ars divina"@en,
+        "Shengong yijiang"@pny,
+        "神工意匠"@zh ;
+    ns1:P170 <https://137.204.168.11/write/api/items/112> ;
+    ns1:P180 <https://www.wikidata.org/entity/Q35986>,
+        <https://www.wikidata.org/entity/Q5185279>,
+        <https://www.wikidata.org/entity/Q6498317>,
+        <https://www.wikidata.org/entity/Q7242>,
+        <https://www.wikidata.org/entity/Q7561196> ;
+    ns1:P186 <https://www.wikidata.org/entity/Q2066608>,
+        <https://www.wikidata.org/entity/Q42948> ;
+    ns1:P276 <https://www.wikidata.org/entity/Q956> ;
+    ns1:P462 <https://www.wikidata.org/entity/Q1088>,
+        <https://www.wikidata.org/entity/Q23444>,
+        <https://www.wikidata.org/entity/Q23445>,
+        <https://www.wikidata.org/entity/Q3142>,
+        <https://www.wikidata.org/entity/Q372973>,
+        <https://www.wikidata.org/entity/Q42519>,
+        <https://www.wikidata.org/entity/Q943> ;
+    ns1:P571 "2010-01-01"^^xsd:gYear .
+
+<http://en.minaxdo.com/index.shtml> ns2:label "Minaxdo website" .
+
+<http://www.wikidata.org/entity/Q127418> ns2:label "ink" .
+
+<http://www.wikidata.org/entity/Q37017> ns2:label "face" .
+
+<http://www.wikidata.org/entity/Q614467> ns2:label "brush" .
+
+<https://137.204.168.11/write/api/items/100> a ns2:Item,
+        <http://www.wikidata.org/entity/Q215627> ;
+    ns2:created "2021-10-09T13:25:25+00:00"^^xsd:dateTime ;
+    ns2:id 100 ;
+    ns2:is_public true ;
+    ns2:modified "2021-10-27T12:56:16+00:00"^^xsd:dateTime ;
+    ns2:owner <https://137.204.168.11/write/api/users/5> ;
+    ns2:resource_class <https://137.204.168.11/write/api/resource_classes/125> ;
+    ns2:resource_template <https://137.204.168.11/write/api/resource_templates/5> ;
+    ns2:title "Zhang Qiang" ;
+    ns3:calligraphic-formation "Academic"@en ;
+    ns3:relevant-activity-location <https://www.wikidata.org/entity/Q148> ;
+    ns1:P130 <https://www.wikidata.org/entity/Q7850> ;
+    ns1:P19 <https://www.wikidata.org/entity/Q1198379> ;
+    ns1:P21 <https://www.wikidata.org/entity/Q6581097> ;
+    ns1:P2561 "Zhang Qiang"@en,
+        "張強"@zh ;
+    ns1:P27 <https://www.wikidata.org/entity/Q148> ;
+    ns1:P569 "1962-01-01"^^xsd:gYear .
+
+<https://137.204.168.11/write/api/items/104> a ns2:Item,
+        <http://www.wikidata.org/entity/Q215627> ;
+    ns2:created "2021-10-09T14:55:09+00:00"^^xsd:dateTime ;
+    ns2:id 104 ;
+    ns2:is_public true ;
+    ns2:modified "2021-10-27T12:55:54+00:00"^^xsd:dateTime ;
+    ns2:owner <https://137.204.168.11/write/api/users/5> ;
+    ns2:resource_class <https://137.204.168.11/write/api/resource_classes/125> ;
+    ns2:resource_template <https://137.204.168.11/write/api/resource_templates/5> ;
+    ns2:title "Qu Xiaosong" ;
+    ns3:wikidata-resource <https://www.wikidata.org/entity/Q971938> ;
+    ns1:P130 <https://www.wikidata.org/entity/Q7850> ;
+    ns1:P19 <https://www.wikidata.org/entity/Q192271> ;
+    ns1:P21 <https://www.wikidata.org/entity/Q6581097> ;
+    ns1:P2561 "Qu Xiaosong"@en,
+        "瞿小松"@zh ;
+    ns1:P27 <https://www.wikidata.org/entity/Q148> ;
+    ns1:P570 "1952-01-01"^^xsd:gYear .
+
+<https://137.204.168.11/write/api/items/105> a ns2:Item,
+        ns3:CalliWritingUnit ;
+    ns2:created "2021-10-09T15:29:03+00:00"^^xsd:dateTime ;
+    ns2:id 105 ;
+    ns2:is_public true ;
+    ns2:media <https://137.204.168.11/write/api/media/106>,
+        <https://137.204.168.11/write/api/media/107> ;
+    ns2:modified "2021-11-02T14:14:13+00:00"^^xsd:dateTime ;
+    ns2:owner <https://137.204.168.11/write/api/users/5> ;
+    ns2:resource_class <https://137.204.168.11/write/api/resource_classes/143> ;
+    ns2:resource_template <https://137.204.168.11/write/api/resource_templates/12> ;
+    ns2:title "CU2 Cursive (yong)" ;
+    ns3:attributed-name "CU2 Cursive (yong)" ;
+    ns3:character-form "Simplified Character"@en ;
+    ns3:description "Zhou Zhangning dances in front of a projection of the character. Yong contains the whole basic variations of brush movements and gesture vocabularies common used in standard style, cursive style and wild cursive style. The projection of yong melted from the standard style to the cursive style." ;
+    ns3:trascription-or-translation "eternal"@en,
+        "yong"@pny,
+        "永"@zh ;
+    ns3:writing-system <https://www.wikidata.org/entity/Q8201> ;
+    ns1:P180 <https://www.wikidata.org/entity/Q1152429>,
+        <https://www.wikidata.org/entity/Q138045>,
+        <https://www.wikidata.org/entity/Q53764738> ;
+    ns1:P9302 "Regular-running script"@en .
+
+<https://137.204.168.11/write/api/items/108> a ns2:Item,
+        <http://www.wikidata.org/entity/Q215627> ;
+    ns2:created "2021-10-12T07:52:21+00:00"^^xsd:dateTime ;
+    ns2:id 108 ;
+    ns2:is_public true ;
+    ns2:item_set <https://137.204.168.11/write/api/item_sets/59> ;
+    ns2:modified "2021-10-28T17:37:33+00:00"^^xsd:dateTime ;
+    ns2:owner <https://137.204.168.11/write/api/users/5> ;
+    ns2:resource_class <https://137.204.168.11/write/api/resource_classes/125> ;
+    ns2:resource_template <https://137.204.168.11/write/api/resource_templates/5> ;
+    ns2:title "Fan Sack" ;
+    ns3:relevant-activity-location <https://www.wikidata.org/entity/Q142>,
+        <https://www.wikidata.org/entity/Q29520> ;
+    ns3:tag "Fan Sack"@en ;
+    ns1:P130 <https://www.wikidata.org/entity/Q7850> ;
+    ns1:P1412 <https://www.wikidata.org/entity/Q150>,
+        <https://www.wikidata.org/entity/Q1860> ;
+    ns1:P21 <https://www.wikidata.org/entity/Q6581097> ;
+    ns1:P2561 "Fan Sack"@en,
+        "Fan Pang"@pny ;
+    ns1:P27 <https://www.wikidata.org/entity/Q148> ;
+    ns1:P569 "1988-01-01"^^xsd:gYear .
+
+<https://137.204.168.11/write/api/items/109> a ns2:Item,
+        <http://www.wikidata.org/entity/Q215627> ;
+    ns2:created "2021-10-12T08:21:43+00:00"^^xsd:dateTime ;
+    ns2:id 109 ;
+    ns2:is_public true ;
+    ns2:modified "2021-10-27T12:55:04+00:00"^^xsd:dateTime ;
+    ns2:owner <https://137.204.168.11/write/api/users/5> ;
+    ns2:resource_class <https://137.204.168.11/write/api/resource_classes/125> ;
+    ns2:resource_template <https://137.204.168.11/write/api/resource_templates/5> ;
+    ns2:title "Tong Yang- Tze" ;
+    ns3:wikidata-resource <https://www.wikidata.org/entity/Q8950982> ;
+    ns1:P130 <https://www.wikidata.org/entity/Q7850> ;
+    ns1:P1412 <https://www.wikidata.org/entity/Q1860>,
+        <https://www.wikidata.org/entity/Q7850> ;
+    ns1:P19 <https://www.wikidata.org/entity/Q8686> ;
+    ns1:P21 <https://www.wikidata.org/entity/Q6581072> ;
+    ns1:P2561 "Tong Yang- Tze"@en,
+        "董陽孜"@zh ;
+    ns1:P27 <https://www.wikidata.org/entity/Q148> ;
+    ns1:P569 "1942-10-06"^^xsd:date ;
+    ns1:P742 "Grace Tong"@en ;
+    ns1:P856 <https://en.tongyangtze.com/index> .
+
+<https://137.204.168.11/write/api/items/110> a ns2:Item,
+        <http://www.wikidata.org/entity/Q108923606> ;
+    ns2:created "2021-10-12T08:39:34+00:00"^^xsd:dateTime ;
+    ns2:id 110 ;
+    ns2:is_public true ;
+    ns2:modified "2021-11-05T15:29:44+00:00"^^xsd:dateTime ;
+    ns2:owner <https://137.204.168.11/write/api/users/5> ;
+    ns2:resource_class <https://137.204.168.11/write/api/resource_classes/141> ;
+    ns2:resource_template <https://137.204.168.11/write/api/resource_templates/8> ;
+    ns2:title "pan" ;
+    ns3:artwork-type <https://www.wikidata.org/entity/Q22669850> ;
+    ns3:has-unit <https://137.204.168.11/write/api/items/64> ;
+    ns1:P1476 "huge rock"@en,
+        "pan"@pny,
+        "磐"@zh ;
+    ns1:P170 <https://137.204.168.11/write/api/items/109> ;
+    ns1:P186 <https://www.wikidata.org/entity/Q11472>,
+        <https://www.wikidata.org/entity/Q127418> ;
+    ns1:P462 <https://www.wikidata.org/entity/Q23445>,
+        <https://www.wikidata.org/entity/Q3142>,
+        <https://www.wikidata.org/entity/Q943> .
+
+<https://137.204.168.11/write/api/items/119> a ns2:Item,
+        ns3:CalliWritingUnit ;
+    ns2:created "2021-10-28T13:29:12+00:00"^^xsd:dateTime ;
+    ns2:id 119 ;
+    ns2:is_public true ;
+    ns2:item_set <https://137.204.168.11/write/api/item_sets/59> ;
+    ns2:modified "2021-11-24T14:48:28+00:00"^^xsd:dateTime ;
+    ns2:owner <https://137.204.168.11/write/api/users/4> ;
+    ns2:resource_class <https://137.204.168.11/write/api/resource_classes/143> ;
+    ns2:resource_template <https://137.204.168.11/write/api/resource_templates/12> ;
+    ns2:title "CWU 2 New Style (KYGS)" ;
+    ns3:attributed-name "CWU 2 New Style (KYGS)"@en ;
+    ns3:background-color <https://www.wikidata.org/entity/Q843607> ;
+    ns3:calligraphic-line "Non present" ;
+    ns3:description """The lettering piece is written in a very complex wild style, with lots of 3D effects, that seems to reproduce the knottiness of the bamboos. The interlocking letters involved in the piece are KYGS (‘KwanYin Graffiti Studio’) and also their colors (from light green to very dark green) are very similar to bamboos.
+In New Style, the use of green recalls another artistic tradition, not Chinese but Western, the tradition of Western realism, based on a steadfast devotion to color truth. At the same time, the various shades of green also remind the greenish patina of ancient ‘Chinese bronze vessels’ (qingtongqi 青铜器). According to EricTin, in fact, “the source of inspiration of New Style is ancient Chinese bronze ware” (EricTin 2008, Author’s transl.). This is evident not only in the choice of colors, but also in the ‘angularity’ of the lettering piece ‘patterned with ridges’ that replaces the typical ribbed sur- face of bronze vessels."""@en,
+        """Pezzo formato da lettere latine posto al centro della composizione: le quattro lettere che formano il pezzo centrale, “KYGS” (l’acronimo di “KwanYin Graffiti Studio”), sono riportate attraverso un wildstyle molto estremo (quasi indecifrabile) e caratterizzate da numerosi effetti 3D, con il solo intento di riprodurre la nodosità dei tronchi dei bambù. I colori e la “spigolosità” del pezzo centrale richiamano inoltre alla mente la patina verdastra e la tipica superficie aggettante e riccamente lavorata degli antichi recipienti cinesi rituali in bronzo. I numerosi pinnacoli che spuntano al di fuori delle lettere, e che hanno lo stesso colore della sfera gialla posta al centro della composizione, sembrano voler replicare la funzione del fogliame stilizzato che fa capolino tra i bambù immersi in una fitta foschia. Le gradazioni di verde utilizzate per il lettering sono le stesse di quelle dei bambù sullo sfondo. 
+"""@it ;
+    ns3:graffiti-style "3D style",
+        "wildstyle" ;
+    ns3:significance "Meaningful writing" ;
+    ns3:tag_of <https://137.204.168.11/write/api/items/113> ;
+    ns3:trascription-or-translation "Kwan Yin Graffiti Studio "@en ;
+    ns3:writing-system <https://www.wikidata.org/entity/Q41670> ;
+    ns1:P186 <https://www.wikidata.org/entity/Q2066608>,
+        <https://www.wikidata.org/entity/Q42948> ;
+    ns1:P2079 <https://www.wikidata.org/entity/Q659495> ;
+    ns1:P462 <https://www.wikidata.org/entity/Q23445>,
+        <https://www.wikidata.org/entity/Q3133>,
+        <https://www.wikidata.org/entity/Q372973>,
+        <https://www.wikidata.org/entity/Q943> .
+
+<https://137.204.168.11/write/api/items/120> a ns2:Item,
+        ns3:CalliWritingUnit ;
+    ns2:created "2021-10-28T13:42:26+00:00"^^xsd:dateTime ;
+    ns2:id 120 ;
+    ns2:is_public true ;
+    ns2:item_set <https://137.204.168.11/write/api/item_sets/59> ;
+    ns2:modified "2021-11-02T14:15:45+00:00"^^xsd:dateTime ;
+    ns2:owner <https://137.204.168.11/write/api/users/4> ;
+    ns2:resource_class <https://137.204.168.11/write/api/resource_classes/143> ;
+    ns2:resource_template <https://137.204.168.11/write/api/resource_templates/12> ;
+    ns2:title "CWU 1 New Style (未出土前先有节, 凌云深处总虚心)" ;
+    ns3:attributed-name " CWU 1 New Style (未出土前先有节, 凌云深处总虚心) "@zh ;
+    ns3:background-color <https://www.wikidata.org/entity/Q843607> ;
+    ns3:calligraphic-line "Present" ;
+    ns3:character-form "Simplified Character"@en ;
+    ns3:description """The inscription is written in xingcao 行草 style, a style of handwriting between the ‘running’ (xing 行) hand and the ‘cursive’ (cao草) hand.  (seems to reproduce “running script tending to cursive forms because of the presence of long traits linking successive characters”)
+The content of the calligraphy is a couplet.
+The two lines quoted by EricTin are from a poem entitled On Bamboo (Zhu 竹). 
+The couplet by Zheng Xie is paraphrased from the third and fourth lines of another poem composed by the Song poet Xu Tingyun 徐庭筠 (1095-1179) entitled Ode to Bamboo (Yong zhu 咏竹)."""@en ;
+    ns3:significance "Actual writing" ;
+    ns3:trascription-or-translation """Buried in the earth it already has a culm,
+reaching into the sky it is still open-minded.
+"""@en,
+        """Nocchieruto, integro, ritto e retto, ancor prima di germogliare.
+Carezza le nuvole, penetra il profondo, ma inamovibile onesto rimane.
+"""@it,
+        "Wei chutu qian xian you jie lingyun shenchu zong xuxin "@pny,
+        "未出土前先有节, 凌云深处总虚心"@zh ;
+    ns3:writing-system <https://www.wikidata.org/entity/Q8201> ;
+    ns1:P144 <https://137.204.168.11/write/api/items/122>,
+        <https://137.204.168.11/write/api/items/123> ;
+    ns1:P180 <https://www.wikidata.org/entity/Q27891820>,
+        <https://www.wikidata.org/entity/Q5185279>,
+        <https://www.wikidata.org/entity/Q6498317> ;
+    ns1:P186 <https://www.wikidata.org/entity/Q2066608>,
+        <https://www.wikidata.org/entity/Q42948> ;
+    ns1:P2079 <https://www.wikidata.org/entity/Q659495> ;
+    ns1:P462 <https://www.wikidata.org/entity/Q23445> ;
+    ns1:P9302 "Cursive script"@en,
+        "Running script"@en .
+
+<https://137.204.168.11/write/api/items/122> a ns2:Item,
+        <http://www.wikidata.org/entity/Q7725634> ;
+    ns2:created "2021-10-28T13:56:46+00:00"^^xsd:dateTime ;
+    ns2:id 122 ;
+    ns2:is_public true ;
+    ns2:item_set <https://137.204.168.11/write/api/item_sets/59> ;
+    ns2:modified "2021-10-28T17:40:49+00:00"^^xsd:dateTime ;
+    ns2:owner <https://137.204.168.11/write/api/users/4> ;
+    ns2:resource_class <https://137.204.168.11/write/api/resource_classes/132> ;
+    ns2:resource_template <https://137.204.168.11/write/api/resource_templates/13> ;
+    ns2:title "Zhu (Zheng Xie)" ;
+    ns3:description "The author of this poem is Zheng Xie 郑燮 (1693-1765), commonly known by his pseudonym as Zheng Banqiao 郑板桥, a famous poet, painter and calligrapher of the Qing Dynasty (1644-1911).  He was particularly able to draw bamboos and his unique technique usually combines painting and calligraphy. According to the content of this poem, in his paintings, the bamboo trunks, stems and leaves are usually lean but strong, so embodying the playfulness and spontaneity of a “man of letters”. The couplet by Zheng Xie is paraphrased from the third and fourth lines of another poem composed by the Song poet Xu Tingyun 徐庭筠 (1095-1179) entitled Ode to Bamboo (Yong zhu 咏竹). "@en ;
+    ns3:trascription-or-translation "Wei chutu shi xian you jie, ji lingyun chu shang xuxin "@pny,
+        "未出土时先有节, 及凌云处尚虚心"@zh ;
+    ns1:P1476 "On Bamboo"@en,
+        "Zhu (Zheng Xie)"@pny,
+        "竹 (郑燮)"@zh ;
+    ns1:P50 <https://www.wikidata.org/entity/Q712007> .
+
+<https://137.204.168.11/write/api/items/123> a ns2:Item,
+        <http://www.wikidata.org/entity/Q7725634> ;
+    ns2:created "2021-10-28T14:07:38+00:00"^^xsd:dateTime ;
+    ns2:id 123 ;
+    ns2:is_public true ;
+    ns2:item_set <https://137.204.168.11/write/api/item_sets/59> ;
+    ns2:modified "2021-10-28T17:41:25+00:00"^^xsd:dateTime ;
+    ns2:owner <https://137.204.168.11/write/api/users/4> ;
+    ns2:resource_class <https://137.204.168.11/write/api/resource_classes/132> ;
+    ns2:resource_template <https://137.204.168.11/write/api/resource_templates/13> ;
+    ns2:title "Yong Zhu (Xu Tingyun)" ;
+    ns3:description """ - third and fourth lines 
+- the Song poet Xu Tingyun 徐庭筠 (1095-1179) """@en ;
+    ns3:trascription-or-translation "Bùlùn tái gé yǔ shānlín, ài ěr qǐ wéi qiānmǔ yīn. Wèi chūtǔ shí xiān yǒu jié, biàn língyún qù yě wúxīn. Gé bēi shǐ yǔ lóng jù huà, xiè gǔ liáo tóng fèng yī yín. Yuè lǎng fēng qīng liángyè yǒng, kělián wángzǐ dú zhīyīn (yuán chénshìlóng “sòng shī shíyí” juǎn èr'èr)."@pny,
+        """不論臺閣與山林，愛爾豈惟千畝陰。
+未出土時先有節，便凌雲去也無心。
+葛陂始與龍俱化，嶰谷聊同鳳一吟。
+月朗風清良夜永，可憐王子獨知音（元陳世隆《宋詩拾遺》卷二二）。"""@zh ;
+    ns1:P1476 "Ode to Bamboo "@en,
+        "Yong Zhu (Xu Tingyun)"@pny,
+        "咏竹 (徐庭筠)"@zh ;
+    ns1:P50 <https://www.wikidata.org/entity/Q45388471> .
+
+<https://137.204.168.11/write/api/items/125> a ns2:Item,
+        ns3:CalliWritingUnit ;
+    ns2:created "2021-11-25T16:34:27+00:00"^^xsd:dateTime ;
+    ns2:id 125 ;
+    ns2:is_public true ;
+    ns2:modified "2021-11-25T16:51:05+00:00"^^xsd:dateTime ;
+    ns2:owner <https://137.204.168.11/write/api/users/3> ;
+    ns2:resource_class <https://137.204.168.11/write/api/resource_classes/143> ;
+    ns2:resource_template <https://137.204.168.11/write/api/resource_templates/12> ;
+    ns2:title "CWU  Yuanyuan Armchair (逸)" ;
+    ns3:attributed-name "CWU  Yuanyuan Armchair (逸)" ;
+    ns3:calligraphic-line "Present" ;
+    ns3:character-form "Simplified Character"@en ;
+    ns3:description "The shapes of the armchair are inspired by the lines of the calligraphic transcription of the character Yi 逸 (Ease) in running script. " ;
+    ns3:trascription-or-translation "Ease"@en,
+        "Yi"@pny,
+        "逸"@zh ;
+    ns3:writing-system <https://www.wikidata.org/entity/Q8201> ;
+    ns1:P180 <https://www.wikidata.org/entity/Q104177302>,
+        <https://www.wikidata.org/entity/Q12681>,
+        <https://www.wikidata.org/entity/Q97621309> ;
+    ns1:P186 <https://www.wikidata.org/entity/Q122421> ;
+    ns1:P9302 "Running script"@en .
+
+<https://137.204.168.11/write/api/items/130> a ns2:Item,
+        <http://www.wikidata.org/entity/Q215627> ;
+    ns2:created "2021-11-25T18:01:23+00:00"^^xsd:dateTime ;
+    ns2:id 130 ;
+    ns2:is_public true ;
+    ns2:modified "2021-11-25T18:01:23+00:00"^^xsd:dateTime ;
+    ns2:owner <https://137.204.168.11/write/api/users/3> ;
+    ns2:resource_class <https://137.204.168.11/write/api/resource_classes/125> ;
+    ns2:resource_template <https://137.204.168.11/write/api/resource_templates/5> ;
+    ns2:title "Gu Gan" ;
+    ns3:academic-artistic-formation <https://www.wikidata.org/entity/Q3305213> ;
+    ns3:calligraphic-formation "Familiar"@en ;
+    ns3:wikidata-resource <https://www.wikidata.org/entity/Q16224768> ;
+    ns1:P106 <https://www.wikidata.org/entity/Q1028181>,
+        <https://www.wikidata.org/entity/Q3303330> ;
+    ns1:P130 "Chinese language" ;
+    ns1:P1412 "Chinese language" ;
+    ns1:P19 <https://www.wikidata.org/entity/Q174091> ;
+    ns1:P20 <https://www.wikidata.org/entity/Q956> ;
+    ns1:P21 <https://www.wikidata.org/entity/Q6581097> ;
+    ns1:P2561 "Gu Gan"@en,
+        "古干"@zh ;
+    ns1:P27 <https://www.wikidata.org/entity/Q148> ;
+    ns1:P569 "1942-01-01"^^xsd:gYear ;
+    ns1:P570 "2020-05-30"^^xsd:date .
+
+<https://137.204.168.11/write/api/items/131> a ns2:Item,
+        ns3:CalliWritingUnit ;
+    ns2:created "2021-11-25T18:13:16+00:00"^^xsd:dateTime ;
+    ns2:id 131 ;
+    ns2:is_public true ;
+    ns2:modified "2021-12-21T07:40:59+00:00"^^xsd:dateTime ;
+    ns2:owner <https://137.204.168.11/write/api/users/3> ;
+    ns2:resource_class <https://137.204.168.11/write/api/resource_classes/143> ;
+    ns2:resource_template <https://137.204.168.11/write/api/resource_templates/12> ;
+    ns2:title "CWU The Mountains Are Breaking Up (山摧）" ;
+    ns3:attributed-name "CWU The Mountains Are Breaking Up (山摧）" ;
+    ns3:background-color <https://www.wikidata.org/entity/Q23444> ;
+    ns3:calligraphic-line "Present" ;
+    ns3:character-form "Traditional Character"@en ;
+    ns3:description "The text of the artwork is composed of two main characters: in the upper left-hand corner a large character for \"mountain\" (shan 山) looked as if it were being overturned by the force of the other main character \"cui\" 摧, that means \"destruction\" or \"overturning\". These two characters are part of a poem by Li Bai 李白 (701-762) entitled Shu dao nan 蜀道難 (The Hard Road to Sichuan). Gu Gan wrote two verses of the poem around the big character \"山\" in a very free composition. The characters \"山摧\" appear in the first of these two verses.  "@en ;
+    ns3:significance "Meaningful writing" ;
+    ns3:trascription-or-translation """The ground collapsed and the mountain crumbled - warrior heroes died, 
+and only then was this road in the sky linked with a plank road. 
+"""@en,
+        """Up to the summit of Emei Peak --  
+Which was broken once by an earthquake and there were brave men lost,  
+Just finishing the stone rungs of their ladder toward heaven. 
+(Translated by Witter Bynner)"""@en,
+        """Di beng shan cui zhuangshi si, 
+ranhou tian ti shi zhanxiang gou lian. """@pny,
+        """地崩山摧壯士死 ，
+然後天梯石棧相鉤連 。
+"""@zh ;
+    ns3:writing-system <https://www.wikidata.org/entity/Q8201> ;
+    ns1:P144 <https://137.204.168.11/write/api/items/132> ;
+    ns1:P180 <https://www.wikidata.org/entity/Q162244>,
+        <https://www.wikidata.org/entity/Q2821677>,
+        "calligraphic modernization",
+        "new roads" ;
+    ns1:P186 <https://www.wikidata.org/entity/Q127418> ;
+    ns1:P2079 <https://www.wikidata.org/entity/Q614467> ;
+    ns1:P462 <https://www.wikidata.org/entity/Q23445> ;
+    ns1:P9302 "Running script"@en .
+
+<https://137.204.168.11/write/api/items/132> a ns2:Item,
+        <http://www.wikidata.org/entity/Q7725634> ;
+    ns2:created "2021-11-26T10:24:00+00:00"^^xsd:dateTime ;
+    ns2:id 132 ;
+    ns2:is_public true ;
+    ns2:modified "2021-12-07T16:40:42+00:00"^^xsd:dateTime ;
+    ns2:owner <https://137.204.168.11/write/api/users/3> ;
+    ns2:resource_class <https://137.204.168.11/write/api/resource_classes/132> ;
+    ns2:resource_template <https://137.204.168.11/write/api/resource_templates/13> ;
+    ns2:title "蜀道難" ;
+    ns3:trascription-or-translation """    
+Oh, but it is high and very dangerous!  
+Such traveling is harder than scaling the blue sky.  
+...Until two rulers of this region  
+Pushed their way through in the misty ages,  
+Forty-eight thousand years had passed  
+With nobody arriving across the Qin border.  
+And the Great White Mountain, westward, still has only a bird's path  
+Up to the summit of Emei Peak --  
+Which was broken once by an earthquake and there were brave men lost,  
+Just finishing the stone rungs of their ladder toward heaven.  
+...High, as on a tall flag, six dragons drive the sun,  
+While the river, far below, lashes its twisted course.  
+Such height would be hard going for even a yellow crane,  
+So pity the poor monkeys who have only paws to use.  
+The Mountain of Green Clay is formed of many circles-  
+ Each hundred steps, we have to turn nine turns among its mound --  
+Panting, we brush Orion and pass the Well Star,  
+Then, holding our chests with our hands and sinking to the ground with a groan,  
+We wonder if this westward trail will never have an end.  
+The formidable path ahead grows darker, darker still,  
+With nothing heard but the call of birds hemmed in by the ancient forest,  
+Male birds smoothly wheeling, following the females;  
+And there come to us the melancholy voices of the cuckoos  
+Out on the empty mountain, under the lonely moon....  
+Such traveling is harder than scaling the blue sky.  
+Even to hear of it turns the cheek pale,  
+With the highest crag barely a foot below heaven.  
+Dry pines hang, head down, from the face of the cliffs,  
+And a thousand plunging cataracts outroar one another  
+And send through ten thousand valleys a thunder of spinning stones.  
+With all this danger upon danger,  
+Why do people come here who live at a safe distance?  
+...Though Dagger-Tower Pass be firm and grim,  
+And while one man guards it  
+Ten thousand cannot force it,  
+What if he be not loyal,  
+But a wolf toward his fellows?  
+...There are ravenous tigers to fear in the day  
+And venomous reptiles in the night  
+With their teeth and their fangs ready  
+To cut people down like hemp.  
+Though the City of Silk be delectable, I would rather turn home quickly.  
+Such traveling is harder than scaling the blue sky....  
+But I still face westward with a dreary moan.
+(Translated by Witter Bynner, "The Penguin Book of Chinese Verse", Edited by A.R. Davis, Penguin Books, 
+1962)"""@en,
+        """Yi xu xi, wei hu gao zai 
+Shu dao zhi nan nan yu shang qing tian 
+Can cong ji yu fu
+Kai guo he mang ran
+Er lai si wan ba qian sui
+Bu yu qin sai tong ren yan
+Xi dang tai bai you niao dao
+He yi heng jue e mei dian
+Di beng shan cui zhuang shi si
+Ran hou tian ti shi zhan fang gou lian
+Shang you liu long hui ri zhi gao biao
+Xia you chong bo ni she zhi hui chuan
+Huang he zhi fei shang bu dei guo
+Yuan nao yu du chou pan yuan
+Qing ni he pan pan
+Bai bu jiu she ying yan luan
+Men can li jing yang xie xi
+Yi shou fu ying zuo chang tan
+Wen jun xi you he shi huan
+Wei tu chan yan bu ke pan
+Dan jian bei niao hao gu mu
+Xiong fei ci cong rao lin jian
+You wen zi gui ti ye yue
+Chou kong shan
+Shu dao zhi nan nan yu shang qing tian
+Shi ren ting ci diao zhu yan
+Lian feng qu tian bu ying chi
+Ku song dao gua yi jue bi
+Fei tuan bao liu zheng xuan hui
+Peng ya zhuan shi wan bi lei
+Qi xian ye ruo ci
+Jie er yuan dao zhi ren hu wei hu lai zai
+Jian ge zheng rong er cui wei
+Yi fu dang guan, wan ren mo kai
+Suo shou xian fei qin
+Hua wei lang yu chai
+Zhao bi meng hu
+Xi bi chang she
+Mo ya shun xue
+Sha ren ru ma
+Jin cheng sui yun le
+Bu ru zao huan jia
+Shu dao zhi nan nan yu shang qing tian
+Ce shen xi wang chang zi jie """@pny,
+        """ 噫吁戲 
+ 危乎高哉 
+  蜀道之難難於上青天 
+  蠶叢及魚鳧 
+  開國何茫然 
+  爾來四萬八千歲 
+  始與秦塞通人煙 
+  西當太白有鳥道 
+  可以橫絕峨眉巔 
+  地崩山摧壯士死 
+  然後天梯石棧方鉤連 
+  上有六龍回日之高標 
+  下有衝波逆折之迴川 
+  黃鶴之飛尚不得 
+  猿猱欲度愁攀援 
+  青泥何盤盤 
+  百步九折縈巖巒 
+  捫參歷井仰脅息 
+  以手撫膺坐長歎 
+  問君西遊何時還 
+  畏途巉巖不可攀 
+  但見悲鳥號古木 
+  雄飛雌從繞林間 
+  又聞子規啼 
+  夜月愁空山 
+  蜀道之難難於上青天 
+  使人聽此凋朱顏 
+  連峰去天不盈尺 
+  枯松倒掛倚絕壁 
+  飛湍瀑流爭喧豗
+砯崖轉石萬壑雷 
+  其險也如此 
+  嗟爾遠道之人 
+  胡為乎來哉 
+  劍閣崢嶸而崔嵬 
+  一夫當關 
+  萬夫莫開 
+  所守或匪親 
+  化為狼與豺 
+  朝避猛虎 
+  夕避長蛇 
+  磨牙吮血 
+  殺人如麻 
+  錦城雖云樂 
+ 不如早還家 
+  蜀道之難難於上青天 
+  側身西望常咨嗟 """@zh ;
+    ns3:wikidata-resource <https://www.wikidata.org/entity/Q18897158> ;
+    ns1:P1476 "The Hard Road to Sichuan (Hard Roads in Shu)"@en,
+        "Shu dao nan"@pny,
+        "蜀道難 "@zh ;
+    ns1:P50 <https://www.wikidata.org/entity/Q7071> ;
+    ns1:P571 "742-744" .
+
+<https://137.204.168.11/write/api/items/134> a ns2:Item,
+        ns3:CalliWritingUnit ;
+    ns2:created "2021-12-07T17:36:23+00:00"^^xsd:dateTime ;
+    ns2:id 134 ;
+    ns2:is_public true ;
+    ns2:modified "2021-12-09T08:31:26+00:00"^^xsd:dateTime ;
+    ns2:owner <https://137.204.168.11/write/api/users/3> ;
+    ns2:resource_class <https://137.204.168.11/write/api/resource_classes/143> ;
+    ns2:resource_template <https://137.204.168.11/write/api/resource_templates/12> ;
+    ns2:title "CWU A Poem by Li Bai (早发白帝城）" ;
+    ns3:attributed-name "CWU A Poem by Li Bai (早发白帝城）" ;
+    ns3:background-color <https://www.wikidata.org/entity/Q23444> ;
+    ns3:calligraphic-line "Present" ;
+    ns3:character-form "Traditional Character"@en ;
+    ns3:description "The disposition of the characters of the poems are very pictorial in their composition. The characters for the river banks, the monkey, and tehir calling are aligned along an incline and are drwan unevenly, as if they really are on the far bank of the river. The small characters appear suspended in the distance, mimicking a location deep in far mountains. The three characters of \"ten thousand mountains\" (万重山) stand firm and upright in the foreground, as if on the near bank. The other three characters which mean \"my boat has already sped\" (舟已过) are written much smaller and placed between the two river banks, like boats loawing quickly and unimpeded on the Yangze River. Thus, the image, essentially pictorial in structure, is organically united with that of the poem." ;
+    ns3:significance "Meaningful writing" ;
+    ns3:trascription-or-translation """While the monkeys vainly hail me from both banks,
+My boat has already sped ten thousand mountains away. 
+(Translated by Zhang Yiguo and Harry Miller)"""@en,
+        """Liǎng'an yuánshēng tí bùzhù，
+qīngzhōu yǐguò wànchóngshān 
+"""@pny,
+        """兩岸猿聲啼不住 ，
+ 輕舟已過萬重山 """@zh ;
+    ns3:writing-system <https://www.wikidata.org/entity/Q8201> ;
+    ns1:P144 <https://137.204.168.11/write/api/items/135> ;
+    ns1:P180 <https://www.wikidata.org/entity/Q107425>,
+        <https://www.wikidata.org/entity/Q12681>,
+        <https://www.wikidata.org/entity/Q1367>,
+        <https://www.wikidata.org/entity/Q35872>,
+        <https://www.wikidata.org/entity/Q4022>,
+        <https://www.wikidata.org/entity/Q482>,
+        <https://www.wikidata.org/entity/Q8502> ;
+    ns1:P186 <https://www.wikidata.org/entity/Q11472>,
+        <https://www.wikidata.org/entity/Q127418> ;
+    ns1:P2079 <https://www.wikidata.org/entity/Q614467> ;
+    ns1:P462 <https://www.wikidata.org/entity/Q23445> ;
+    ns1:P9302 "Running script"@en .
+
+<https://137.204.168.11/write/api/items/135> a ns2:Item,
+        <http://www.wikidata.org/entity/Q7725634> ;
+    ns2:created "2021-12-07T17:42:35+00:00"^^xsd:dateTime ;
+    ns2:id 135 ;
+    ns2:is_public true ;
+    ns2:modified "2021-12-09T08:48:59+00:00"^^xsd:dateTime ;
+    ns2:owner <https://137.204.168.11/write/api/users/3> ;
+    ns2:resource_class <https://137.204.168.11/write/api/resource_classes/132> ;
+    ns2:resource_template <https://137.204.168.11/write/api/resource_templates/13> ;
+    ns2:title "早发白帝城 (早發白帝城)" ;
+    ns3:description """Background: In 755 AD, a rebellion against the government led to the abdication of Emperor Xuanzong. Li Bai, a renowned poet at the time, sided with Prince Lin, the emperor’s 16th son, who fought for the throne. However, after Lin was defeated and executed, Li Bai was exiled to Yelang. A year later, when Emperor Xuanzong died, Li Bai was pardoned. Thus, Li Bai wrote this poem when he was sailing back home on the Yangtze River, finally released from his exile.
+Interpretation: The tone of this poem is carefree and optimistic, depicting Li Bai’s happiness as he departs from his place of exile. 
+Whereas clouds are typically gray and represent a rainy or foggy day, the imagery of rosy clouds at dawn sets a glowing and beautiful atmosphere. The juxtaposition of the words “千” (thousand) and “一” (one) also reveals Li Bai’s enthusiasm: instead of focusing on on the thousands of meters it will take to reach his destination, he emphasizes the short length of time it will take for him to return. Furthermore, the apes, which signify his adversaries, call out endlessly and attempt to stop him on his path back home; however, he appears unaffected by the chaos and noise — his light boat easily passes through the two shores. The term “轻” not only signifies the lightness of his boat, but also represents his light-hearted feelings as he leaves behind the ten-thousand layers of mountains, the burdens of his past.""" ;
+    ns3:trascription-or-translation """Leaving at dawn the White King crowned with rainbow cloud,
+I have sailed a thousand miles through Three Gorges in a day.
+With monkeys’ sad adieus the riverbanks are loud;
+My boat has left ten thousand mountains far away.
+(Translated by Xu Yuanchong)"""@en,
+        """Zhāo cí bái dì cǎiyún jiān,
+qiānlǐ jiānglíng yí rì huán,
+Liǎng’àn yuán shēng tí bú zhù,
+qīngzhōu yǐguò wàn chóngshān."""@pny,
+        """朝辭白帝彩雲間，
+千里江陵一日還。
+兩岸猿聲啼不住，
+輕舟已過萬重山。"""@zh ;
+    ns3:wikidata-resource <https://www.wikidata.org/entity/Q10868584> ;
+    ns1:P1476 "Through the Yangze River  (Leaving the White King's Town at Dawn)"@en,
+        "Zaofa baidi cheng"@pny,
+        "早发白帝城 (早發白帝城)"@zh ;
+    ns1:P50 <https://www.wikidata.org/entity/Q7071> ;
+    ns1:P571 "759" .
+
+<https://137.204.168.11/write/api/items/136> a ns2:Item,
+        <http://www.wikidata.org/entity/Q215627> ;
+    ns2:created "2021-12-07T18:11:19+00:00"^^xsd:dateTime ;
+    ns2:id 136 ;
+    ns2:is_public true ;
+    ns2:modified "2021-12-09T09:04:32+00:00"^^xsd:dateTime ;
+    ns2:owner <https://137.204.168.11/write/api/users/3> ;
+    ns2:resource_class <https://137.204.168.11/write/api/resource_classes/125> ;
+    ns2:resource_template <https://137.204.168.11/write/api/resource_templates/5> ;
+    ns2:title "Su Yuanzhang" ;
+    ns3:calligraphic-formation "Familiar"@en,
+        "Self-Taught"@en ;
+    ns1:P106 <https://www.wikidata.org/entity/Q3303330> ;
+    ns1:P130 "Chinese" ;
+    ns1:P1412 "Chinese" ;
+    ns1:P19 <https://www.wikidata.org/entity/Q425492> ;
+    ns1:P21 <https://www.wikidata.org/entity/Q6581097> ;
+    ns1:P2561 "Su Yuanzhang"@pny,
+        "苏元章 "@zh ;
+    ns1:P27 <https://www.wikidata.org/entity/Q148> ;
+    ns1:P569 "1924-11-02"^^xsd:date ;
+    ns1:P570 "2002-10-19"^^xsd:date .
+
+<https://137.204.168.11/write/api/items/139> a ns2:Item,
+        <http://www.wikidata.org/entity/Q215627> ;
+    ns2:created "2021-12-09T11:01:08+00:00"^^xsd:dateTime ;
+    ns2:id 139 ;
+    ns2:is_public true ;
+    ns2:modified "2021-12-09T11:04:41+00:00"^^xsd:dateTime ;
+    ns2:owner <https://137.204.168.11/write/api/users/3> ;
+    ns2:resource_class <https://137.204.168.11/write/api/resource_classes/125> ;
+    ns2:resource_template <https://137.204.168.11/write/api/resource_templates/5> ;
+    ns2:title "Paul Liu" ;
+    ns3:relevant-activity-location "Central Academy of Fine Arts (CAFA)"@en,
+        "中央美术学院"@zh ;
+    ns1:P106 <https://www.wikidata.org/entity/Q9344260> ;
+    ns1:P21 <https://www.wikidata.org/entity/Q6581097> ;
+    ns1:P2561 "Paul Liu" .
+
+<https://137.204.168.11/write/api/items/140> a ns2:Item,
+        ns3:CalliWritingUnit ;
+    ns2:created "2021-12-09T11:07:28+00:00"^^xsd:dateTime ;
+    ns2:id 140 ;
+    ns2:is_public true ;
+    ns2:modified "2021-12-09T12:11:18+00:00"^^xsd:dateTime ;
+    ns2:owner <https://137.204.168.11/write/api/users/3> ;
+    ns2:resource_class <https://137.204.168.11/write/api/resource_classes/143> ;
+    ns2:resource_template <https://137.204.168.11/write/api/resource_templates/12> ;
+    ns2:title "CWU 2008 Beijing Paralympic Games Logo (之)" ;
+    ns3:attributed-name "CWU 2008 Beijing Paralympic Games Logo (之)" ;
+    ns3:background-color <https://www.wikidata.org/entity/Q23444> ;
+    ns3:calligraphic-line "Present" ;
+    ns3:character-form "Traditional Character"@en ;
+    ns3:description "The Chinese character “之” (\"go\") is shaped as a stylized figure of an athlete in motion, implying the tremendous efforts a disabled person has to make in sports as well as in real life. The character is written using Chinese calligraphic font. It embodies the Paralympic motto of \"Spirit in Motion\" and reflects the integration of heart, body and spirit in human beings -- the core of the philosophy of Chinese culture. The three colours in the character represent the sun (red), the sky (blue) and the earth (green). " ;
+    ns3:significance "Meaningful writing" ;
+    ns3:trascription-or-translation "go"@en,
+        "zhi"@pny,
+        "之"@zh ;
+    ns3:writing-system <https://www.wikidata.org/entity/Q8201> ;
+    ns1:P180 <https://www.wikidata.org/entity/Q2>,
+        <https://www.wikidata.org/entity/Q25439032>,
+        <https://www.wikidata.org/entity/Q5>,
+        <https://www.wikidata.org/entity/Q527>,
+        <https://www.wikidata.org/entity/Q79782>,
+        "harmony" ;
+    ns1:P186 <https://www.wikidata.org/entity/Q7600677> ;
+    ns1:P462 <https://www.wikidata.org/entity/Q1088>,
+        <https://www.wikidata.org/entity/Q3133>,
+        <https://www.wikidata.org/entity/Q3142> ;
+    ns1:P9302 "Running script"@en .
+
+<https://137.204.168.11/write/api/items/146> a ns2:Item,
+        <http://www.wikidata.org/entity/Q215627> ;
+    ns2:created "2021-12-09T17:57:46+00:00"^^xsd:dateTime ;
+    ns2:id 146 ;
+    ns2:is_public true ;
+    ns2:modified "2021-12-09T18:16:53+00:00"^^xsd:dateTime ;
+    ns2:owner <https://137.204.168.11/write/api/users/3> ;
+    ns2:resource_class <https://137.204.168.11/write/api/resource_classes/125> ;
+    ns2:resource_template <https://137.204.168.11/write/api/resource_templates/5> ;
+    ns2:title "Lu Wenyu" ;
+    ns3:academic-artistic-formation <https://www.wikidata.org/entity/Q12271> ;
+    ns3:description "Lu Wenyu co-founded the firm Amateur Architecture Studio in Hangzhou,  which became known for its use of natural materials and traditional techniques. In 2010, Lu Wenyu and her partner Wang Shu won the German Schelling Architecture Prize for their work with Amateur Architecture. She studied architecture at Nanjing Institute of Technology.  Around 2012, she had taught a course for several years at Harvard’s Graduate School of Design. She is the director of the Experimental Center of the Department of Architecture of the China Academy of Art (中国美术学院建筑艺术学院实验中心主任)." ;
+    ns3:relevant-activity-location "Amateur Architecture Studio",
+        "China Academy of Art" ;
+    ns3:wikidata-resource <https://www.wikidata.org/entity/Q16239806> ;
+    ns1:P106 <https://www.wikidata.org/entity/Q42973> ;
+    ns1:P130 "Chinese" ;
+    ns1:P1412 "Chinese" ;
+    ns1:P21 <https://www.wikidata.org/entity/Q6581072> ;
+    ns1:P2561 "Lu Wenyu"@pny,
+        "陆文宇"@zh ;
+    ns1:P27 <https://www.wikidata.org/entity/Q148> ;
+    ns1:P569 "1967-01-01"^^xsd:gYear .
+
+<https://137.204.168.11/write/api/items/75> a ns2:Item,
+        <http://www.wikidata.org/entity/Q7725310> ;
+    ns2:created "2021-09-29T15:13:59+00:00"^^xsd:dateTime ;
+    ns2:id 75 ;
+    ns2:is_public true ;
+    ns2:modified "2021-10-09T14:24:38+00:00"^^xsd:dateTime ;
+    ns2:owner <https://137.204.168.11/write/api/users/5> ;
+    ns2:resource_class <https://137.204.168.11/write/api/resource_classes/133> ;
+    ns2:resource_template <https://137.204.168.11/write/api/resource_templates/15> ;
+    ns2:site <https://137.204.168.11/write/api/sites/4> ;
+    ns2:title "Cursive: a Trilogy" ;
+    ns4:description "Contemporary dance serie" ;
+    ns1:P1476 "Cursive: a Trilogy"@en ;
+    ns1:P170 <https://137.204.168.11/write/api/items/58> ;
+    ns1:P571 "2001-01-01"^^xsd:gYear .
+
+<https://137.204.168.11/write/api/items/78> a ns2:Item,
+        ns3:CalliWritingUnit ;
+    ns2:created "2021-09-29T16:21:35+00:00"^^xsd:dateTime ;
+    ns2:id 78 ;
+    ns2:is_public true ;
+    ns2:item_set <https://137.204.168.11/write/api/item_sets/59> ;
+    ns2:modified "2021-11-02T14:17:34+00:00"^^xsd:dateTime ;
+    ns2:owner <https://137.204.168.11/write/api/users/5> ;
+    ns2:resource_class <https://137.204.168.11/write/api/resource_classes/143> ;
+    ns2:resource_template <https://137.204.168.11/write/api/resource_templates/12> ;
+    ns2:site <https://137.204.168.11/write/api/sites/4> ;
+    ns2:title "TAG Qi 气" ;
+    ns3:attributed-name "TAG Qi 气"@en ;
+    ns3:character-form "Traditional Character"@en ;
+    ns3:description "Calligraphic unit strictly connected with the personal tag"@en ;
+    ns3:tag_of <https://137.204.168.11/write/api/items/76> ;
+    ns3:trascription-or-translation "Qi"@en,
+        "气"@zh ;
+    ns1:P180 <https://www.wikidata.org/entity/Q13428325>,
+        <https://www.wikidata.org/entity/Q204368>,
+        <https://www.wikidata.org/entity/Q7391292> ;
+    ns1:P9302 "Proper script"@en .
+
+<https://137.204.168.11/write/api/items/80> a ns2:Item,
+        <http://www.wikidata.org/entity/Q43229> ;
+    ns2:created "2021-10-01T07:51:18+00:00"^^xsd:dateTime ;
+    ns2:id 80 ;
+    ns2:is_public true ;
+    ns2:item_set <https://137.204.168.11/write/api/item_sets/59> ;
+    ns2:modified "2021-10-28T17:33:32+00:00"^^xsd:dateTime ;
+    ns2:owner <https://137.204.168.11/write/api/users/4> ;
+    ns2:resource_class <https://137.204.168.11/write/api/resource_classes/126> ;
+    ns2:resource_template <https://137.204.168.11/write/api/resource_templates/6> ;
+    ns2:site <https://137.204.168.11/write/api/sites/4> ;
+    ns2:title "OOPS crew" ;
+    ns1:P2561 "OOPS crew"@en ;
+    ns1:P276 <https://www.wikidata.org/entity/Q23817> .
+
+<https://137.204.168.11/write/api/items/81> a ns2:Item,
+        ns3:CalliWritingUnit ;
+    ns2:created "2021-10-01T07:55:29+00:00"^^xsd:dateTime ;
+    ns2:id 81 ;
+    ns2:is_public true ;
+    ns2:item_set <https://137.204.168.11/write/api/item_sets/59> ;
+    ns2:modified "2021-11-02T14:17:05+00:00"^^xsd:dateTime ;
+    ns2:owner <https://137.204.168.11/write/api/users/4> ;
+    ns2:resource_class <https://137.204.168.11/write/api/resource_classes/143> ;
+    ns2:resource_template <https://137.204.168.11/write/api/resource_templates/12> ;
+    ns2:site <https://137.204.168.11/write/api/sites/4> ;
+    ns2:title "CWU Shanghai be strong (上海坚强)" ;
+    ns3:attributed-name "CWU Shanghai be strong (上海坚强)"@zh ;
+    ns3:background-color <https://www.wikidata.org/entity/Q23444> ;
+    ns3:calligraphic-line "Present" ;
+    ns3:character-form "Simplified Character"@en ;
+    ns3:description """上海 (Shanghai): was painted by Huri in a semicursive calligraphic style, running script (xingshu). (with?)
+Jianqiang 坚强 (fortify, be strong): was painted by Storm, a French writer in a regular script (kaishu) (with a fat cap? o roller?)"""@en ;
+    ns3:graffiti-style "blockbuster" ;
+    ns3:significance "Actual writing" ;
+    ns3:trascription-or-translation "Shanghai be strong"@en,
+        "Shanghai Jianqiang"@pny,
+        "上海坚强"@zh ;
+    ns3:writing-system <https://www.wikidata.org/entity/Q8201> ;
+    ns1:P186 <https://www.wikidata.org/entity/Q2066608>,
+        <https://www.wikidata.org/entity/Q42948> ;
+    ns1:P2079 <https://www.wikidata.org/entity/Q659495> ;
+    ns1:P462 <https://www.wikidata.org/entity/Q23445> ;
+    ns1:P9302 "Regular script"@en,
+        "Regular-running script"@en,
+        "Running script"@en .
+
+<https://137.204.168.11/write/api/items/88> a ns2:Item,
+        <http://www.wikidata.org/entity/Q108923606> ;
+    ns2:created "2021-10-06T12:19:54+00:00"^^xsd:dateTime ;
+    ns2:id 88 ;
+    ns2:is_public true ;
+    ns2:modified "2021-11-03T11:38:53+00:00"^^xsd:dateTime ;
+    ns2:owner <https://137.204.168.11/write/api/users/5> ;
+    ns2:resource_class <https://137.204.168.11/write/api/resource_classes/141> ;
+    ns2:resource_template <https://137.204.168.11/write/api/resource_templates/8> ;
+    ns2:site <https://137.204.168.11/write/api/sites/4> ;
+    ns2:title "Calligraphy made during the Musicalligraphy performance by Luo Qi and Collegium Musicum Almae Matris" ;
+    ns3:artwork-type <https://www.wikidata.org/entity/Q22669850> ;
+    ns3:has-unit <https://137.204.168.11/write/api/items/116>,
+        <https://137.204.168.11/write/api/items/89> ;
+    ns1:P1071 <https://www.wikidata.org/entity/Q2901539> ;
+    ns1:P1476 "Calligraphy made during the Musicalligraphy performance by Luo Qi and Collegium Musicum Almae Matris" ;
+    ns1:P170 <https://137.204.168.11/write/api/items/84> ;
+    ns1:P180 <https://www.wikidata.org/entity/Q1344>,
+        <https://www.wikidata.org/entity/Q1420392>,
+        <https://www.wikidata.org/entity/Q65050532> ;
+    ns1:P186 <https://www.wikidata.org/entity/Q11472>,
+        <https://www.wikidata.org/entity/Q127418> ;
+    ns1:P195 <https://www.wikidata.org/entity/Q2901539> ;
+    ns1:P2048 "150 cm" ;
+    ns1:P2049 "70 cm" ;
+    ns1:P2079 <https://www.wikidata.org/entity/Q614467> ;
+    ns1:P462 <https://www.wikidata.org/entity/Q23444>,
+        <https://www.wikidata.org/entity/Q23445>,
+        <https://www.wikidata.org/entity/Q3142> ;
+    ns1:P571 "2019-03-25"^^xsd:date .
+
+<https://137.204.168.11/write/api/items/92> a ns2:Item,
+        ns3:CalliWritingUnit ;
+    ns2:created "2021-10-07T09:25:05+00:00"^^xsd:dateTime ;
+    ns2:id 92 ;
+    ns2:is_public true ;
+    ns2:item_set <https://137.204.168.11/write/api/item_sets/59> ;
+    ns2:modified "2021-11-24T14:12:00+00:00"^^xsd:dateTime ;
+    ns2:owner <https://137.204.168.11/write/api/users/4> ;
+    ns2:resource_class <https://137.204.168.11/write/api/resource_classes/143> ;
+    ns2:resource_template <https://137.204.168.11/write/api/resource_templates/12> ;
+    ns2:site <https://137.204.168.11/write/api/sites/4> ;
+    ns2:title "CWU 1 Shengong Yijiang (神工意匠)" ;
+    ns3:attributed-name "CWU 1 Shengong Yijiang (神工意匠)"@en ;
+    ns3:background-color <https://www.wikidata.org/entity/Q42519> ;
+    ns3:calligraphic-line "Present" ;
+    ns3:character-form "Simplified Character"@en ;
+    ns3:description """European style (german colors) in wildstyle and 3D style.
+Shen gong yi jiang 神工意匠 is a Chinese “four-character idiom” (chengyu 成语) used to title the work. This chengyu is an idiomatic expression used to describe the sublime beauty (exquisite conception and compositional structure) of a work of art (e.g. architectural buildings, paintings, etc.) shaped not only as a result of human capacities and labor, but also thanks to divine intervention.
+This chengyu has taken inspiration from the last line of a poem composed by Zhao Puchu 赵朴初 (1907-2000) entitled Pingdeng Yuan 平等院  “Byōdō-in Temple”."""@en ;
+    ns3:graffiti-style "3D style",
+        "wildstyle" ;
+    ns3:tag_of <https://137.204.168.11/write/api/items/112>,
+        <https://137.204.168.11/write/api/items/113> ;
+    ns3:trascription-or-translation "Ars Divina"@en,
+        "Shengong yijiang"@pny,
+        "神工意匠"@zh ;
+    ns3:writing-system <https://www.wikidata.org/entity/Q8201> ;
+    ns1:P144 <https://137.204.168.11/write/api/items/93> ;
+    ns1:P180 <https://www.wikidata.org/entity/Q28060424> ;
+    ns1:P186 <https://www.wikidata.org/entity/Q2066608>,
+        <https://www.wikidata.org/entity/Q42948> ;
+    ns1:P2079 <https://www.wikidata.org/entity/Q659495> ;
+    ns1:P462 <https://www.wikidata.org/entity/Q1088>,
+        <https://www.wikidata.org/entity/Q23444>,
+        <https://www.wikidata.org/entity/Q23445>,
+        <https://www.wikidata.org/entity/Q3142>,
+        <https://www.wikidata.org/entity/Q372973>,
+        <https://www.wikidata.org/entity/Q943> ;
+    ns1:P9302 "Regular-running script"@en .
+
+<https://137.204.168.11/write/api/items/93> a ns2:Item,
+        <http://www.wikidata.org/entity/Q7725634> ;
+    ns2:created "2021-10-07T10:45:47+00:00"^^xsd:dateTime ;
+    ns2:id 93 ;
+    ns2:is_public true ;
+    ns2:item_set <https://137.204.168.11/write/api/item_sets/59> ;
+    ns2:modified "2021-10-28T17:38:14+00:00"^^xsd:dateTime ;
+    ns2:owner <https://137.204.168.11/write/api/users/1> ;
+    ns2:resource_class <https://137.204.168.11/write/api/resource_classes/132> ;
+    ns2:resource_template <https://137.204.168.11/write/api/resource_templates/13> ;
+    ns2:site <https://137.204.168.11/write/api/sites/4> ;
+    ns2:title "Byōdō-in Temple" ;
+    ns1:P1476 "Byōdō-in Temple"@en,
+        "Pingdeng Yuan"@pny,
+        " 平等院"@zh ;
+    ns1:P50 <https://www.wikidata.org/entity/Q8070552> .
+
+<https://137.204.168.11/write/api/items/94> a ns2:Item,
+        ns3:CalliWritingUnit ;
+    ns2:created "2021-10-07T10:59:49+00:00"^^xsd:dateTime ;
+    ns2:id 94 ;
+    ns2:is_public true ;
+    ns2:item_set <https://137.204.168.11/write/api/item_sets/59> ;
+    ns2:modified "2021-11-24T16:32:25+00:00"^^xsd:dateTime ;
+    ns2:owner <https://137.204.168.11/write/api/users/4> ;
+    ns2:resource_class <https://137.204.168.11/write/api/resource_classes/143> ;
+    ns2:resource_template <https://137.204.168.11/write/api/resource_templates/12> ;
+    ns2:site <https://137.204.168.11/write/api/sites/4> ;
+    ns2:title "CWU 2 Shengong Yijiang (天际征鸿ǀ..)" ;
+    ns3:attributed-name "CWU 2 Shengong Yijiang (天际征鸿ǀ..)"@en ;
+    ns3:background-color <https://www.wikidata.org/entity/Q42519> ;
+    ns3:calligraphic-line "Present" ;
+    ns3:character-form "Simplified Character"@en ;
+    ns3:description "Second stanza"@en ;
+    ns3:significance "Meaningful writing" ;
+    ns3:trascription-or-translation "Afar a row of wild geese fly, Weaving a letter in the sky. What have I done in days gone by? Gazing from the balustrade, Could I weave my way as far as they?"@en,
+        "Tianji zheng hong ǀ yao ren xing ru zhui. ǀ Ping sheng shi ǀ cishi ning di ǀ shui hui ping lan yi."@pny,
+        "天际征鸿ǀ，遥认行如缀。平生事，此时凝睇，谁会凭栏意。"@zh ;
+    ns3:writing-system <https://www.wikidata.org/entity/Q8201> ;
+    ns1:P144 <https://137.204.168.11/write/api/items/95> ;
+    ns1:P180 <https://www.wikidata.org/entity/Q5185279>,
+        <https://www.wikidata.org/entity/Q6498317>,
+        <https://www.wikidata.org/entity/Q7561196> ;
+    ns1:P186 <https://www.wikidata.org/entity/Q2066608>,
+        <https://www.wikidata.org/entity/Q42948> ;
+    ns1:P2079 <https://www.wikidata.org/entity/Q659495> ;
+    ns1:P462 <https://www.wikidata.org/entity/Q23445> ;
+    ns1:P9302 "Regular-running script"@en .
+
+<https://137.204.168.11/write/api/items/95> a ns2:Item,
+        <http://www.wikidata.org/entity/Q7725634> ;
+    ns2:created "2021-10-07T11:05:17+00:00"^^xsd:dateTime ;
+    ns2:id 95 ;
+    ns2:is_public true ;
+    ns2:item_set <https://137.204.168.11/write/api/item_sets/59> ;
+    ns2:modified "2021-10-28T17:38:50+00:00"^^xsd:dateTime ;
+    ns2:owner <https://137.204.168.11/write/api/users/4> ;
+    ns2:resource_class <https://137.204.168.11/write/api/resource_classes/132> ;
+    ns2:resource_template <https://137.204.168.11/write/api/resource_templates/13> ;
+    ns2:site <https://137.204.168.11/write/api/sites/4> ;
+    ns2:title "Rouged Lips" ;
+    ns1:P1476 "Rouged Lips"@en,
+        "Dian jiangchun "@pny,
+        "点绛唇"@zh ;
+    ns1:P50 <https://www.wikidata.org/entity/Q716950> .
+
+<https://137.204.168.11/write/api/items/96> a ns2:Item,
+        <http://www.wikidata.org/entity/Q7725634> ;
+    ns2:created "2021-10-08T12:33:41+00:00"^^xsd:dateTime ;
+    ns2:id 96 ;
+    ns2:is_public true ;
+    ns2:modified "2021-10-27T12:42:06+00:00"^^xsd:dateTime ;
+    ns2:owner <https://137.204.168.11/write/api/users/5> ;
+    ns2:resource_class <https://137.204.168.11/write/api/resource_classes/132> ;
+    ns2:resource_template <https://137.204.168.11/write/api/resource_templates/13> ;
+    ns2:site <https://137.204.168.11/write/api/sites/4> ;
+    ns2:title "Lantingji Xu" ;
+    ns3:wikidata-resource <https://www.wikidata.org/entity/Q1420392> ;
+    ns1:P1476 "Preface to the Poems Collected from the Orchid Pavilion"@en,
+        "Lantingji Xu"@pny,
+        "兰亭集序"@zh ;
+    ns1:P50 <https://www.wikidata.org/entity/Q378564> ;
+    ns1:P571 "353 " .
+
+<https://137.204.168.11/write/api/items/97> a ns2:Item,
+        <http://www.wikidata.org/entity/Q108923606> ;
+    ns2:created "2021-10-08T13:16:19+00:00"^^xsd:dateTime ;
+    ns2:id 97 ;
+    ns2:is_public true ;
+    ns2:modified "2021-11-05T15:49:04+00:00"^^xsd:dateTime ;
+    ns2:owner <https://137.204.168.11/write/api/users/5> ;
+    ns2:resource_class <https://137.204.168.11/write/api/resource_classes/141> ;
+    ns2:resource_template <https://137.204.168.11/write/api/resource_templates/8> ;
+    ns2:site <https://137.204.168.11/write/api/sites/4> ;
+    ns2:title "Family Tree (Nine chromogenic prints)" ;
+    ns3:artwork-type <https://www.wikidata.org/entity/Q5113880> ;
+    ns3:description "The artwork is composed of nine chromogenic prints that are nine sequential pictures of the performance entitled \"Family Tree\" held in 2000 in New York. These prints record the gradual obscuring of Zhang’s face with inked words until it is completely blackened." ;
+    ns3:has-unit <https://137.204.168.11/write/api/items/98> ;
+    ns1:P1071 <https://www.wikidata.org/entity/Q60> ;
+    ns1:P1476 "Family Tree (Nine chromogenic prints)"@en,
+        "Jiapu"@pny,
+        "家谱"@zh ;
+    ns1:P170 <https://137.204.168.11/write/api/items/86> ;
+    ns1:P180 <https://www.wikidata.org/entity/Q11073609>,
+        <https://www.wikidata.org/entity/Q16511806>,
+        <https://www.wikidata.org/entity/Q21168708>,
+        <https://www.wikidata.org/entity/Q216774>,
+        <https://www.wikidata.org/entity/Q37017>,
+        <https://www.wikidata.org/entity/Q5348168>,
+        <https://www.wikidata.org/entity/Q841933>,
+        <https://www.wikidata.org/entity/Q8436> ;
+    ns1:P2048 "41.9 cm (each)" ;
+    ns1:P2049 "53.3 cm (each)" ;
+    ns1:P462 <https://www.wikidata.org/entity/Q183127>,
+        <https://www.wikidata.org/entity/Q23445>,
+        <https://www.wikidata.org/entity/Q429220> ;
+    ns1:P571 "2000-01-01"^^xsd:gYear ;
+    ns1:P856 <file:///C:/Users/Valentina/write/www.zhanghuan.com/> .
+
+<https://137.204.168.11/write/api/media/106> ns2:id 106 .
+
+<https://137.204.168.11/write/api/media/107> ns2:id 107 .
+
+<https://137.204.168.11/write/api/media/118> ns2:id 118 .
+
+<https://137.204.168.11/write/api/media/126> ns2:id 126 .
+
+<https://137.204.168.11/write/api/media/129> ns2:id 129 .
+
+<https://137.204.168.11/write/api/media/137> ns2:id 137 .
+
+<https://137.204.168.11/write/api/media/141> ns2:id 141 .
+
+<https://137.204.168.11/write/api/media/144> ns2:id 144 .
+
+<https://137.204.168.11/write/api/media/63> ns2:id 63 .
+
+<https://137.204.168.11/write/api/media/79> ns2:id 79 .
+
+<https://137.204.168.11/write/api/media/82> ns2:id 82 .
+
+<https://137.204.168.11/write/api/media/91> ns2:id 91 .
+
+<https://137.204.168.11/write/api/media/99> ns2:id 99 .
+
+<https://137.204.168.11/write/api/users/1> ns2:id 1 .
+
+<https://www.flickr.com/people/28329067@N06/> ns2:label "pagina flickr" .
+
+<https://www.instagram.com/kwan_clan/> ns2:label "pagina instagram KWAN CLAN" .
+
+<https://www.instagram.com/tin.aware/> ns2:label "pagina instagram" .
+
+<https://www.wikidata.org/entity/Q1028181> ns2:label "painter" .
+
+<https://www.wikidata.org/entity/Q104177302> ns2:label "smoothness" .
+
+<https://www.wikidata.org/entity/Q106371391> ns2:label "Visual Communication Design" .
+
+<https://www.wikidata.org/entity/Q1066907> ns2:label "longevity" .
+
+<https://www.wikidata.org/entity/Q106857709> ns2:label "panel" .
+
+<https://www.wikidata.org/entity/Q1076195> ns2:label "Chongzhou" .
+
+<https://www.wikidata.org/entity/Q10868584> ns2:label "Departing from Baidi in the Morning" .
+
+<https://www.wikidata.org/entity/Q108900616> ns2:label "Chen Zhipeng" .
+
+<https://www.wikidata.org/entity/Q11285759> ns2:label "armchair" .
+
+<https://www.wikidata.org/entity/Q1152429> ns2:label "projection screen" .
+
+<https://www.wikidata.org/entity/Q1156970> ns2:label "humanity" .
+
+<https://www.wikidata.org/entity/Q1198379> ns2:label "Feicheng" .
+
+<https://www.wikidata.org/entity/Q1203470> ns2:label "798 Art Zone" .
+
+<https://www.wikidata.org/entity/Q131262> ns2:label "University of Bologna" .
+
+<https://www.wikidata.org/entity/Q13428325> ns2:label "breath" .
+
+<https://www.wikidata.org/entity/Q1352178> ns2:label "Va, pensiero" .
+
+<https://www.wikidata.org/entity/Q1360011> ns2:label "Jinniu District" .
+
+<https://www.wikidata.org/entity/Q1367> ns2:label "monkey" .
+
+<https://www.wikidata.org/entity/Q1370468> ns2:label "reconstruction" .
+
+<https://www.wikidata.org/entity/Q138045> ns2:label "eternity" .
+
+<https://www.wikidata.org/entity/Q142> ns2:label "France" .
+
+<https://www.wikidata.org/entity/Q1469717> ns2:label "La donna è mobile" .
+
+<https://www.wikidata.org/entity/Q150> ns2:label "French" .
+
+<https://www.wikidata.org/entity/Q162244> ns2:label "hero" .
+
+<https://www.wikidata.org/entity/Q16224768> ns2:label "Gu Gan" .
+
+<https://www.wikidata.org/entity/Q16239806> ns2:label "Lu Wenyu" .
+
+<https://www.wikidata.org/entity/Q1661583> ns2:label "percussion" .
+
+<https://www.wikidata.org/entity/Q168983> ns2:label "conflagration" .
+
+<https://www.wikidata.org/entity/Q16959> ns2:label "Ürümqi" .
+
+<https://www.wikidata.org/entity/Q170494> ns2:label "body" .
+
+<https://www.wikidata.org/entity/Q172324> ns2:label "Otello" .
+
+<https://www.wikidata.org/entity/Q174091> ns2:label "Changsha" .
+
+<https://www.wikidata.org/entity/Q17516> ns2:label "street art" .
+
+<https://www.wikidata.org/entity/Q1760011> ns2:label "prosperity" .
+
+<https://www.wikidata.org/entity/Q17781833> ns2:label "destruction" .
+
+<https://www.wikidata.org/entity/Q180740> ns2:label "Zhang Huan" .
+
+<https://www.wikidata.org/entity/Q186075> ns2:label "contemporary history" .
+
+<https://www.wikidata.org/entity/Q1867> ns2:label "Taipei" .
+
+<https://www.wikidata.org/entity/Q1886349> ns2:label "logo" .
+
+<https://www.wikidata.org/entity/Q18897158> ns2:label "蜀道難" .
+
+<https://www.wikidata.org/entity/Q1891> ns2:label "Bologna" .
+
+<https://www.wikidata.org/entity/Q192271> ns2:label "Guiyang" .
+
+<https://www.wikidata.org/entity/Q200535> ns2:label "wealth" .
+
+<https://www.wikidata.org/entity/Q205555> ns2:label "feeling" .
+
+<https://www.wikidata.org/entity/Q207849> ns2:label "acrylic paint" .
+
+<https://www.wikidata.org/entity/Q216864> ns2:label "2008 Summer Paralympics" .
+
+<https://www.wikidata.org/entity/Q23817> ns2:label "50 Moganshan Road" .
+
+<https://www.wikidata.org/entity/Q241625> ns2:label "wish" .
+
+<https://www.wikidata.org/entity/Q25416319> ns2:label "human face" .
+
+<https://www.wikidata.org/entity/Q25439032> ns2:label "paralympic athlete" .
+
+<https://www.wikidata.org/entity/Q28060424> ns2:label "chengyu" .
+
+<https://www.wikidata.org/entity/Q2821677> ns2:label "self-denial" .
+
+<https://www.wikidata.org/entity/Q324293> ns2:label "Anyang" .
+
+<https://www.wikidata.org/entity/Q3257809> ns2:label "purple" .
+
+<https://www.wikidata.org/entity/Q326426> ns2:label "string" .
+
+<https://www.wikidata.org/entity/Q336620> ns2:label "Wang Shu" .
+
+<https://www.wikidata.org/entity/Q35872> ns2:label "boat" .
+
+<https://www.wikidata.org/entity/Q35986> ns2:label "aesthetics" .
+
+<https://www.wikidata.org/entity/Q3706452> ns2:label "Di quella pira" .
+
+<https://www.wikidata.org/entity/Q378564> ns2:label "Wang Xizhi" .
+
+<https://www.wikidata.org/entity/Q3824843> ns2:label "la vergine degli angeli" .
+
+<https://www.wikidata.org/entity/Q3840766> ns2:label "Luo Qi" .
+
+<https://www.wikidata.org/entity/Q39099> ns2:label "renminbi" .
+
+<https://www.wikidata.org/entity/Q4022> ns2:label "river" .
+
+<https://www.wikidata.org/entity/Q41670> ns2:label "Latin alphabet" .
+
+<https://www.wikidata.org/entity/Q425492> ns2:label "Luzhou" .
+
+<https://www.wikidata.org/entity/Q45388471> ns2:label "Xu Tingyun" .
+
+<https://www.wikidata.org/entity/Q47071> ns2:label "brown" .
+
+<https://www.wikidata.org/entity/Q5003624> ns2:label "memorial" .
+
+<https://www.wikidata.org/entity/Q5113880> ns2:label "chromogenic print" .
+
+<https://www.wikidata.org/entity/Q51446080> ns2:label "Chinese traditional music" .
+
+<https://www.wikidata.org/entity/Q5195323> ns2:label "Cursive script" .
+
+<https://www.wikidata.org/entity/Q5322166> ns2:label "designer" .
+
+<https://www.wikidata.org/entity/Q53685> ns2:label "Taiji" .
+
+<https://www.wikidata.org/entity/Q53764738> ns2:label "Chinese character" .
+
+<https://www.wikidata.org/entity/Q54988673> ns2:label "Di Provenza il mar" .
+
+<https://www.wikidata.org/entity/Q597> ns2:label "Lisbon" .
+
+<https://www.wikidata.org/entity/Q5994> ns2:label "piano" .
+
+<https://www.wikidata.org/entity/Q6373> ns2:label "British Museum" .
+
+<https://www.wikidata.org/entity/Q6666023> ns2:label "motion" .
+
+<https://www.wikidata.org/entity/Q706985> ns2:label "Cloud Gate Dance Theatre" .
+
+<https://www.wikidata.org/entity/Q712007> ns2:label "Zheng Xie" .
+
+<https://www.wikidata.org/entity/Q716950> ns2:label "Wang Yucheng" .
+
+<https://www.wikidata.org/entity/Q7242> ns2:label "beauty" .
+
+<https://www.wikidata.org/entity/Q7391292> ns2:label "air" .
+
+<https://www.wikidata.org/entity/Q750652> ns2:label "mourning" .
+
+<https://www.wikidata.org/entity/Q7560982> ns2:label "Song Dong" .
+
+<https://www.wikidata.org/entity/Q78648316> ns2:label "Stride la vampa = Gwridog y fflamau : Il Travatore" .
+
+<https://www.wikidata.org/entity/Q78928276> ns2:label "Parigi, o cara noi lasceremo = O Baris, fy nghariad, ymaith awn yn syth : La Traviata" .
+
+<https://www.wikidata.org/entity/Q79782> ns2:label "motion" .
+
+<https://www.wikidata.org/entity/Q8070552> ns2:label "Zhao Puchu" .
+
+<https://www.wikidata.org/entity/Q8355> ns2:label "violin" .
+
+<https://www.wikidata.org/entity/Q8371> ns2:label "cello" .
+
+<https://www.wikidata.org/entity/Q8502> ns2:label "mountain" .
+
+<https://www.wikidata.org/entity/Q87758078> ns2:label "Peace dove" .
+
+<https://www.wikidata.org/entity/Q8950982> ns2:label "Tong Yang-tze" .
+
+<https://www.wikidata.org/entity/Q9344260> ns2:label "associate professor" .
+
+<https://www.wikidata.org/entity/Q971938> ns2:label "Qu Xiao-Song" .
+
+<https://www.wikidata.org/entity/Q97621309> ns2:label "Ming-style furniture" .
+
+<https://www.wikidata.org/wiki/Q1443933> ns2:label "Design studio" .
+
+<https://www.wikidata.org/wiki/Q186035> ns2:label "Contemporary dance" .
+
+<https://www.wikidata.org/wiki/Q2393314> ns2:label "Dance troupe" .
+
+<https://www.youtube.com/watch?v=gpAJdXNKKJc> ns2:label "video youtube" .
+
+<https://137.204.168.11/write/api/items/113> a ns2:Item,
+        <http://www.wikidata.org/entity/Q43229> ;
+    ns2:created "2021-10-13T14:48:54+00:00"^^xsd:dateTime ;
+    ns2:id 113 ;
+    ns2:is_public true ;
+    ns2:item_set <https://137.204.168.11/write/api/item_sets/59> ;
+    ns2:modified "2021-10-28T17:39:35+00:00"^^xsd:dateTime ;
+    ns2:owner <https://137.204.168.11/write/api/users/4> ;
+    ns2:resource_class <https://137.204.168.11/write/api/resource_classes/126> ;
+    ns2:resource_template <https://137.204.168.11/write/api/resource_templates/6> ;
+    ns2:title "Kwanyin Clan" ;
+    ns3:description """“Chinese Style Graffiti” (Zhongguo tese de tuya yishu 中国特色的涂鸦艺术) because it blends together the style of Western graffiti and the traditional Chinese aesthetics. 
+Founded in June 2006 Beijing (798 Art District) by:
+EricTin (a.k.a. TIN), YUMI, QUAN e JEV (a.k.a. JER).
+From 2007: NAT(UO), AP(ART), KENO, VIGA, JAK e SCAV (a.k.a. SCAR) (Valjakka 2016, p. 361). 
+From 2012 (12 members): Daiyan (Quanr), Liu Zheng (Guantou, EricTIN), Song Tongshu (YUMI), Zheng Xuezhi (APART), Jianshu (Jer), Lu Daning (NAT), Xu Yan (SCAR), Lu Jiayin (Joey), Tang Mi (KENO), Xu Ou (Pluto), Xue Wenhao (VIGA) e Jitou (CTN).
+Now: EricTin, VIGA, JJJ e SHALA.
+"""@en ;
+    ns3:organisation-type <file:///C:/Users/Valentina/write/Crew> ;
+    ns1:P2561 "Kwanyin Clan"@en,
+        "Guanyin"@pny,
+        "观音"@zh ;
+    ns1:P276 <https://www.wikidata.org/entity/Q1203470>,
+        <https://www.wikidata.org/entity/Q956> ;
+    ns1:P527 <https://137.204.168.11/write/api/items/112>,
+        <https://137.204.168.11/write/api/items/121> ;
+    ns1:P571 "2006-06-01"^^xsd:gYearMonth ;
+    ns1:P856 <https://www.flickr.com/people/28329067@N06/>,
+        <https://www.instagram.com/kwan_clan/>,
+        <https://www.youtube.com/watch?v=gpAJdXNKKJc> .
+
+<https://137.204.168.11/write/api/items/116> a ns2:Item,
+        ns3:CalliWritingUnit ;
+    ns2:created "2021-10-20T06:45:45+00:00"^^xsd:dateTime ;
+    ns2:id 116 ;
+    ns2:is_public true ;
+    ns2:modified "2021-11-16T11:23:40+00:00"^^xsd:dateTime ;
+    ns2:owner <https://137.204.168.11/write/api/users/5> ;
+    ns2:resource_class <https://137.204.168.11/write/api/resource_classes/143> ;
+    ns2:resource_template <https://137.204.168.11/write/api/resource_templates/12> ;
+    ns2:title "CU1 Performance by Luo Qi - Collegium Musicum (Dunhuang musical score transcription 敦煌曲谱)" ;
+    ns3:attributed-name "CU1 Performance by Luo Qi - Collegium Musicum (Dunhuang musical score transcription 敦煌曲谱)"@en ;
+    ns3:background-color <https://www.wikidata.org/entity/Q23444> ;
+    ns3:calligraphic-line "Present" ;
+    ns3:description "Luo Qi's writing is an original transcription of the Italian opera arias played by the Collegium Musicum Almae Matris by means of the Dunhuang musical score system (敦煌曲谱). Most of Dunhuang musical scores  are very simple Chinese characters. Transcription/translation not present: the text is composed of a series of signs that belong to Dunhuang musical score system (敦煌曲谱)" ;
+    ns3:significance "Set of signs" ;
+    ns3:writing-system <https://www.wikidata.org/entity/Q65050532>,
+        <https://www.wikidata.org/entity/Q8201> ;
+    ns1:P180 <https://www.wikidata.org/entity/Q1344>,
+        <https://www.wikidata.org/entity/Q65050532> ;
+    ns1:P186 <https://www.wikidata.org/entity/Q11472>,
+        <https://www.wikidata.org/entity/Q127418> ;
+    ns1:P2079 <https://www.wikidata.org/entity/Q614467> ;
+    ns1:P462 <https://www.wikidata.org/entity/Q23445> .
+
+<https://137.204.168.11/write/api/items/121> a ns2:Item,
+        <http://www.wikidata.org/entity/Q215627> ;
+    ns2:created "2021-10-28T13:44:48+00:00"^^xsd:dateTime ;
+    ns2:id 121 ;
+    ns2:is_public true ;
+    ns2:item_set <https://137.204.168.11/write/api/item_sets/59> ;
+    ns2:modified "2021-11-22T12:19:33+00:00"^^xsd:dateTime ;
+    ns2:owner <https://137.204.168.11/write/api/users/4> ;
+    ns2:resource_class <https://137.204.168.11/write/api/resource_classes/125> ;
+    ns2:resource_template <https://137.204.168.11/write/api/resource_templates/5> ;
+    ns2:title "Lu Daning (NATUO)" ;
+    ns3:calligraphic-formation "Non present"@en ;
+    ns3:tag "NAT"@pny,
+        "NATUO"@pny,
+        "那乇"@zh ;
+    ns1:P106 <https://www.wikidata.org/entity/Q15095148> ;
+    ns1:P130 <https://www.wikidata.org/entity/Q7850> ;
+    ns1:P1412 <https://www.wikidata.org/entity/Q7850> ;
+    ns1:P19 <https://www.wikidata.org/entity/Q956> ;
+    ns1:P21 <https://www.wikidata.org/entity/Q6581097> ;
+    ns1:P2561 " Lu Daning (NATUO)"@pny,
+        "陆大宁 "@zh ;
+    ns1:P27 <https://www.wikidata.org/entity/Q29520> .
+
+<https://137.204.168.11/write/api/items/143> a ns2:Item,
+        <http://www.wikidata.org/entity/Q215627> ;
+    ns2:created "2021-12-09T14:28:42+00:00"^^xsd:dateTime ;
+    ns2:id 143 ;
+    ns2:is_public true ;
+    ns2:modified "2021-12-09T18:18:13+00:00"^^xsd:dateTime ;
+    ns2:owner <https://137.204.168.11/write/api/users/3> ;
+    ns2:resource_class <https://137.204.168.11/write/api/resource_classes/125> ;
+    ns2:resource_template <https://137.204.168.11/write/api/resource_templates/5> ;
+    ns2:title "Wang Shu" ;
+    ns3:description "Wang Shu is the dean of the School of Architecture of the China Academy of Art.  In 2010, he and his partner Lu Wenyu won the German Schelling Architecture Prize for their work with Amateur Architecture. In 2012, he became the first Chinese citizen to win the Pritzker Prize, the world's top prize in architecture. He studied architecture at Nanjing Institute of Technology. He is the dean of the School of Architecture of the China Academy of Art. " ;
+    ns3:relevant-activity-location "Amateur Architecture Studio",
+        "China Academy of Art" ;
+    ns3:wikidata-resource <https://www.wikidata.org/entity/Q336620> ;
+    ns1:P106 <https://www.wikidata.org/entity/Q42973> ;
+    ns1:P130 "Chinese" ;
+    ns1:P1412 "Chinese" ;
+    ns1:P19 <https://www.wikidata.org/entity/Q16959> ;
+    ns1:P21 <https://www.wikidata.org/entity/Q6581097> ;
+    ns1:P2561 "Wang Shu"@pny,
+        "王澍"@zh ;
+    ns1:P27 <https://www.wikidata.org/entity/Q148> ;
+    ns1:P569 "1963-11-04"^^xsd:date ;
+    ns1:P856 <https://en.wikipedia.org/wiki/Wang_Shu> .
+
+<https://137.204.168.11/write/api/items/58> a ns2:Item,
+        <http://www.wikidata.org/entity/Q43229> ;
+    ns2:created "2021-09-21T10:04:30+00:00"^^xsd:dateTime ;
+    ns2:id 58 ;
+    ns2:is_public true ;
+    ns2:modified "2021-10-27T12:45:06+00:00"^^xsd:dateTime ;
+    ns2:owner <https://137.204.168.11/write/api/users/5> ;
+    ns2:resource_class <https://137.204.168.11/write/api/resource_classes/126> ;
+    ns2:resource_template <https://137.204.168.11/write/api/resource_templates/6> ;
+    ns2:site <https://137.204.168.11/write/api/sites/4> ;
+    ns2:title "Cloud Gate Dance Theatre of Taiwan" ;
+    ns3:organisation-type <https://www.wikidata.org/wiki/Q2393314> ;
+    ns3:wikidata-resource <https://www.wikidata.org/entity/Q706985> ;
+    ns1:P2561 "Cloud Gate Dance Theatre of Taiwan"@en,
+        "Yunmen wuji"@pny,
+        "雲門舞集"@zh ;
+    ns1:P276 <https://www.wikidata.org/entity/Q1867> ;
+    ns1:P856 <https://www.cloudgate.org.tw/en/cg> .
+
+<https://137.204.168.11/write/api/items/64> a ns2:Item,
+        ns3:CalliWritingUnit ;
+    ns2:created "2021-09-27T08:32:03+00:00"^^xsd:dateTime ;
+    ns2:id 64 ;
+    ns2:is_public true ;
+    ns2:modified "2021-11-02T14:18:13+00:00"^^xsd:dateTime ;
+    ns2:owner <https://137.204.168.11/write/api/users/5> ;
+    ns2:resource_class <https://137.204.168.11/write/api/resource_classes/143> ;
+    ns2:resource_template <https://137.204.168.11/write/api/resource_templates/12> ;
+    ns2:site <https://137.204.168.11/write/api/sites/4> ;
+    ns2:title "CU1: Cursive (pan)" ;
+    ns3:attributed-name """CU1: Cursive (pan)
+""" ;
+    ns3:calligraphic-line "Present" ;
+    ns3:character-form "Traditional Character"@en ;
+    ns3:trascription-or-translation "huge rock"@en,
+        "pan"@pny,
+        "磐"@zh ;
+    ns1:P9302 "Cursive script"@en .
+
+<https://137.204.168.11/write/api/items/76> a ns2:Item,
+        <http://www.wikidata.org/entity/Q215627> ;
+    ns2:created "2021-09-29T15:29:56+00:00"^^xsd:dateTime ;
+    ns2:id 76 ;
+    ns2:is_public true ;
+    ns2:item_set <https://137.204.168.11/write/api/item_sets/59> ;
+    ns2:modified "2021-10-28T17:35:22+00:00"^^xsd:dateTime ;
+    ns2:owner <https://137.204.168.11/write/api/users/5> ;
+    ns2:resource_class <https://137.204.168.11/write/api/resource_classes/125> ;
+    ns2:resource_template <https://137.204.168.11/write/api/resource_templates/5> ;
+    ns2:site <https://137.204.168.11/write/api/sites/4> ;
+    ns2:title "Chen Zhipeng (Gas)" ;
+    ns3:calligraphic-formation "Academic"@en ;
+    ns3:relevant-activity-location <https://www.wikidata.org/entity/Q30002> ;
+    ns3:tag "Gas"@en,
+        "Water Ghost"@en,
+        "Qi"@pny,
+        "Shui Gui"@pny,
+        "气"@zh,
+        "水鬼"@zh ;
+    ns3:wikidata-resource <https://www.wikidata.org/entity/Q108900616> ;
+    ns1:P130 <https://www.wikidata.org/entity/Q7850> ;
+    ns1:P1412 <https://www.wikidata.org/entity/Q1860> ;
+    ns1:P19 <https://www.wikidata.org/entity/Q1076195> ;
+    ns1:P21 <https://www.wikidata.org/entity/Q6581097> ;
+    ns1:P2561 "Chen Zhipeng (Gas)"@pny,
+        "陈志鹏"@zh ;
+    ns1:P27 <https://www.wikidata.org/entity/Q148> ;
+    ns1:P569 "1989-01-01"^^xsd:gYear .
+
+<https://137.204.168.11/write/api/items/86> a ns2:Item,
+        <http://www.wikidata.org/entity/Q215627> ;
+    ns2:created "2021-10-05T16:08:12+00:00"^^xsd:dateTime ;
+    ns2:id 86 ;
+    ns2:is_public true ;
+    ns2:modified "2021-10-27T12:56:30+00:00"^^xsd:dateTime ;
+    ns2:owner <https://137.204.168.11/write/api/users/5> ;
+    ns2:resource_class <https://137.204.168.11/write/api/resource_classes/125> ;
+    ns2:resource_template <https://137.204.168.11/write/api/resource_templates/5> ;
+    ns2:site <https://137.204.168.11/write/api/sites/4> ;
+    ns2:title "Zhang Huan" ;
+    ns3:relevant-activity-location <https://www.wikidata.org/entity/Q60>,
+        <https://www.wikidata.org/entity/Q8686> ;
+    ns3:wikidata-resource <https://www.wikidata.org/entity/Q180740> ;
+    ns1:P130 <https://www.wikidata.org/entity/Q7850> ;
+    ns1:P1412 <https://www.wikidata.org/entity/Q7850> ;
+    ns1:P19 <https://www.wikidata.org/entity/Q324293> ;
+    ns1:P21 <https://www.wikidata.org/entity/Q6581097> ;
+    ns1:P2561 "Zhang Huan"@en,
+        "張洹"@zh ;
+    ns1:P27 <https://www.wikidata.org/entity/Q148> ;
+    ns1:P569 "1965-01-01"^^xsd:gYear .
+
+<https://137.204.168.11/write/api/items/89> a ns2:Item,
+        ns3:CalliWritingUnit ;
+    ns2:created "2021-10-06T12:41:51+00:00"^^xsd:dateTime ;
+    ns2:id 89 ;
+    ns2:is_public true ;
+    ns2:modified "2021-11-03T12:17:03+00:00"^^xsd:dateTime ;
+    ns2:owner <https://137.204.168.11/write/api/users/5> ;
+    ns2:resource_class <https://137.204.168.11/write/api/resource_classes/143> ;
+    ns2:resource_template <https://137.204.168.11/write/api/resource_templates/12> ;
+    ns2:site <https://137.204.168.11/write/api/sites/4> ;
+    ns2:title "CU 2 Performance by Luo Qi - Collegium Musicum ( 兰亭集序 Lantingji Xu)" ;
+    ns3:attributed-name "CU 2 Performance by Luo Qi - Collegium Musicum ( 兰亭集序 Lantingji Xu)" ;
+    ns3:background-color <https://www.wikidata.org/entity/Q23444> ;
+    ns3:calligraphic-line "Present" ;
+    ns3:character-form "Traditional Character"@en ;
+    ns3:significance "Meaningful writing" ;
+    ns3:trascription-or-translation """In the ninth year of Yonghe, at the beginning of the late spring,
+we have gathered at the Orchid Pavilion in the North of Kuaiji Mountain for the purification ritual.
+All the literati, the young and the old, have congregated.
+There are high mountains and steep hills, dense wood and slender bamboos,
+as well as a limpid flowing stream reflecting the surrounding.
+We sit by a redirected stream with floating wine goblets.
+Although short of the company of music,
+the wine and poems are sufficient for us to exchange our feelings.
+As for this day, the sky is clear and the air is fresh; the mild breeze greets us. 
+I look up at the immense universe. I look down at myriad works [of poetry].
+As our eyes wander, so do our minds too. Indeed, it is a pure delight for all our senses."""@en,
+        """永和九年，歲在癸丑，暮春之初，
+會于會稽山陰之蘭亭，修禊事也。
+群賢畢至，少長咸集。
+此地有崇山峻嶺，茂林修竹；	
+又有清流激湍，映帶左右。	
+引以為流觴曲水，列坐其次；	
+雖無絲竹管絃之盛，	
+一觴一詠，亦足以暢敘幽情。
+是日也，天朗氣清，惠風和暢。
+仰觀宇宙之大，	
+俯察品類之盛;
+所以遊目騁懷，足以極視聽之娛，信可樂也。"""@zh ;
+    ns3:writing-system <https://www.wikidata.org/entity/Q8201> ;
+    ns1:P144 <https://137.204.168.11/write/api/items/96> ;
+    ns1:P180 <https://www.wikidata.org/entity/Q1420392> ;
+    ns1:P186 <https://www.wikidata.org/entity/Q11472>,
+        <https://www.wikidata.org/entity/Q127418> ;
+    ns1:P2079 <https://www.wikidata.org/entity/Q614467> ;
+    ns1:P462 <https://www.wikidata.org/entity/Q23445> ;
+    ns1:P9302 "Running script"@en .
+
+<https://137.204.168.11/write/api/items/98> a ns2:Item,
+        ns3:CalliWritingUnit ;
+    ns2:created "2021-10-08T13:32:37+00:00"^^xsd:dateTime ;
+    ns2:id 98 ;
+    ns2:is_public true ;
+    ns2:modified "2021-11-05T15:48:02+00:00"^^xsd:dateTime ;
+    ns2:owner <https://137.204.168.11/write/api/users/5> ;
+    ns2:resource_class <https://137.204.168.11/write/api/resource_classes/143> ;
+    ns2:resource_template <https://137.204.168.11/write/api/resource_templates/12> ;
+    ns2:site <https://137.204.168.11/write/api/sites/4> ;
+    ns2:title "CU1 Family Tree" ;
+    ns3:attributed-name "CU1 Family Tree " ;
+    ns3:background-color <https://www.wikidata.org/entity/Q429220> ;
+    ns3:calligraphic-line "Present" ;
+    ns3:character-form "Traditional Character"@en ;
+    ns3:description "In the middle of artist's forehead, the text is \"The Foolish Old Man Removes the Mountain (Yu Kong Yi Shan 愚公移山)\". This traditional Chinese story is known by all common people, it is about determination and challenge. Other texts are about human fate.  Most words derive from the ancient Chinese art of physiognomy, which seeks to map personality traits and divine the future based on one’s facial features. " ;
+    ns3:significance "Meaningful writing" ;
+    ns3:writing-system <https://www.wikidata.org/entity/Q8201> ;
+    ns1:P186 <https://www.wikidata.org/entity/Q127418>,
+        <https://www.wikidata.org/entity/Q25416319> ;
+    ns1:P2079 <https://www.wikidata.org/entity/Q614467> ;
+    ns1:P462 <https://www.wikidata.org/entity/Q23445> ;
+    ns1:P9302 "Regular script"@en .
+
+<https://137.204.168.11/write/api/resource_classes/133> ns2:id 133 .
+
+<https://137.204.168.11/write/api/resource_templates/15> ns2:id 15 .
+
+<https://www.wikidata.org/entity/Q107425> ns2:label "landscape" .
+
+<https://www.wikidata.org/entity/Q11073609> ns2:label "The Foolish Old Man Removes the Mountain" .
+
+<https://www.wikidata.org/entity/Q122421> ns2:label "rosewood" .
+
+<https://www.wikidata.org/entity/Q12271> ns2:label "architecture" .
+
+<https://www.wikidata.org/entity/Q15095148> ns2:label "graffiti artist" .
+
+<https://www.wikidata.org/entity/Q16511806> ns2:label "challenge" .
+
+<https://www.wikidata.org/entity/Q183127> ns2:label "polychromy" .
+
+<https://www.wikidata.org/entity/Q193291> ns2:label "spirit" .
+
+<https://www.wikidata.org/entity/Q2> ns2:label "Earth" .
+
+<https://www.wikidata.org/entity/Q21168708> ns2:label "determination" .
+
+<https://www.wikidata.org/entity/Q216774> ns2:label "destiny" .
+
+<https://www.wikidata.org/entity/Q27891820> ns2:label "bamboo" .
+
+<https://www.wikidata.org/entity/Q2901539> ns2:label "Library of the University of Bologna" .
+
+<https://www.wikidata.org/entity/Q30002> ns2:label "Chengdu" .
+
+<https://www.wikidata.org/entity/Q3303330> ns2:label "calligrapher" .
+
+<https://www.wikidata.org/entity/Q3305213> ns2:label "painting" .
+
+<https://www.wikidata.org/entity/Q37017> ns2:label "face" .
+
+<https://www.wikidata.org/entity/Q39338> ns2:label "orange" .
+
+<https://www.wikidata.org/entity/Q429220> ns2:label "pink" .
+
+<https://www.wikidata.org/entity/Q42973> ns2:label "architect" .
+
+<https://www.wikidata.org/entity/Q482> ns2:label "poetry" .
+
+<https://www.wikidata.org/entity/Q5> ns2:label "human" .
+
+<https://www.wikidata.org/entity/Q527> ns2:label "sky" .
+
+<https://www.wikidata.org/entity/Q5348168> ns2:label "ego death" .
+
+<https://www.wikidata.org/entity/Q6581072> ns2:label "female" .
+
+<https://www.wikidata.org/entity/Q7071> ns2:label "Li Bai" .
+
+<https://www.wikidata.org/entity/Q7600677> ns2:label "computer graphics" .
+
+<https://www.wikidata.org/entity/Q841933> ns2:label "physiognomy" .
+
+<https://www.wikidata.org/entity/Q8436> ns2:label "family" .
+
+<https://www.wikidata.org/wiki/Q213156> ns2:label "Performance art" .
+
+<https://137.204.168.11/write/api/items/84> a ns2:Item,
+        <http://www.wikidata.org/entity/Q215627> ;
+    ns2:created "2021-10-05T13:13:28+00:00"^^xsd:dateTime ;
+    ns2:id 84 ;
+    ns2:is_public true ;
+    ns2:modified "2021-10-27T12:56:58+00:00"^^xsd:dateTime ;
+    ns2:owner <https://137.204.168.11/write/api/users/5> ;
+    ns2:resource_class <https://137.204.168.11/write/api/resource_classes/125> ;
+    ns2:resource_template <https://137.204.168.11/write/api/resource_templates/5> ;
+    ns2:site <https://137.204.168.11/write/api/sites/4> ;
+    ns2:title "Luo Qi" ;
+    ns3:calligraphic-formation "Academic"@en,
+        "Familiar"@en ;
+    ns3:relevant-activity-location <https://www.wikidata.org/entity/Q4970>,
+        <https://www.wikidata.org/entity/Q597> ;
+    ns3:wikidata-resource <https://www.wikidata.org/entity/Q3840766> ;
+    ns1:P130 <https://www.wikidata.org/entity/Q7850> ;
+    ns1:P1412 <https://www.wikidata.org/entity/Q7850> ;
+    ns1:P19 <https://www.wikidata.org/entity/Q4970> ;
+    ns1:P21 <https://www.wikidata.org/entity/Q6581097> ;
+    ns1:P2561 "Luo Qi"@en,
+        "洛齐"@zh ;
+    ns1:P27 <https://www.wikidata.org/entity/Q148> ;
+    ns1:P569 "1960-01-13"^^xsd:date .
+
+<https://137.204.168.11/write/api/resource_classes/130> ns2:id 130 .
+
+<https://137.204.168.11/write/api/resource_classes/139> ns2:id 139 .
+
+<https://137.204.168.11/write/api/resource_templates/11> ns2:id 11 .
+
+<https://137.204.168.11/write/api/resource_templates/9> ns2:id 9 .
+
+<https://www.wikidata.org/entity/Q204368> ns2:label "qigong" .
+
+<https://www.wikidata.org/entity/Q22669850> ns2:label "calligraphic work" .
+
+<https://www.wikidata.org/entity/Q29520> ns2:label "China" .
+
+<https://www.wikidata.org/entity/Q60> ns2:label "New York City" .
+
+<https://www.wikidata.org/entity/Q7561196> ns2:label "Song poetry" .
+
+<https://www.wikidata.org/entity/Q843607> ns2:label "beige" .
+
+<https://137.204.168.11/write/api/items/112> a ns2:Item,
+        <http://www.wikidata.org/entity/Q215627> ;
+    ns2:created "2021-10-13T13:27:13+00:00"^^xsd:dateTime ;
+    ns2:id 112 ;
+    ns2:is_public true ;
+    ns2:item_set <https://137.204.168.11/write/api/item_sets/59> ;
+    ns2:modified "2021-10-28T17:39:22+00:00"^^xsd:dateTime ;
+    ns2:owner <https://137.204.168.11/write/api/users/4> ;
+    ns2:resource_class <https://137.204.168.11/write/api/resource_classes/125> ;
+    ns2:resource_template <https://137.204.168.11/write/api/resource_templates/5> ;
+    ns2:title "Liu Zheng (ERICTIN)" ;
+    ns3:academic-artistic-formation <https://www.wikidata.org/entity/Q106371391> ;
+    ns3:calligraphic-formation "Non present"@en ;
+    ns3:description """cit. tradition makes modernity
+calligraphic formation??
+Master in Visual Communication Design"""@en ;
+    ns3:relevant-activity-location <https://www.wikidata.org/entity/Q956> ;
+    ns3:tag "EricTin"@en,
+        """TIN
+
+"""@en,
+        "Guantou"@pny,
+        " 罐头"@zh ;
+    ns1:P106 <https://www.wikidata.org/entity/Q15095148>,
+        <https://www.wikidata.org/entity/Q5322166> ;
+    ns1:P130 <https://www.wikidata.org/entity/Q7850> ;
+    ns1:P1412 <https://www.wikidata.org/entity/Q1860>,
+        <https://www.wikidata.org/entity/Q7850> ;
+    ns1:P19 <https://www.wikidata.org/entity/Q956> ;
+    ns1:P21 <https://www.wikidata.org/entity/Q6581097> ;
+    ns1:P2561 "Liu Zheng (ERICTIN)"@pny,
+        "刘峥 "@zh ;
+    ns1:P27 <https://www.wikidata.org/entity/Q29520> ;
+    ns1:P856 <https://www.instagram.com/tin.aware/> .
+
+<https://137.204.168.11/write/api/resource_classes/126> ns2:id 126 .
+
+<https://137.204.168.11/write/api/resource_templates/6> ns2:id 6 .
+
+<https://www.wikidata.org/entity/Q12681> ns2:label "calligraphy" .
+
+<https://www.wikidata.org/entity/Q1344> ns2:label "opera" .
+
+<https://www.wikidata.org/entity/Q1420392> ns2:label "Lantingji Xu" .
+
+<https://www.wikidata.org/entity/Q1860> ns2:label "English" .
+
+<https://www.wikidata.org/entity/Q3133> ns2:label "green" .
+
+<https://www.wikidata.org/entity/Q372973> ns2:label "aquamarine" .
+
+<https://www.wikidata.org/entity/Q4970> ns2:label "Hangzhou" .
+
+<https://www.wikidata.org/entity/Q5185279> ns2:label "poem" .
+
+<https://www.wikidata.org/entity/Q65050532> ns2:label "Dunhuang Musical score" .
+
+<https://www.wikidata.org/entity/Q8686> ns2:label "Shanghai" .
+
+<https://137.204.168.11/write/api/resource_classes/137> ns2:id 137 .
+
+<https://137.204.168.11/write/api/resource_classes/141> ns2:id 141 .
+
+<https://137.204.168.11/write/api/resource_templates/10> ns2:id 10 .
+
+<https://137.204.168.11/write/api/resource_templates/8> ns2:id 8 .
+
+<https://www.wikidata.org/entity/Q1088> ns2:label "blue" .
+
+<https://www.wikidata.org/entity/Q42519> ns2:label "grey" .
+
+<https://www.wikidata.org/entity/Q659495> ns2:label "aerosol spray" .
+
+<https://www.wikidata.org/entity/Q6498317> ns2:label "Chinese calligraphy" .
+
+<https://www.wikidata.org/entity/Q943> ns2:label "yellow" .
+
+<https://137.204.168.11/write/api/resource_classes/132> ns2:id 132 .
+
+<https://137.204.168.11/write/api/resource_templates/13> ns2:id 13 .
+
+<https://www.wikidata.org/entity/Q11472> ns2:label "paper" .
+
+<https://www.wikidata.org/entity/Q3142> ns2:label "red" .
+
+<https://www.wikidata.org/entity/Q614467> ns2:label "brush" .
+
+<https://www.wikidata.org/entity/Q127418> ns2:label "ink" .
+
+<https://www.wikidata.org/entity/Q2066608> ns2:label "spray painting" .
+
+<https://www.wikidata.org/entity/Q42948> ns2:label "wall" .
+
+<https://www.wikidata.org/entity/Q956> ns2:label "Beijing" .
+
+<https://www.wikidata.org/entity/Q148> ns2:label "People's Republic of China" .
+
+<https://www.wikidata.org/entity/Q6581097> ns2:label "male" .
+
+<https://www.wikidata.org/entity/Q8201> ns2:label "Chinese characters" .
+
+<https://www.wikidata.org/entity/Q23444> ns2:label "white" .
+
+<https://137.204.168.11/write/api/resource_classes/125> ns2:id 125 .
+
+<https://137.204.168.11/write/api/resource_classes/143> ns2:id 143 .
+
+<https://137.204.168.11/write/api/resource_templates/12> ns2:id 12 .
+
+<https://137.204.168.11/write/api/resource_templates/5> ns2:id 5 .
+
+<https://137.204.168.11/write/api/users/4> ns2:id 4 .
+
+<https://www.wikidata.org/entity/Q7850> ns2:label "Chinese" .
+
+<https://137.204.168.11/write/api/users/3> ns2:id 3 .
+
+<https://www.wikidata.org/entity/Q23445> ns2:label "black" .
+
+<https://137.204.168.11/write/api/item_sets/59> ns2:id 59 .
+
+<https://137.204.168.11/write/api/sites/4> ns2:id 4 .
+
+<https://137.204.168.11/write/api/users/5> ns2:id 5 .
+

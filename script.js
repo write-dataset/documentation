@@ -43,6 +43,22 @@ menu_btn.addEventListener("click", () => {
   var active = container.classList.toggle("active-cont");
 });
 
+// ZOOM IN ZOOM OUT
+
+var zoom = 1;
+		
+$('.zoom').on('click', function(){
+  zoom += 0.1;
+  $('.target').css('transform', 'scale(' + zoom + ')');
+});
+$('.zoom-init').on('click', function(){
+  zoom = 1;
+  $('.target').css('transform', 'scale(' + zoom + ')');
+});
+$('.zoom-out').on('click', function(){
+  zoom -= 0.1;
+  $('.target').css('transform', 'scale(' + zoom + ')');
+});
 
 // QUERY PAGE BUILDER
 
@@ -96,6 +112,5 @@ for (var i = 0; i < data.length; i++){
     
     
   }}});
-
 
 

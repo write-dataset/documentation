@@ -1,0 +1,284 @@
+@prefix : <https://w3id.org/write/ontology/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix pr: <http://w3id.org/write/> .
+@prefix wd: <http://www.wikidata.org/entity/> .
+@prefix wdp: <http://www.wikidata.org/prop/> .
+@prefix wps: <http://www.wikidata.org/prop/statement/> .
+@prefix wdq: <http://www.wikidata.org/prop/qualifier/> .
+@base <http://w3id.org/write/ontology> .
+
+<https://w3id.org/write/ontology> rdf:type owl:Ontology ;
+      owl:versionIRI <https://w3id.org/write/ontology/2020-04-09> .
+
+#################################################################
+#    Object Properties
+#################################################################
+
+###  http://w3id.org/write/has-calligraphic-formation
+<http://w3id.org/write/calligraphic-formation> rdf:type owl:ObjectProperty ;
+                                    rdfs:comment "The type of calligraphic formation of a person (e.g. familiar, self-taught)" ;
+                                    rdfs:label "has calligraphic formation" .
+
+###  http://w3id.org/write/organisation-type
+<http://w3id.org/write/organisation-type> rdf:type owl:ObjectProperty ;
+                                    rdfs:comment "The type of an organisation" ;
+                                    rdfs:label "organisation type" .
+
+###  http://w3id.org/write/life-event-type
+<http://w3id.org/write/life-event-type> rdf:type owl:ObjectProperty ;
+                                    rdfs:comment "The type of life event" ;
+                                    rdfs:label "life event type" .
+
+###  http://w3id.org/write/life-event-type
+<http://w3id.org/write/building-type> rdf:type owl:ObjectProperty ;
+                                    rdfs:comment "The type of a bulding" ;
+                                    rdfs:label "building type" .
+
+
+###  http://w3id.org/write/has-actor-in-role
+<http://w3id.org/write/has-actor-in-role> rdf:type owl:ObjectProperty ;
+                                    rdfs:comment "The role of the person involved in the life event" ;
+                                    rdfs:label "has actor in role" .
+
+###  http://w3id.org/write/involved-insitution
+<http://w3id.org/write/involved-institution> rdf:type owl:ObjectProperty ;
+                                    rdfs:comment "The institution involved in the event" ;
+                                    rdfs:label "involved institution" .
+
+###  http://w3id.org/write/graduated-in
+<http://w3id.org/write/graduated-in> rdf:type owl:ObjectProperty ;
+                                    rdfs:comment "The name of the field in which the person graduated in" ;
+                                    rdfs:label "graduated in" .
+
+###  http://w3id.org/write/teaching subject
+<http://w3id.org/write/teaching subject> rdf:type owl:ObjectProperty ;
+                                    rdfs:comment "The subject which has been taught by a professor" ;
+                                    rdfs:label "teaching subject" .
+
+###  http://w3id.org/write/involved-person
+<http://w3id.org/write/involved-person> rdf:type owl:ObjectProperty ;
+                                    rdfs:comment "A general filed to establish general connections between people" ;
+                                    rdfs:label "involved person" .
+
+###  http://w3id.org/write/artwork-type
+<http://w3id.org/write/artwork-type> rdf:type owl:ObjectProperty ;
+                                    rdfs:comment "The type of an artwork" ;
+                                    rdfs:label "artwork type" .
+
+###  http://w3id.org/write/product-type
+<http://w3id.org/write/product-type> rdf:type owl:ObjectProperty ;
+                                    rdfs:comment "The type of a product" ;
+                                    rdfs:label "product type" .
+
+###  http://w3id.org/write/performance-art-type
+<http://w3id.org/write/performance-art-type> rdf:type owl:ObjectProperty ;
+                                    rdfs:comment "The type of a performance" ;
+                                    rdfs:label "performance art type" .
+
+###  http://w3id.org/write/calligrapher
+<http://w3id.org/write/calligrapher> rdf:type owl:ObjectProperty ;
+                                    rdfs:comment "The calligrapher who performs in a performance" ;
+                                    rdfs:label "calligrapher" .
+
+###  http://w3id.org/write/musician
+<http://w3id.org/write/musician> rdf:type owl:ObjectProperty ;
+                                    rdfs:comment "The musician who performs in a performance" ;
+                                    rdfs:label "musician" .
+
+###  http://w3id.org/write/dance-company
+<http://w3id.org/write/dance-company> rdf:type owl:ObjectProperty ;
+                                    rdfs:comment "The dance company who performs in a performance" ;
+                                    rdfs:label "dance company" .
+
+###  http://w3id.org/write/dancer
+<http://w3id.org/write/dancer> rdf:type owl:ObjectProperty ;
+                                    rdfs:comment "The dancer who performs in a performance" ;
+                                    rdfs:label "dancer" .           
+
+###  http://w3id.org/write/involves-artwork
+<http://w3id.org/write/involves-artwork> rdf:type owl:ObjectProperty ;
+                                    rdfs:comment "The artwork which has been produced or has been implied in the making of a performance" ;
+                                    rdfs:label "involves artwork" .    
+
+###  http://w3id.org/write/has-calligraphic-form
+<http://w3id.org/write/character-form> rdf:type owl:ObjectProperty ;
+                                    rdfs:comment "The character form of a calligraphic unit" ;
+                                    rdfs:label "character form" .    
+
+###  http://w3id.org/write/has-unit
+<http://w3id.org/write/has-unit> rdf:type owl:ObjectProperty ;
+                                    rdfs:comment "A content unit (calli-writing unit) expressed by a work of art" ;
+                                    rdfs:label "has unit" .  
+
+###  http://w3id.org/write/dance-style
+<http://w3id.org/write/dance-style> rdf:type owl:ObjectProperty ;
+                                    rdfs:comment "The dance style in a performance" ;
+                                    rdfs:label "dance style" .      
+
+###  http://w3id.org/write/music-style
+<http://w3id.org/write/music-style> rdf:type owl:ObjectProperty ;
+                                    rdfs:comment "The music style in a performance" ;
+                                    rdfs:label "music style" .  
+
+###  http://w3id.org/write/wikidata-resource
+<http://w3id.org/write/wikidata-resource> rdf:type owl:ObjectProperty ;
+                                    rdfs:comment "The wikidata resource which identifies this record" ;
+                                    rdfs:label "wikidata resource" .    
+
+###  http://w3id.org/write/source
+<http://w3id.org/write/source> rdf:type owl:DatatypeProperty ;
+                                    rdfs:comment "Public source related to the record" ;
+                                    rdfs:label "source (public)" .
+
+###  http://w3id.org/write/note
+<http://w3id.org/write/note> rdf:type owl:DatatypeProperty ;
+                                    rdfs:comment "Notes on resources related to the record" ;
+                                    rdfs:label "notes" .
+
+###  http://w3id.org/write/belongs-to-write-collection
+<http://w3id.org/write/belongs-to-write-collection> rdf:type owl:ObjectProperty ;
+                                    rdfs:comment "The item belongs to one of the four collections of WRITE project (Graffiti, Contemporary Visual Art, Decorative and Applied Arts and Performative Arts)" ;
+                                    rdfs:label "belongs to WRITE collection" .
+
+###  http://w3id.org/write/song-title
+<http://w3id.org/write/song-title> rdf:type owl:DatatypeProperty ;
+                                    rdfs:comment "The title of a song played during a performance" ;
+                                    rdfs:label "song title" .
+
+###  http://w3id.org/write/song-title
+<http://w3id.org/write/literary-work-type> rdf:type owl:DatatypeProperty ;
+                                    rdfs:comment "The type of literary work" ;
+                                    rdfs:label "literary work type" .
+
+###  http://w3id.org/write/creates-artwork
+<http://w3id.org/write/creates-artwork> rdf:type owl:DatatypeProperty ;
+                                    rdfs:comment "The artwork produced during a performance" ;
+                                    rdfs:label "creates artwork" .
+
+###  http://w3id.org/write/shows-items-of-artist
+<http://w3id.org/write/shows-items-of-artist> rdf:type owl:ObjectProperty ;
+                                    rdfs:comment "The artist whose artwork(s) has been exihibited at an exhibition" ;
+                                    rdfs:label "shows items of artist" .
+
+
+###  http://w3id.org/write/lc-subject
+<http://w3id.org/write/lc-subject> rdf:type owl:ObjectProperty ;
+                                    rdfs:comment "The subjects (keywords) of the object from Library of Congress Vocabulary" ;
+                                    rdfs:label "LC subject" .
+
+
+###  http://w3id.org/write/relevant-activity-location
+<http://w3id.org/write/relevant-activity-location> rdf:type owl:ObjectProperty ;
+                                    rdfs:comment "The relevant place(s) where the person performs her activity" ;
+                                    rdfs:label "relevant activity location" .
+
+###  http://w3id.org/write/graduated-in
+<http://w3id.org/write/graduated-in> rdf:type owl:ObjectProperty ;
+                                    rdfs:comment "The specialisation taken by a student. Fill it this is a Education Student Life Event  " ;
+                                    rdfs:label "graduated in" .
+
+###  http://w3id.org/write/tag
+<http://w3id.org/write/tag> rdf:type owl:ObjectProperty ;
+                                    rdfs:comment "The signature of the artist" ;
+                                    rdfs:label "tag" .
+
+###  http://w3id.org/write/tag_of
+<http://w3id.org/write/tag_of> rdf:type owl:ObjectProperty ;
+                                    rdfs:comment "The name of the artist or crew or symbol represented by a tag" ;
+                                    rdfs:label "tag of" .
+
+###  http://w3id.org/write/projected_work
+<http://w3id.org/write/projected_work> rdf:type owl:ObjectProperty ;
+                                    rdfs:comment "The work of art projected during a performance" ;
+                                    rdfs:label "projected work" .
+
+###  http://w3id.org/write/calligraphic-line
+<http://w3id.org/write/calligraphic-line> rdf:type owl:ObjectProperty ;
+                                    rdfs:comment "Indicates the presence (or absence) of calligraphic line features in the unit" ;
+                                    rdfs:label "calligraphic line" .
+
+###  http://w3id.org/write/significance
+<http://w3id.org/write/significance> rdf:type owl:ObjectProperty ;
+                                    rdfs:comment "Indicates the presence (or absence) of meaning of a unit" ;
+                                    rdfs:label "significance" .
+                                                                    
+###  http://w3id.org/write/interpreted-as
+<http://w3id.org/write/interpreted-as> rdf:type owl:ObjectProperty ;
+                                    rdfs:comment "Def TBD" ;
+                                    rdfs:label "interpreted as" .
+
+###  http://w3id.org/write/attributed-name
+<http://w3id.org/write/attributed-name> rdf:type owl:ObjectProperty ;
+                                    rdfs:comment "The name attributed to the resource" ;
+                                    rdfs:label "attributed name" .
+
+###  http://w3id.org/write/description
+<http://w3id.org/write/description> rdf:type owl:ObjectProperty ;
+                                    rdfs:comment "A textual description of to the resource" ;
+                                    rdfs:label "description" .
+
+###  http://w3id.org/write/background-color
+<http://w3id.org/write/background-color> rdf:type owl:ObjectProperty ;
+                                    rdfs:comment "The color(s) in the background of the object" ;
+                                    rdfs:label "background color" .
+
+###  http://w3id.org/write/graffiti-style
+<http://w3id.org/write/graffiti-style> rdf:type owl:ObjectProperty ;
+                                    rdfs:comment "A style of graffiti implied in the making of the resource" ;
+                                    rdfs:label "graffiti style" .
+                                    
+###  http://w3id.org/write/chinese-visual-element
+<http://w3id.org/write/chinese-visual-element> rdf:type owl:ObjectProperty ;
+                                    rdfs:comment "A visual element (motif) from chinese culture" ;
+                                    rdfs:label "chinese visual element" .
+
+###  http://w3id.org/write/visual-element
+<http://w3id.org/write/visual-element> rdf:type owl:ObjectProperty ;
+                                    rdfs:comment "A visual element (motif)" ;
+                                    rdfs:label "visual element" .
+
+###  http://w3id.org/write/academic-artstic-formation
+<http://w3id.org/write/academic-artistic-formation> rdf:type owl:ObjectProperty ;
+                                    rdfs:comment "The academic specialisation of a person. Do not specify the type of degree (e.g. Master), but just the subject (e.g. visual arts)" ;
+                                    rdfs:label "academic artistic formation" .
+
+###  http://w3id.org/write/trascription-or-translation
+<http://w3id.org/write/trascription-or-translation> rdf:type owl:ObjectProperty ;
+                                    rdfs:comment "The trascription or translation of the resource" ;
+                                    rdfs:label "transcription or translation" .
+
+###  http://w3id.org/write/write-id
+<http://w3id.org/write/write-id> rdf:type owl:ObjectProperty ;
+                                    rdfs:comment "An internal identifier for the resource" ;
+                                    rdfs:label "write ID" .
+
+
+###  http://w3id.org/write/publication-type
+<http://w3id.org/write/publication-type> rdf:type owl:ObjectProperty ;
+                                    rdfs:comment "The type of a publication" ;
+                                    rdfs:label "publication type" .
+
+#################################################################
+#    Classes
+#################################################################
+
+###  http://w3id.org/write/LifeEvent
+<http://w3id.org/write/LifeEvent> rdf:type owl:Class ;
+      rdfs:comment "A life event (e.g. employment, residence, education)" ;
+      rdfs:label "Life Event".
+
+###  http://w3id.org/write/CalliWritingUnit
+<http://w3id.org/write/CalliWritingUnit> rdf:type owl:Class ;
+      rdfs:comment "A content component of the described cultural item which somehow recognised to be contemporary calligraphy" ;
+      rdfs:label "Calli-Writing Unit" .
+
+###  http://w3id.org/write/DecorativeAndAppliedArt
+<http://w3id.org/write/DecorativeAndAppliedArt> rdf:type owl:Class ;
+      rdfs:comment "An artwork categorised as belonging to Decorative and Applied Arts" ;
+      rdfs:label "Decorative and Applied Art" .
+
+
