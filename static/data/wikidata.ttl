@@ -1,4 +1,4 @@
-@prefix : <https://w3id.org/write/ontology/
+@prefix : <https://w3id.org/write/ontology/> .
 @prefix owl: <http://www.w3.org/2002/07/owl#> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix xml: <http://www.w3.org/XML/1998/namespace> .
@@ -61,15 +61,10 @@
                                     rdfs:comment "The place of death of the person" ;
                                     rdfs:label "place of death" .
 
-###  http://www.wikidata.org/prop/P130
-<http://www.wikidata.org/prop/P130> rdf:type owl:ObjectProperty ;
+###  http://www.wikidata.org/prop/P103
+<http://www.wikidata.org/prop/P103> rdf:type owl:ObjectProperty ;
                                     rdfs:comment "The native language of the person" ;
                                     rdfs:label "native language" .                                
-
-###  http://www.wikidata.org/prop/P130
-<http://www.wikidata.org/prop/P130> rdf:type owl:ObjectProperty ;
-                                    rdfs:comment "The place of death of the person" ;
-                                    rdfs:label "place of death" .    
 
 ###  http://www.wikidata.org/prop/P1412
 <http://www.wikidata.org/prop/P1412> rdf:type owl:ObjectProperty ;
