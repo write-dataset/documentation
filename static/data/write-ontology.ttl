@@ -149,7 +149,12 @@
                                     rdfs:comment "The title of a song played during a performance" ;
                                     rdfs:label "song title" .
 
-###  http://w3id.org/write/song-title
+###  http://w3id.org/write/big-characters-calligraphy
+<http://w3id.org/write/big-characters-calligraphy> rdf:type owl:DatatypeProperty ;
+                                    rdfs:comment "Indicates the presence (or absence) of big calligraphic characters in the unit" ;
+                                    rdfs:label "big characters calligraphy" .
+
+###  http://w3id.org/write/literary-work-type
 <http://w3id.org/write/literary-work-type> rdf:type owl:DatatypeProperty ;
                                     rdfs:comment "The type of literary work" ;
                                     rdfs:label "literary work type" .
