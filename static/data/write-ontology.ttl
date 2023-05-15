@@ -55,7 +55,7 @@
                                     rdfs:label "graduated in" .
 
 ###  http://w3id.org/write/teaching subject
-<http://w3id.org/write/teaching subject> rdf:type owl:ObjectProperty ;
+<http://w3id.org/write/teaching-subject> rdf:type owl:ObjectProperty ;
                                     rdfs:comment "The subject which has been taught by a professor" ;
                                     rdfs:label "teaching subject" .
 
@@ -154,7 +154,7 @@
                                     rdfs:comment "Indicates the presence (or absence) of big calligraphic characters in the unit" ;
                                     rdfs:label "big characters calligraphy" .
 
-###  http://w3id.org/write/literary-work-type
+###  http://w3id.org/write/song-title
 <http://w3id.org/write/literary-work-type> rdf:type owl:DatatypeProperty ;
                                     rdfs:comment "The type of literary work" ;
                                     rdfs:label "literary work type" .
@@ -286,4 +286,8 @@
       rdfs:comment "An artwork categorised as belonging to Decorative and Applied Arts" ;
       rdfs:label "Decorative and Applied Art" .
 
+###  http://w3id.org/write/ContemporaryVisualArt
+<http://w3id.org/write/ContemporaryVisualArt> rdf:type owl:Class ;
+      rdfs:comment "An artwork categorised as belonging to Contemporary Visual Arts" ;
+      rdfs:label "Contemporary Visual Artwork" .
 
