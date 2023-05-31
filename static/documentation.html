@@ -3,7 +3,7 @@
 
   <h1>The model documentation</h1>
   <p class="text-justify">
-    WRITE Knowledge Base stores WRITE data is a triple-fashion. The KB is populated with elements from 11 reused or created on purpose Classes (<code>owl:Class</code>). The documentation below illustrates the 11 classes along with their respective properties (<code>owl:ObjectProperty</code> and <code>owl:DataTypeProperty</code>).  
+    WRITE Knowledge Base (shorter KB) stores WRITE data in a triple-fashion. The KB is populated with elements from 11 reused or created on purpose classes (<code>owl:Class</code>). The documentation below illustrates these 11 classes along with their respective properties (<code>owl:ObjectProperty</code> and <code>owl:DataTypeProperty</code>).  
 
     <div class="m-3">
       <hr class="bg-danger border-2 border-top border-danger">
@@ -19,10 +19,10 @@ prefix wdt: &lt;http://www.wikidata.org/prop/&gt; .</code></pre>
       <hr class="bg-danger border-2 border-top border-danger">
     </div>
 
-      The four Collections (Contemporary Visual Arts, Graffiti, Decorative & Applied Arts, Performing Arts) has been represented with four different Classes aiming to preserve the diversity between the described elements. For example, when describing Graffiti is important to record the graffiti style of the item; Performances are considered as to be at the same time events and artworks. For this reason, they can imply other artworks in the making of the performance as well as different actors is several roles; when describing Decorative & Applied the commercial aspect of these products needs to be stored etc. 
+      The four Collections (Contemporary Visual Arts, Graffiti, Decorative & Applied Arts, Performing Arts) have been represented with four different classes aiming to preserve the diversity between the described elements. For example, when describing Graffiti, it is important to record the graffiti style of the item. Performances are considered to be both events and artworks and for this reason, they can imply diverse artworks in the making of the performance as well as different actors in several roles. When describing Decorative & Applied arts, the commercial aspect of these products needs to be stored etc. 
     </p>
 
-    <p>The term "Resource Template" is always referred as a synonym of <code>owl:Class</code>. Such term has been used during the data entry acrivity in OmekaS. OmekaS is constituted of customizable forms to fill with metadata. Each resource template can be associated with an <code>owl:Class</code>. This means that each filled resource template becomes an item of the dataset, as an individual belonging to a class. Visit OmekaS website for more <a href="https://omeka.org/s/">information</a>.</p> 
+    <p>The term "Resource Template" is always referred as a synonym for <code>owl:Class</code>. Such term has been used during the data entry activity in OmekaS. OmekaS contains customisable forms that can be enriched with various metadata. Each resource template can be associated with an <code>owl:Class</code>. This means that each filled resource template becomes an item of the dataset, as an individual belonging to a class. Visit OmekaS website for more <a href="https://omeka.org/s/">information</a>.</p> 
 
     <p>Each Class is presented with a brief introduction and a corresponding image graphically summarising all the properties associated with the class (on the right) and the possible connections (via <code>owl:ObjectProperty</code>) with the other Resource Templates (<code>owl:Class</code>).
 
@@ -35,11 +35,11 @@ prefix wdt: &lt;http://www.wikidata.org/prop/&gt; .</code></pre>
           </button>
         </h2>
         <div id="flush-ex" class="accordion-collapse collapse" aria-labelledby="flush-ex" data-bs-parent="#accordionFlushex">
-          <div class="accordion-body">The figure below represents an example template used to describe all classes of WRITE data model. For each class several information are provided:
+          <div class="accordion-body">The figure  represents an example template used to describe all the classes of WRITE data model. For each class several information are provided:
             <ul>
               <li>On the left side of the figure is represented the class along with all the other classes to which it is linked with at least one object property, along with the mentioned object properties</li>
               <li>On the right side of the figure all data and object properties whose domain is the class is presented. In the colored arrows are presented all allowed range for the object or data properties.</li>
-            </ul> 
+            </ul> below
             <img class="pl-md-5 pr-md-5" src="static/img/datamodel_example.svg">
           </div>
         </div>
@@ -53,7 +53,7 @@ prefix wdt: &lt;http://www.wikidata.org/prop/&gt; .</code></pre>
         </h2>
         <div id="flush-ov" class="accordion-collapse collapse" aria-labelledby="flush-ov" data-bs-parent="#accordionFlushex">
           <div class="accordion-body">
-            The figure below the overview of all the metadata fields (represented as grey arrows) connecting all the classes (represented with red squares) of WRITE dataset. The model has been istatiated into OmekaS for the development of WRITE project.          
+            The figure below shows the overview of all the metadata fields (represented as grey arrows) connecting all the classes (represented with red squares) of WRITE dataset. The model has been istatiated into OmekaS for the development of WRITE project.          
             <img class="pl-md-5 pr-md-5" src="static/img/datamodel_overview.svg">
           </div>
         </div>
