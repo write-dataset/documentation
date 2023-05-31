@@ -15,7 +15,7 @@ $(function(){
     $("#csData").load("static/rdfdata.html"); 
   });
   $(function(){
-    $("#contacts").load("static/contacts.html"); 
+    $("#team").load("static/team.html"); 
   });
 
 // INDEX build navbar
