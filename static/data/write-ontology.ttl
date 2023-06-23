@@ -28,6 +28,11 @@
                                     rdfs:comment "The type of an organisation" ;
                                     rdfs:label "organisation type" .
 
+###  http://w3id.org/write/artistic-collective-type
+<http://w3id.org/write/artistic-collective-type> rdf:type owl:ObjectProperty ;
+                                    rdfs:comment "The type of an artistic collective" ;
+                                    rdfs:label "artistic collective type" .
+
 ###  http://w3id.org/write/life-event-type
 <http://w3id.org/write/life-event-type> rdf:type owl:ObjectProperty ;
                                     rdfs:comment "The type of life event" ;
@@ -55,7 +60,7 @@
                                     rdfs:label "graduated in" .
 
 ###  http://w3id.org/write/teaching subject
-<http://w3id.org/write/teaching-subject> rdf:type owl:ObjectProperty ;
+<http://w3id.org/write/teaching subject> rdf:type owl:ObjectProperty ;
                                     rdfs:comment "The subject which has been taught by a professor" ;
                                     rdfs:label "teaching subject" .
 
@@ -148,11 +153,6 @@
 <http://w3id.org/write/song-title> rdf:type owl:DatatypeProperty ;
                                     rdfs:comment "The title of a song played during a performance" ;
                                     rdfs:label "song title" .
-
-###  http://w3id.org/write/big-characters-calligraphy
-<http://w3id.org/write/big-characters-calligraphy> rdf:type owl:DatatypeProperty ;
-                                    rdfs:comment "Indicates the presence (or absence) of big calligraphic characters in the unit" ;
-                                    rdfs:label "big characters calligraphy" .
 
 ###  http://w3id.org/write/song-title
 <http://w3id.org/write/literary-work-type> rdf:type owl:DatatypeProperty ;
@@ -251,9 +251,9 @@
                                     rdfs:comment "The academic specialisation of a person. Do not specify the type of degree (e.g. Master), but just the subject (e.g. visual arts)" ;
                                     rdfs:label "academic artistic formation" .
 
-###  http://w3id.org/write/trascription-or-translation
-<http://w3id.org/write/trascription-or-translation> rdf:type owl:ObjectProperty ;
-                                    rdfs:comment "The trascription or translation of the resource" ;
+###  http://w3id.org/write/transcription-or-translation
+<http://w3id.org/write/transcription-or-translation> rdf:type owl:ObjectProperty ;
+                                    rdfs:comment "The transcription or translation of the resource" ;
                                     rdfs:label "transcription or translation" .
 
 ###  http://w3id.org/write/write-id
@@ -266,6 +266,11 @@
 <http://w3id.org/write/publication-type> rdf:type owl:ObjectProperty ;
                                     rdfs:comment "The type of a publication" ;
                                     rdfs:label "publication type" .
+
+###  http://w3id.org/write/has-seal
+<http://w3id.org/write/has-seal> rdf:type owl:DatatypeProperty ;
+                                    rdfs:comment "The presence of the seal(s)" ;
+                                    rdfs:label "has seal" .
 
 #################################################################
 #    Classes
@@ -285,9 +290,8 @@
 <http://w3id.org/write/DecorativeAndAppliedArt> rdf:type owl:Class ;
       rdfs:comment "An artwork categorised as belonging to Decorative and Applied Arts" ;
       rdfs:label "Decorative and Applied Art" .
-
-###  http://w3id.org/write/ContemporaryVisualArt
-<http://w3id.org/write/ContemporaryVisualArt> rdf:type owl:Class ;
-      rdfs:comment "An artwork categorised as belonging to Contemporary Visual Arts" ;
-      rdfs:label "Contemporary Visual Artwork" .
-
+	  
+	  ###  http://w3id.org/write/TraditionalArtwork
+<http://w3id.org/write/TraditionalArtwork> rdf:type owl:Class ;
+      rdfs:comment "An artwork categorised as being made before 1980" ;
+      rdfs:label "Traditional Artwork" .
