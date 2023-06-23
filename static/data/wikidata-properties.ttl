@@ -382,16 +382,21 @@
                                     rdfs:comment "work, human, place or event which inspired this creative work or fictional entity";
                                     rdfs:label "inspired by".
 
-###  http://w3id.org/write/P282
-<http://w3id.org/write/P282> rdf:type owl:ObjectProperty ;
+### https://www.wikidata.org/prop/P407
+<https://www.wikidata.org/prop/P407> rdf:type owl:ObjectProperty ;
+                                    rdfs:comment "language associated with this creative work";
+                                    rdfs:label "language of work". 
+
+###  https://www.wikidata.org/prop/P282
+<https://www.wikidata.org/prop/P282> rdf:type owl:ObjectProperty ;
                                     rdfs:comment "alphabet, character set or other system of writing used by a language, supported by a typeface" ;
                                     rdfs:label "writing system" .
 
 ###  http://www.wikidata.org/prop/P9302
 <http://www.wikidata.org/prop/P9302> rdf:type owl:ObjectProperty ;
-      rdfs:comment "style of script of a content unit";
-      rdfs:label "script style".
-
+									rdfs:comment "style of script of a content unit";
+									rdfs:label "script style".
+		
 ###  http://www.wikidata.org/prop/P2860
 <http://www.wikidata.org/prop/P2860> rdf:type owl:ObjectProperty ;
                                     rdfs:comment "Citation from one creative work to another" ;
