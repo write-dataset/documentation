@@ -23,7 +23,7 @@
 ###########################################
 
 ###  http://www.wikidata.org/prop/P742
-<http://www.wikidata.org/prop/P742> rdf:type owl:ObjectProperty ;
+<http://www.wikidata.org/prop/P742> rdf:type owl:DatatypeProperty ;
                                     rdfs:comment "The pseudonym of the artist" ;
                                     rdfs:label "pseudonym" .
 
@@ -32,7 +32,7 @@
                                     rdfs:comment "The VIAF identifier of the resource" .
 
 ###  http://www.wikidata.org/prop/P2561
-<http://www.wikidata.org/prop/P2561> rdf:type owl:ObjectProperty ;
+<http://www.wikidata.org/prop/P2561> rdf:type owl:DatatypeProperty ;
                                     rdfs:comment "Name of the Agent (if people please fill as \"Surname, Name\")" ;
                                     rdfs:label "name" .
 
@@ -42,7 +42,7 @@
                                     rdfs:label "gender" .
 
 ###  http://www.wikidata.org/prop/P569
-<http://www.wikidata.org/prop/P569> rdf:type owl:ObjectProperty ;
+<http://www.wikidata.org/prop/P569> rdf:type owl:DatatypeProperty ;
                                     rdfs:comment "The date of birth of the person" ;
                                     rdfs:label "date of birth" .
 
@@ -52,7 +52,7 @@
                                     rdfs:label "place of birth" .
 
 ###  http://www.wikidata.org/prop/P570
-<http://www.wikidata.org/prop/P570> rdf:type owl:ObjectProperty ;
+<http://www.wikidata.org/prop/P570> rdf:type owl:DatatypeProperty ;
                                     rdfs:comment "The date of death of the person" ;
                                     rdfs:label "date of death" .
 
@@ -88,7 +88,7 @@
 ###########################################
 
 ###  http://www.wikidata.org/prop/P856
-<http://www.wikidata.org/prop/P856> rdf:type owl:ObjectProperty ;
+<http://www.wikidata.org/prop/P856> rdf:type owl:DatatypeProperty ;
                                     rdfs:comment "The link the website of the resource" ;
                                     rdfs:label "website link" .
 
@@ -98,7 +98,7 @@
                                   rdfs:label "affiliated to" .
 
 ###  http://www.wikidata.org/prop/P585
-<http://www.wikidata.org/prop/P585> rdf:type owl:ObjectProperty ;
+<http://www.wikidata.org/prop/P585> rdf:type owl:DatatypeProperty ;
                                   rdfs:comment "time and date something took place or existed (DD/MM/YYYY)" ;
                                   rdfs:label "date" .
 
@@ -136,11 +136,11 @@
                                     rdfs:label "depicts" .
 
 ###  http://www.wikidata.org/prop/P1476
-<http://www.wikidata.org/prop/P1476> rdf:type owl:ObjectProperty ;
+<http://www.wikidata.org/prop/P1476> rdf:type owl:DatatypeProperty ;
                                     rdfs:comment "The title of the cultural property" ;
                                     rdfs:label "title" .
 
-###  http://www.wikidata.org/prop/608
+###  http://www.wikidata.org/prop/P608
 <http://www.wikidata.org/prop/P608> rdf:type owl:ObjectProperty ;
                                     rdfs:comment "The link to the exhibition(s) to which the artwork took part" ;
                                     rdfs:label "exhibition history" .
@@ -186,22 +186,22 @@
                                     rdfs:label "location of creation" .
            
 ###  http://www.wikidata.org/prop/P571
-<http://www.wikidata.org/prop/P571> rdf:type owl:ObjectProperty ;
+<http://www.wikidata.org/prop/P571> rdf:type owl:DatatypeProperty ;
                                     rdfs:comment "The date when the cultural property has been created" ;
                                     rdfs:label "date of creation" .
 
 ###  http://www.wikidata.org/prop/P2049
-<http://www.wikidata.org/prop/P2049> rdf:type owl:ObjectProperty ;
+<http://www.wikidata.org/prop/P2049> rdf:type owl:DatatypeProperty ;
                                     rdfs:comment "The width of the cultural property (in cm)" ;
                                     rdfs:label "width" .
 
 ###  http://www.wikidata.org/prop/P2048
-<http://www.wikidata.org/prop/P2048> rdf:type owl:ObjectProperty ;
+<http://www.wikidata.org/prop/P2048> rdf:type owl:DatatypeProperty ;
                                     rdfs:comment "The height of the cultural property (in cm)" ;
                                     rdfs:label "height" .
 
 ###  http://www.wikidata.org/prop/P2610
-<http://www.wikidata.org/prop/P2610> rdf:type owl:ObjectProperty ;
+<http://www.wikidata.org/prop/P2610> rdf:type owl:DatatypeProperty ;
                                     rdfs:comment "The thickness of the cultural property (in cm)" ;
                                     rdfs:label "thickness" .
 
@@ -231,13 +231,13 @@
                                     rdfs:comment "The place where the cultural property has been created" ;
                                     rdfs:label "manifacturer" .
 
-###  http://www.wikidata.org/prop/287
+###  http://www.wikidata.org/prop/P287
 <http://www.wikidata.org/prop/P287> rdf:type owl:ObjectProperty ;
                                     rdfs:comment "The person or organisation who designed the product" ;
                                     rdfs:label "designed by" .
 
 ###  http://www.wikidata.org/prop/P2284
-<http://www.wikidata.org/prop/P2284> rdf:type owl:ObjectProperty ;
+<http://www.wikidata.org/prop/P2284> rdf:type owl:DatatypeProperty ;
                                     rdfs:comment "published price listed or paid for a product (use with unit of currency according to editorial guidelines)" ;
                                     rdfs:label "price" .
 
@@ -245,11 +245,6 @@
 <http://www.wikidata.org/prop/P2079> rdf:type owl:ObjectProperty ;
                                     rdfs:comment "The method or technique through which the item has been produced" ;
                                     rdfs:label "fabrication method" .
-
-###  http://www.wikidata.org/prop/287
-<http://www.wikidata.org/prop/P287> rdf:type owl:ObjectProperty ;
-                                    rdfs:comment "The person or organisation who designed the product" ;
-                                    rdfs:label "designed by" .
 
 ###  http://www.wikidata.org/prop/P84
 <http://www.wikidata.org/prop/P84> rdf:type owl:ObjectProperty ;
@@ -262,22 +257,17 @@
                                     rdfs:label "architectural style".
 
 ###  http://www.wikidata.org/prop/P2046
-<http://www.wikidata.org/prop/P2046> rdf:type owl:ObjectProperty ;
+<http://www.wikidata.org/prop/P2046> rdf:type owl:DatatypeProperty ;
                                     rdfs:comment "The area covered by the building" ;
                                     rdfs:label "area".
 
 ###  http://www.wikidata.org/prop/P6375
-<http://www.wikidata.org/prop/P6375> rdf:type owl:ObjectProperty ;
+<http://www.wikidata.org/prop/P6375> rdf:type owl:DatatypeProperty ;
                                     rdfs:comment "The street address of the building" ;
                                     rdfs:label "street address".
 
 ###  http://www.wikidata.org/prop/P856
-<http://www.wikidata.org/prop/P856> rdf:type owl:ObjectProperty ;
-                                    rdfs:comment "The link to the official website of the resource" ;
-                                    rdfs:label "official website".
-
-###  http://www.wikidata.org/prop/P856
-<http://www.wikidata.org/prop/P856> rdf:type owl:ObjectProperty ;
+<http://www.wikidata.org/prop/P856> rdf:type owl:DatatypeProperty ;
                                     rdfs:comment "The link to the official website of the resource" ;
                                     rdfs:label "official website".
 
@@ -302,7 +292,7 @@
                                     rdfs:label "organiser".
 
 ###  http://www.wikidata.org/prop/P973
-<http://www.wikidata.org/prop/P973> rdf:type owl:ObjectProperty ;
+<http://www.wikidata.org/prop/P973> rdf:type owl:DatatypeProperty ;
                                     rdfs:comment "The link to the website where the resource has been described" ;
                                     rdfs:label "described at URL".
 
@@ -323,13 +313,13 @@
 
 
 ###  http://www.wikidata.org/prop/P1132
-<http://www.wikidata.org/prop/P1132> rdf:type owl:ObjectProperty ;
+<http://www.wikidata.org/prop/P1132> rdf:type owl:DatatypeProperty ;
                                     rdfs:comment "The number of partecipants in a performance" ;
                                     rdfs:label "number of partecipants".
 
 
 ###  http://www.wikidata.org/prop/P2047
-<http://www.wikidata.org/prop/P2047> rdf:type owl:ObjectProperty ;
+<http://www.wikidata.org/prop/P2047> rdf:type owl:DatatypeProperty ;
                                     rdfs:comment "The duration of the performance (in minutes)" ;
                                     rdfs:label "duration".
 
@@ -353,13 +343,13 @@
 #################################################################
 
 
-###  http://www.wikidata.org/prop/P582
-<http://www.wikidata.org/prop/P582> rdf:type owl:ObjectProperty ;
+###  http://www.wikidata.org/prop/P580
+<http://www.wikidata.org/prop/P580> rdf:type owl:DatatypeProperty ;
                                     rdfs:comment "The date when the event started" ;
                                     rdfs:label "start time".
 
-###  http://www.wikidata.org/prop/P580
-<http://www.wikidata.org/prop/P580> rdf:type owl:ObjectProperty ;
+###  http://www.wikidata.org/prop/P582
+<http://www.wikidata.org/prop/P582> rdf:type owl:DatatypeProperty ;
                                     rdfs:comment "The date when the event finished" ;
                                     rdfs:label "end time".
 
@@ -370,7 +360,7 @@
 
 ###  http://www.wikidata.org/prop/P3872
 <http://www.wikidata.org/prop/P3872> rdf:type owl:ObjectProperty ;
-                                    rdfs:comment "It describes to a promoter (private person or organisation) directly interested in the organisation of the event";
+                                    rdfs:comment "It describes a promoter (private person or organisation) directly interested in the organisation of the event";
                                     rdfs:label "patronage".
 
 #################################################################
@@ -382,16 +372,21 @@
                                     rdfs:comment "work, human, place or event which inspired this creative work or fictional entity";
                                     rdfs:label "inspired by".
 
-###  http://w3id.org/write/P282
-<http://w3id.org/write/P282> rdf:type owl:ObjectProperty ;
+### https://www.wikidata.org/prop/P407
+<https://www.wikidata.org/prop/P407> rdf:type owl:ObjectProperty ;
+                                    rdfs:comment "language associated with this creative work";
+                                    rdfs:label "language of work". 
+
+###  https://www.wikidata.org/prop/P282
+<https://www.wikidata.org/prop/P282> rdf:type owl:ObjectProperty ;
                                     rdfs:comment "alphabet, character set or other system of writing used by a language, supported by a typeface" ;
                                     rdfs:label "writing system" .
 
 ###  http://www.wikidata.org/prop/P9302
 <http://www.wikidata.org/prop/P9302> rdf:type owl:ObjectProperty ;
-      rdfs:comment "style of script of a content unit";
-      rdfs:label "script style".
-
+				rdfs:comment "style of script of a content unit";
+	                        rdfs:label "script style".
+		
 ###  http://www.wikidata.org/prop/P2860
 <http://www.wikidata.org/prop/P2860> rdf:type owl:ObjectProperty ;
                                     rdfs:comment "Citation from one creative work to another" ;
@@ -418,7 +413,7 @@
                                     rdfs:label "based on" .
 
 ###  http://www.wikidata.org/prop/P243
-<http://www.wikidata.org/prop/P243> rdf:type owl:ObjectProperty ;
+<http://www.wikidata.org/prop/P243> rdf:type owl:DatatypeProperty ;
                                     rdfs:comment "Worldcat indentifier for the resource (please use the full URL)" ;
                                     rdfs:label "Worldcat ID" .
 
@@ -439,12 +434,12 @@
 
 
 ###  http://www.wikidata.org/prop/P1680
-<http://www.wikidata.org/prop/P1680> rdf:type owl:ObjectProperty ;
+<http://www.wikidata.org/prop/P1680> rdf:type owl:DatatypeProperty ;
                                     rdfs:comment "for works, when the title is followed by a subtitle" ;
                                     rdfs:label "subtitle" .
                                     
 ###  http://www.wikidata.org/prop/P1104
-<http://www.wikidata.org/prop/P1104> rdf:type owl:ObjectProperty ;
+<http://www.wikidata.org/prop/P1104> rdf:type owl:DatatypeProperty ;
                                     rdfs:comment "number of pages in an edition of a written work" ;
                                     rdfs:label "number of pages" .
 

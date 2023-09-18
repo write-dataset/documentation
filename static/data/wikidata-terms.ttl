@@ -29,10 +29,10 @@
       rdfs:comment "Organisation (a group of people), e.g. institutions, crews etc" ;
       rdfs:label "Organisation" .      
 
-###  http://www.wikidata.org/entity/Q108923606
-<http://www.wikidata.org/entity/Q108923606> rdf:type owl:Class ;
-      rdfs:comment "Work of art that is primary visual and belongs to contemporary art movement" ;
-      rdfs:label "Contemporary Visual Artwork" .
+###  http://www.wikidata.org/entity/Q4502142
+<http://www.wikidata.org/entity/Q4502142> rdf:type owl:Class ;
+      rdfs:comment "Work of art that is primary visual" ;
+      rdfs:label "Visual Artwork" .
 
 ###  http://www.wikidata.org/entity/Q213156
 <http://www.wikidata.org/entity/Q213156> rdf:type owl:Class ;
@@ -63,4 +63,9 @@
 <http://www.wikidata.org/entity/Q732577> rdf:type owl:Class ;
       rdfs:comment "content made available to the general public" ;
       rdfs:label "Publication" .  
+	  
+###  http://www.wikidata.org/entity/Q1400264
+<http://www.wikidata.org/entity/Q1400264> rdf:type owl:Class ;
+      rdfs:comment "group of artists who create works together" ;
+      rdfs:label "Artist collective" .  
 
