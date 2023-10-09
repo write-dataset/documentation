@@ -69,7 +69,7 @@ prefix wdt: &lt;http://www.wikidata.org/prop/&gt; .</code></pre>
 <h3> List of Classes with respective metadata </h3>
 <div class="accordion accordion-flush" id="accordionFlush">
 
-    <!-- CONTEMPORARY VISUAL ART -->
+    <!-- VISUAL ARTWORK -->
 
     <div class="accordion-item">
       <h2 class="accordion-header" id="flush-h-cva">
@@ -175,15 +175,32 @@ prefix wdt: &lt;http://www.wikidata.org/prop/&gt; .</code></pre>
       </button>
     </h2>
     <div id="flush-collapseTwo2" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlush">
-      <div class="accordion-body"><b>Organisation</b> resource template (<code>owl:Class</code>) represents the network of agents intented as groups that operates in the context of this project: collectives, crews, dance companies, event organisers, insitutions and so on. Each template represents: </div>
+      <div class="accordion-body"><b>Organisation</b> resource template (<code>owl:Class</code>) represents the network of agents intented as institutions that are involved in this project: universities, departments, research centres, museums, art galleries, brand companies etc. Each template represents: </div>
       <ul>
         <li>The relations between an organisation and the resources of the KB</li>
-        <li>Basic metadata to describe the organisation descriptive metadata (e.g. name, period of acitivity, members etc)</li>
+        <li>Basic metadata to describe the organisation descriptive metadata (e.g. name, type, members, etc.)</li>
       </ul>
       <img class="pl-md-5 pr-md-5" src="static/img/rt_organisation.svg">
     </div>
   </div>
 
+  <!-- ARTISTIC COLLECTIVE -->
+  <div class="accordion-item">
+	<h2 class="accordion-header" id="flush-h-artColl">
+		<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-artColl" aria-expanded="false" aria-controls="flush-collapseTwo">
+        Artistic collective
+      </button>
+	</h2>
+	<div id="flush-artColl" class="accordion-collapse collapse" aria-labelledby="flush-h-artColl" data-bs-parent="#accordionFlush">
+		<div class="accordion-body"><b>Artistic collective</b> resource template (<code>owl:Class</code>) represents the network of agents intented as groups that operate in the context of this project: crews, dance companies, design studios, architectural firms, tattoo studios, etc. Each template represents:</div>
+		<ul>
+		  <li>The relations between an artistic collective and the resources of the KB</li>
+		  <li>Basic metadata to describe the artistic collective descriptive metadata (e.g. name, type, members, etc.)</li>
+		</ul>
+		<!-- <img class="pl-md-5 pr-md-5" src="static/img/rt_organisation.svg"> -->
+	</div>
+  </div>
+		
   <!-- EXHIBITION -->
 
   <div class="accordion-item">
@@ -229,6 +246,21 @@ prefix wdt: &lt;http://www.wikidata.org/prop/&gt; .</code></pre>
     </div>
   </div>
 
+  <!-- TRADITIONAL ARTWORK -->
+  
+  <div class="accordion-item">
+    <h2 class="accordion-header" id="flush-h-tradArt">
+	  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-tradArt" aria-expanded="false" aria-controls="flush-lw">
+        Traditional Artwork
+      </button>
+	</h2>
+	<div id="flush-tradArt" class="accordion-collapse collapse" aria-labelledby="flush-h-tradArt" data-bs-parent="#accordionFlush">
+	  <div class="accordion-body">
+        <b>Traditional Artwork</b> is a resource template (<code>owl:Class</code>) that represents basic metadata about the artworks made before 1980 that are somehow related to the contemporary artworks of the 4 WRITE collections. </div>
+        <!-- <img class="pl-md-5 pr-md-5" src="static/img/rt_literary_work.svg"> -->
+	  </div>
+    </div>
+  
   <!-- LIFE EVENT -->
 
   <div class="accordion-item">
