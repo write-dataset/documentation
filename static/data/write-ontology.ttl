@@ -299,3 +299,5 @@
 <http://w3id.org/write/TraditionalArtwork> rdf:type owl:Class ;
       rdfs:comment "An artwork categorised as being made before 1980" ;
       rdfs:label "Traditional Artwork" .
+
+
