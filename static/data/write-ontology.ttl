@@ -143,6 +143,11 @@
                                     rdfs:comment "The type of literary work" ;
                                     rdfs:label "literary work type" .
 
+###  http://w3id.org/write/uses-artwork
+<http://w3id.org/write/uses-artwork> rdf:type owl:ObjectProperty ;
+                                    rdfs:comment "An artwork implied in a performance or in the creation of the artwork (use 'creates artwork' for those artworks which have been created during a performance)";
+                                    rdfs:label "uses artwork" .
+
 ###  http://w3id.org/write/creates-artwork
 <http://w3id.org/write/creates-artwork> rdf:type owl:ObjectProperty ;
                                     rdfs:comment "The artwork produced during a performance" ;
@@ -231,6 +236,11 @@
                                     rdfs:comment "The presence of the seal(s)" ;
                                     rdfs:label "has seal" .
 
+###  http://w3id.org/write/vectorised-digitised-artwork
+<http://w3id.org/write/vectorised-digitised-artwork> rdf:type owl:DatatypeProperty ;
+                                    rdfs:comment "Indicates whether the artwork has been vectorised or digitised" ;
+                                    rdfs:label "vectorised or digitised" .
+
 ###  http://w3id.org/write/transcription-or-translation
 <http://w3id.org/write/transcription-or-translation> rdf:type owl:DatatypeProperty ;
                                     rdfs:comment "The transcription or translation of the resource" ;
@@ -299,5 +309,3 @@
 <http://w3id.org/write/TraditionalArtwork> rdf:type owl:Class ;
       rdfs:comment "An artwork categorised as being made before 1980" ;
       rdfs:label "Traditional Artwork" .
-
-
