@@ -184,3 +184,6 @@ div.accordion-body img {padding-top:1rem}
   color: black;
 }
 
+#mxgraph {
+  display: none; /* Initially hide mxgraph */
+}
