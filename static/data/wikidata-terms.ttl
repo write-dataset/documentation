@@ -1,4 +1,3 @@
-
 @prefix : <https://w3id.org/write/ontology/> .
 @prefix owl: <http://www.w3.org/2002/07/owl#> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
@@ -34,11 +33,6 @@
       rdfs:comment "Work of art that is primary visual" ;
       rdfs:label "Visual Artwork" .
 
-###  http://www.wikidata.org/entity/Q213156
-<http://www.wikidata.org/entity/Q213156> rdf:type owl:Class ;
-      rdfs:comment "Artwork that is part of performance art (not to be confused with performing arts)" ;
-      rdfs:label "Performance Art" .
-
 ###  http://www.wikidata.org/entity/Q464980
 <http://www.wikidata.org/entity/Q464980> rdf:type owl:Class ;
       rdfs:comment "organized presentation and display of a selection of items or pictures" ;
@@ -68,4 +62,8 @@
 <http://www.wikidata.org/entity/Q1400264> rdf:type owl:Class ;
       rdfs:comment "group of artists who create works together" ;
       rdfs:label "Artist collective" .  
-
+	  
+###  http://www.wikidata.org/entity/Q184485
+<http://www.wikidata.org/entity/Q184485> rdf:type owl:Class ;
+      rdfs:comment "Art form that is performed for an audience" ;
+      rdfs:label "Performing Arts" .  
