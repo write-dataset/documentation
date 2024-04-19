@@ -75,8 +75,8 @@
 
 ###  http://w3id.org/write/performance-art-type
 <http://w3id.org/write/performance-art-type> rdf:type owl:ObjectProperty ;
-                                    rdfs:comment "The type of a performance" ;
-                                    rdfs:label "performance art type" .
+                                    rdfs:comment "The type of a performing art" ;
+                                    rdfs:label "performing art type" .
 
 ###  http://w3id.org/write/calligrapher
 <http://w3id.org/write/calligrapher> rdf:type owl:ObjectProperty ;
@@ -228,7 +228,7 @@
 
 ###  http://w3id.org/write/description
 <http://w3id.org/write/description> rdf:type owl:DatatypeProperty ;
-                                    rdfs:comment "A textual description of to the resource" ;
+                                    rdfs:comment "A textual description of the resource" ;
                                     rdfs:label "description" .
 
 ###  http://w3id.org/write/has-seal
@@ -236,10 +236,20 @@
                                     rdfs:comment "The presence of the seal(s)" ;
                                     rdfs:label "has seal" .
 
+###  http://w3id.org/write/has-chengyu
+<http://w3id.org/write/has-chengyu> rdf:type owl:DatatypeProperty ;
+                                    rdfs:comment "The presence of the four-character traditional Chinese idiomatic expression" ;
+                                    rdfs:label "has chengyu" .
+
 ###  http://w3id.org/write/vectorised-digitised-artwork
 <http://w3id.org/write/vectorised-digitised-artwork> rdf:type owl:DatatypeProperty ;
                                     rdfs:comment "Indicates whether the artwork has been vectorised or digitised" ;
                                     rdfs:label "vectorised or digitised" .
+
+###  http://w3id.org/write/trascription-or-translation
+<http://w3id.org/write/trascription-or-translation> rdf:type owl:DatatypeProperty ;
+                                    rdfs:comment "The transcription and translation of the resource" ;
+                                    rdfs:label "transcription and translation" .
 
 ###  http://w3id.org/write/transcription-or-translation
 <http://w3id.org/write/transcription-or-translation> rdf:type owl:DatatypeProperty ;
@@ -253,8 +263,13 @@
                                     
 ###  http://w3id.org/write/chinese-visual-element
 <http://w3id.org/write/chinese-visual-element> rdf:type owl:DatatypeProperty ;
-                                    rdfs:comment "A visual element (motif) from chinese culture" ;
+                                    rdfs:comment "A visual element (motif) from chinese culture present in the resource" ;
                                     rdfs:label "chinese visual element" .
+
+###  http://w3id.org/write/chinese-concept
+<http://w3id.org/write/chinese-concept> rdf:type owl:DatatypeProperty ;
+                                    rdfs:comment "A philosophical, literary, cultural, social or other concept or notion present in the resource" ;
+                                    rdfs:label "chinese concept" .
 
 ###  http://w3id.org/write/calligraphic-line
 <http://w3id.org/write/calligraphic-line> rdf:type owl:DatatypeProperty ;
