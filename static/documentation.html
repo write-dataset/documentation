@@ -1,10 +1,15 @@
 <div class="documentation_container p-5">
   <div class="documentation_intro pb-5">
 
-  <h1>The model documentation</h1>
+  <h1>WRITE data model</h1>
+  <br>
   <p class="text-justify">
-    WRITE Knowledge Base (shorter KB) stores WRITE data in a triple-fashion. The KB is populated with elements from 11 reused or created on purpose classes (<code>owl:Class</code>). The documentation below illustrates these 11 classes along with their respective properties (<code>owl:ObjectProperty</code> and <code>owl:DataTypeProperty</code>).  
-
+    Chinese tradition, culture and art represent a certain challenge when it comes to the application of Digital Humanities' practices. Even though DH literature on Linked Open Data in the cultural heritage is extremly rich, we can still observe the lack of studies and publications that tackle data models used for representation of Chinese calligraphy, both artisticly and linguistically.</p>
+	
+	<p>Thus, <i>WRITE data model</i> contains both reused and made ad hoc classes and properties, in order to fully represent the complex phenomenon of Chinese contemporary calligraphy.</p>
+	
+	<p>WRITE Knowledge Base is populated with elements from 14 classes (<code>owl:Class</code>), 10 of which have been reused from Wikidata, and other 4 were created on purpose.
+	This documentation illustrates these 14 classes along with their respective properties (<code>owl:ObjectProperty</code> and <code>owl:DataTypeProperty</code>).</p>  
     <div class="m-3">
       <hr class="bg-danger border-2 border-top border-danger">
       <h6>List of prefixes</h6>
@@ -19,7 +24,7 @@ prefix wdt: &lt;http://www.wikidata.org/prop/&gt; .</code></pre>
       <hr class="bg-danger border-2 border-top border-danger">
     </div>
 
-      The four Collections (Visual Arts, Graffiti, Decorative & Applied Arts, Performing Arts) have been represented with four different classes aiming to preserve the diversity between the described elements. For example, when describing Graffiti, it is important to record the graffiti style of the item. Performances are considered to be both events and artworks and for this reason, they can imply diverse artworks in the making of the performance as well as different actors in several roles. When describing Decorative & Applied arts, the commercial aspect of these products needs to be stored etc. 
+    <p class="text-justify">The four Collections (Visual Arts, Graffiti, Decorative & Applied Arts, Performing Arts) have been represented with four different classes aiming to preserve the diversity between the described elements. For example, when describing Graffiti, it is important to record the graffiti style of the item. Performances are considered to be both events and artworks and for this reason, they can imply diverse artworks in the making of the performance as well as different actors in several roles. When describing Decorative & Applied arts, the commercial aspect of these products needs to be stored etc. 
     </p>
 
     <p>The term "Resource Template" is always referred as a synonym for <code>owl:Class</code>. Such term has been used during the data entry activity in OmekaS. OmekaS contains customisable forms that can be enriched with various metadata. Each resource template can be associated with an <code>owl:Class</code>. This means that each filled resource template becomes an item of the dataset, as an individual belonging to a class. Visit OmekaS website for more <a href="https://omeka.org/s/">information</a>.</p> 
