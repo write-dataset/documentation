@@ -24,28 +24,29 @@ prefix wdt: &lt;http://www.wikidata.org/prop/&gt; .</code></pre>
       <hr class="bg-danger border-2 border-top border-danger">
     </div>
 
-    <p class="text-justify">The four Collections (Visual Arts, Graffiti, Decorative & Applied Arts, Performing Arts) have been represented with four different classes aiming to preserve the diversity between the described elements. For example, when describing Graffiti, it is important to record the graffiti style of the item. Performances are considered to be both events and artworks and for this reason, they can imply diverse artworks in the making of the performance as well as different actors in several roles. When describing Decorative & Applied arts, the commercial aspect of these products needs to be stored etc. 
+    <p class="text-justify">Each of the four WRITE Collections, namely Visual Arts, Graffiti Art, Decorative & Applied Arts and Performing Arts, are represented with a dedicated class. It was important to preserve the diversity between them, in order to emphasise their individual peculiar elements.</p>
+	<p>For example, when describing artworks belonging to the class Graffiti, it is important to record particularities related specifically to this type of artwork, such as the graffiti style or a chinese visual element. On the other hand, WRITE data model seeks to express the complexity of Performing arts, given that the realisation of a performance can employ numerous external artworks, as well as different actors in several roles. Furthermore, Decorative & Applied arts can offer insight into the commercial and economical aspect of these artworks, while Visual artworks in this data set demonstrate both interconnection with other artworks and modern tendencies related to digital arts. 
     </p>
 
-    <p>The term "Resource Template" is always referred as a synonym for <code>owl:Class</code>. Such term has been used during the data entry activity in OmekaS. OmekaS contains customisable forms that can be enriched with various metadata. Each resource template can be associated with an <code>owl:Class</code>. This means that each filled resource template becomes an item of the dataset, as an individual belonging to a class. Visit OmekaS website for more <a href="https://omeka.org/s/">information</a>.</p> 
+    <p>Data entry process is being done using Omeka S platform. Here, the term <i>Resource Template</i> is always referred to as a synonym for <code>owl:Class</code>. These resource templates as fully customisable and can be enriched with various metadata. Once filled and saved, a resource template becomes an item of the dataset, as an individual belonging to a class. Visit OmekaS website for more <a href="https://omeka.org/s/">information</a>.</p> 
 
-    <p>Each Class is presented with a brief introduction and a corresponding image graphically summarising all the properties associated with the class (on the right) and the possible connections (via <code>owl:ObjectProperty</code>) with the other Resource Templates (<code>owl:Class</code>).
+    <p>In this documentation, each Class is presented with a brief introduction and a corresponding image graphically summarising all the possible connections with the other Classes/Resource Templates (<code>owl:Class</code>, via <code>owl:ObjectProperty</code>), as well as the metadata fields associated with the class in question.</p>
 
     <div class="accordion accordion-flush" id="accordionFlushex">
   
       <div class="accordion-item">
         <h2 class="accordion-header" id="flush-h-ex">
           <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-ex" aria-expanded="false" aria-controls="flush-h-ex">
-            Example
+            Representation example
           </button>
         </h2>
         <div id="flush-ex" class="accordion-collapse collapse" aria-labelledby="flush-ex" data-bs-parent="#accordionFlushex">
-          <div class="accordion-body">The figure  represents an example template used to describe all the classes of WRITE data model. For each class several information are provided:
+          <div class="accordion-body">The figure below is an example of how all the classes of WRITE data model are described in this documentation. Each class comes with two representational sections:
             <ul>
-              <li>On the left side of the figure is represented the class along with all the other classes to which it is linked with at least one object property, along with the mentioned object properties</li>
-              <li>On the right side of the figure all data and object properties whose domain is the class is presented. In the colored arrows are presented all allowed range for the object or data properties.</li>
-            </ul> below
-            <img class="pl-md-5 pr-md-5" src="static/img/datamodel_example.svg">
+              <li>left-side section shows the class in question (class 1) and how it is connected to all other classes of the data model;</li>
+              <li>right-side section shows all data and object properties for the class in question (class 1).</li>
+            </ul>
+            <img class="pl-md-5 pr-md-5" src="static/img/exampleDiagram.svg">
           </div>
         </div>
       </div>
